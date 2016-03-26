@@ -1,0 +1,832 @@
+Battery History (0% used, 308 used of 256KB, 4 strings using 208):
+                    0 (9) RESET:TIME: 2016-03-23-20-15-04
+                    0 (2) 034 status=charging health=good plug=usb temp=296 volt=3820 +running +audio +plugged data_conn=lte phone_signal_strength=great top=u0a25:"com.lge.launcher2"
+                    0 (2) 034 user=0:"0"
+                    0 (2) 034 userfg=0:"0"
+            +12s411ms (2) 034 temp=284
+            +17s458ms (1) 034 +mobile_radio
+            +18s186ms (4) 034 status=discharging plug=none temp=288 volt=3790 +wake_lock=u0a4:"Wakeful StateMachine: GeofencerStateMachine" +screen -plugged
+            +19s171ms (2) 034 volt=3741
+            +27s612ms (1) 034 -mobile_radio
+            +33s311ms (2) 034 -top=u0a25:"com.lge.launcher2"
+            +33s311ms (2) 034 +top=u0a103:"pl.bkf.icarwash"
+            +45s326ms (2) 034 phone_signal_strength=good
+            +48s636ms (2) 034 phone_signal_strength=great
+          +1m01s354ms (1) 034 +mobile_radio
+          +1m04s479ms (2) 034 phone_signal_strength=good
+          +1m07s472ms (2) 034 phone_signal_strength=great
+          +1m13s513ms (2) 034 phone_signal_strength=good
+          +1m16s516ms (2) 034 phone_signal_strength=great
+          +1m19s529ms (1) 034 -mobile_radio
+          +1m33s872ms (1) 034 +mobile_radio
+          +1m37s524ms (2) 034 phone_signal_strength=good
+          +1m39s038ms (1) 034 -mobile_radio
+          +1m40s528ms (2) 034 +mobile_radio phone_signal_strength=great
+          +1m46s569ms (1) 034 -mobile_radio
+          +1m47s435ms (1) 034 +mobile_radio
+          +1m52s576ms (1) 034 -mobile_radio
+          +1m54s854ms (1) 034 +mobile_radio
+          +2m10s992ms (1) 034 -mobile_radio
+          +2m11s345ms (1) 034 +mobile_radio
+          +2m24s521ms (1) 034 -mobile_radio
+          +2m26s735ms (1) 034 +mobile_radio
+          +2m31s857ms (1) 034 -mobile_radio
+          +2m32s344ms (1) 034 +mobile_radio
+          +3m02s491ms (1) 034 -mobile_radio
+          +3m02s687ms (1) 034 +mobile_radio
+          +3m09s040ms (2) 034 -top=u0a103:"pl.bkf.icarwash"
+          +3m09s040ms (2) 034 +top=u0a25:"com.lge.launcher2"
+          +3m15s708ms (3) 035 status=charging plug=usb temp=292 volt=3788 +plugged
+          +3m15s741ms (2) 034
+          +3m16s561ms (2) 034 volt=3762
+          +3m18s340ms (1) 034 -mobile_radio
+          +3m19s616ms (2) 034 phone_signal_strength=good
+          +3m22s859ms (2) 034 phone_signal_strength=great
+
+Per-PID Stats:
+  PID 0 wake time: +10s836ms
+  PID 967 wake time: +2s517ms
+  PID 1585 wake time: +286ms
+  PID 0 wake time: +2m8s898ms
+  PID 1653 wake time: +16ms
+  PID 8443 wake time: +269ms
+  PID 9613 wake time: +177ms
+  PID 0 wake time: +585ms
+  PID 11699 wake time: +418ms
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 2m 57s 522ms (82,4%) realtime, 2m 57s 522ms (82,4%) uptime
+  Time on battery screen off: 48ms (0,0%) realtime, 48ms (0,0%) uptime
+  Total run time: 3m 35s 379ms realtime, 3m 35s 379ms uptime
+  Start clock time: 2016-03-23-20-15-04
+  Screen on: 2m 57s 474ms (100,0%) 1x, Interactive: 2m 57s 485ms (100,0%)
+  Screen brightnesses:
+    dark 2m 57s 474ms (100,0%)
+  Total full wakelock time: 5s 13ms
+  Total partial wakelock time: 1ms
+  Mobile total received: 29,97KB, sent: 15,21KB (packets received 97, sent 110)
+  Phone signal levels:
+    good 12s 310ms (6,9%) 4x
+    great 2m 45s 212ms (93,1%) 5x
+  Signal scanning time: 0ms
+  Radio types:
+    lte 2m 57s 522ms (100,0%) 0x
+  Mobile radio active time: 2m 0s 636ms (68,0%) 10x
+  Mobile radio active unknown time: 2s 176ms (1,2%) 2x
+  Mobile radio active adjusted time: 0ms (0,0%)
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 0ms (0,0%), Wifi running: 0ms (0,0%)
+  Wifi states: (no activity)
+  Wifi supplicant states: (no activity)
+  Wifi signal levels: (no activity)
+  Bluetooth on: 0ms (0,0%)
+  Bluetooth states: (no activity)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  Estimated power use (mAh):
+    Capacity: 1900, Computed drain: 6,31, actual drain: 0,00000000
+    Screen: 3,81
+    Uid u0a103: 0,791
+    Uid 1000: 0,627
+    Cell standby: 0,370
+    Uid 0: 0,334
+    Uid 1013: 0,154
+    Uid u0a17: 0,114
+    Uid u0a70: 0,0491
+    Uid 1001: 0,0251
+    Uid u0a25: 0,0158
+    Uid u0a100: 0,0109
+    Uid u0a4: 0,00578
+    Uid u0a98: 0,00314
+    Uid u0a37: 0,000893
+    Uid u0a78: 0,000699
+    Uid u0a18: 0,000446
+    Uid 1027: 0,000390
+    Uid 1040: 0,000390
+    Uid u0a16: 0,000390
+    Idle: 0,0000488
+
+  Per-app mobile ms per packet:
+    Uid u0a4: 4698 (2 packets over 9s 397ms) 1x
+    Uid u0a103: 517 (174 packets over 1m 29s 983ms) 8x
+    Uid 0: 195 (31 packets over 6s 58ms) 1x
+    TOTAL TIME: 1m 45s 438ms (0,1%)
+
+  All kernel wake locks:
+  Kernel Wake lock qpnp_lbc_uevent: 32ms (0 times) realtime
+  Kernel Wake lock msm_otg     : 31ms (0 times) realtime
+  Kernel Wake lock radio-interface: 31ms (0 times) realtime
+  Kernel Wake lock bam_dmux_wakelock: 31ms (0 times) realtime
+
+  All partial wake locks:
+  Wake lock u0a4 Wakeful StateMachine: GeofencerStateMachine: 1ms (1 times) realtime
+
+  0:
+    Mobile network: 76B received, 1,53KB sent (packets 1 received, 30 sent)
+    Mobile radio active: 6s 58ms (5,0%) 1x @ 195 mspp
+    Proc mdss_fb0:
+      CPU: 0ms usr + 1s 560ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 300ms krn ; 0ms fg
+    Proc system:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 130ms usr + 50ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 90ms usr + 10ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p35:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p39:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc netd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rctd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc rild:
+      CPU: 150ms usr + 60ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc hwrng:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc perfd:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc qmuxd:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc irq/308-fifo_up:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 690ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 670ms krn ; 0ms fg
+    Proc kworker/1:0:
+      CPU: 0ms usr + 1s 80ms krn ; 0ms fg
+    Proc kworker/1:1:
+      CPU: 0ms usr + 250ms krn ; 0ms fg
+    Proc kworker/2:1:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/3:0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 320ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc ksoftirqd/1:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc ksoftirqd/2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u8:1:
+      CPU: 0ms usr + 140ms krn ; 0ms fg
+    Proc kworker/u8:2:
+      CPU: 0ms usr + 280ms krn ; 0ms fg
+    Proc kworker/u8:3:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc kworker/u8:4:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/u8:5:
+      CPU: 0ms usr + 390ms krn ; 0ms fg
+    Proc kworker/u8:6:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc kworker/u8:7:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kworker/u8:8:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/u8:9:
+      CPU: 0ms usr + 300ms krn ; 0ms fg
+    Proc kworker/u9:0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u8:10:
+      CPU: 0ms usr + 410ms krn ; 0ms fg
+    Proc kworker/u8:11:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kworker/u8:12:
+      CPU: 0ms usr + 200ms krn ; 0ms fg
+  1000:
+    User activity: 13 other, 2 button, 105 touch
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *vibrator* realtime
+    Wake lock AudioMix realtime
+    Wake lock *alarm* realtime
+    Sensor 2: 2m 55s 503ms realtime (1 times)
+    Sensor 1598182229: 2m 57s 468ms realtime (1 times)
+    Foreground for: 2m 57s 522ms 
+    Proc system:
+      CPU: 4s 610ms usr + 3s 970ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 4s 600ms usr + 4s 920ms krn ; 0ms fg
+    Proc com.lge.systemserver:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+    Proc com.lge.mlt:
+      CPU: 140ms usr + 40ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 110ms usr + 210ms krn ; 0ms fg
+    Proc sensord:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1001:
+    Wake lock RILJ realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.android.phone:
+      CPU: 390ms usr + 370ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix realtime
+    Proc mediaserver:
+      CPU: 2s 860ms usr + 1s 860ms krn ; 0ms fg
+  1027:
+    Wake lock NfcService:mRoutingWakeLock realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.android.nfc:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  1040:
+    Foreground for: 2m 57s 522ms 
+    Proc org.simalliance.openmobileapi.service:remote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a3:
+    Foreground for: 2m 57s 522ms 
+  u0a4:
+    Mobile network: 52B received, 150B sent (packets 1 received, 1 sent)
+    Mobile radio active: 9s 397ms (7,8%) 1x @ 4698 mspp
+    Wake lock UlrDispSvcFastWL realtime
+    Wake lock fingerprint_scanner_local realtime
+    Wake lock wake:com.google.android.gms/com.google.android.libraries.social.autobackup.FingerprintScannerIntentService realtime
+    Wake lock Wakeful StateMachine: GeofencerStateMachine: 1ms partial (1 times) realtime
+    Wake lock ContextManagerWakeLock realtime
+    Wake lock GCoreFlp realtime
+    TOTAL wake: 1ms partial realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.google.android.gms.persistent:
+      CPU: 40ms usr + 110ms krn ; 0ms fg
+    Proc com.google.android.gms:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.google.android.gms:
+      Service com.google.android.gms.clearcut.service.ClearcutLoggerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.google.android.location.reporting.service.DispatchingService:
+        Created for: 101ms uptime
+        Starts: 1, launches: 1
+      Service com.google.android.gms.clearcut.service.ClearcutLoggerIntentService:
+        Created for: 602ms uptime
+        Starts: 1, launches: 1
+  u0a6:
+    Foreground for: 2m 57s 522ms 
+  u0a7:
+    Foreground for: 2m 57s 522ms 
+  u0a8:
+    Foreground for: 2m 56s 613ms 
+    Active for: 2m 56s 797ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.ia.task.incalagent:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a9:
+    Foreground for: 2m 57s 62ms 
+    Running for: 2m 57s 522ms 
+  u0a10:
+    Foreground for: 2m 57s 522ms 
+  u0a11:
+    Foreground for: 2m 57s 522ms 
+  u0a12:
+    Foreground for: 2m 57s 522ms 
+  u0a13:
+    Foreground for: 2m 57s 522ms 
+  u0a15:
+    Foreground for: 2m 57s 522ms 
+  u0a16:
+    Foreground for: 2m 57s 522ms 
+    Proc android.process.acore:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a17:
+    User activity: 3 other
+    Wake lock AudioMix realtime
+    Sensor 1: 3s 927ms realtime (1 times)
+    Sensor 2: 1s 963ms realtime (1 times)
+    Foreground for: 2m 57s 522ms 
+    Proc com.lge.smartcover:
+      CPU: 30ms usr + 0ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 2s 630ms usr + 810ms krn ; 0ms fg
+  u0a18:
+    Active for: 2m 57s 522ms 
+    Proc android.process.media:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a20:
+    Foreground for: 2m 57s 522ms 
+  u0a21:
+    Foreground for: 2m 57s 522ms 
+  u0a24:
+    Foreground for: 2m 57s 522ms 
+  u0a25:
+    Foreground activities: 17s 630ms realtime (2 times)
+    Foreground for: 22s 531ms 
+    Active for: 22s 634ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.launcher2:
+      CPU: 260ms usr + 120ms krn ; 90ms fg
+  u0a28:
+    Active for: 2m 57s 522ms 
+  u0a29:
+    Foreground for: 2m 57s 522ms 
+  u0a32:
+    Foreground for: 2m 57s 522ms 
+  u0a35:
+    Foreground for: 2m 57s 522ms 
+  u0a36:
+    Foreground for: 2m 57s 522ms 
+  u0a37:
+    Foreground for: 2m 10s 225ms 
+    Active for: 2m 10s 298ms 
+    Running for: 2m 57s 522ms 
+    Proc com.android.vending:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Apk com.android.vending:
+      Service com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService:
+        Created for: 8ms uptime
+        Starts: 1, launches: 1
+  u0a39:
+    Foreground for: 2m 57s 522ms 
+  u0a42:
+    Foreground for: 2m 57s 522ms 
+  u0a49:
+    Foreground for: 2m 54s 564ms 
+    Active for: 2m 54s 754ms 
+    Running for: 2m 57s 522ms 
+    Proc com.android.chrome:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a50:
+    Foreground for: 2m 57s 522ms 
+  u0a52:
+    Foreground for: 2m 57s 522ms 
+  u0a53:
+    Foreground for: 2m 57s 522ms 
+  u0a58:
+    Foreground for: 2m 57s 522ms 
+  u0a59:
+    Foreground for: 2m 57s 522ms 
+  u0a66:
+    Foreground for: 2m 57s 522ms 
+  u0a70:
+    Foreground for: 21s 795ms 
+    Active for: 2m 57s 522ms 
+    Proc com.lge.ime:
+      CPU: 980ms usr + 340ms krn ; 0ms fg
+  u0a74:
+    Foreground for: 2m 57s 522ms 
+  u0a76:
+    Foreground for: 2m 57s 522ms 
+  u0a78:
+    Foreground for: 744ms 
+    Active for: 1s 87ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.sizechangable.weather.platform:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a80:
+    Foreground for: 2m 57s 522ms 
+  u0a81:
+    Foreground for: 2m 57s 522ms 
+  u0a82:
+    Foreground for: 2m 57s 522ms 
+  u0a83:
+    Foreground for: 2m 57s 522ms 
+  u0a87:
+    Wake lock wake:com.google.android.apps.plus/.service.PhotosAppTransitionService realtime
+    Foreground for: 2m 54s 855ms 
+    Active for: 2m 55s 271ms 
+    Running for: 2m 57s 522ms 
+    Proc com.google.android.apps.plus:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+    Apk com.google.android.apps.plus:
+      (nothing executed)
+  u0a88:
+    Foreground for: 2m 57s 522ms 
+  u0a89:
+    Foreground for: 2m 57s 522ms 
+  u0a92:
+    Foreground for: 2m 57s 522ms 
+  u0a98:
+    Active for: 2m 57s 522ms 
+    Proc com.lge.sizechangable.weather:
+      CPU: 30ms usr + 50ms krn ; 0ms fg
+  u0a100:
+    Running for: 2m 57s 522ms 
+    Proc pl.pracuj.android.jobsearcher:
+      CPU: 230ms usr + 100ms krn ; 0ms fg
+  u0a101:
+    Foreground for: 2m 57s 522ms 
+  u0a103:
+    Mobile network: 29,85KB received, 13,53KB sent (packets 95 received, 79 sent)
+    Mobile radio active: 1m 29s 983ms (74,6%) 8x @ 517 mspp
+    Wake lock WindowManager: 5s 13ms full (2 times) realtime
+    Foreground activities: 2m 35s 638ms realtime (5 times)
+    Foreground for: 2m 36s 80ms 
+    Running for: 2m 42s 357ms 
+    Proc pl.bkf.icarwash:
+      CPU: 19s 660ms usr + 4s 410ms krn ; 24s 750ms fg
+      1 proc starts
+
+Statistics since last unplugged:
+  Time on battery: 2m 57s 522ms (90,0%) realtime, 2m 57s 522ms (90,0%) uptime
+  Time on battery screen off: 48ms (0,0%) realtime, 48ms (0,0%) uptime
+  Total run time: 3m 17s 209ms realtime, 3m 17s 209ms uptime
+  Start clock time: 2016-03-23-20-15-04
+  Screen on: 2m 57s 474ms (100,0%) 1x, Interactive: 2m 57s 485ms (100,0%)
+  Screen brightnesses:
+    dark 2m 57s 474ms (100,0%)
+  Total full wakelock time: 5s 13ms
+  Total partial wakelock time: 1ms
+  Mobile total received: 29,97KB, sent: 15,21KB (packets received 97, sent 110)
+  Phone signal levels:
+    good 12s 310ms (6,9%) 4x
+    great 2m 45s 212ms (93,1%) 5x
+  Signal scanning time: 0ms
+  Radio types:
+    lte 2m 57s 522ms (100,0%) 0x
+  Mobile radio active time: 2m 0s 636ms (68,0%) 9x
+  Mobile radio active unknown time: 2s 176ms (1,2%) 2x
+  Mobile radio active adjusted time: 0ms (0,0%)
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 0ms (0,0%), Wifi running: 0ms (0,0%)
+  Wifi states: (no activity)
+  Wifi supplicant states: (no activity)
+  Wifi signal levels: (no activity)
+  Bluetooth on: 0ms (0,0%)
+  Bluetooth states: (no activity)
+
+  Device is currently plugged into power
+    Last discharge cycle start level: 34
+    Last discharge cycle end level: 35
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+ 
+  Estimated power use (mAh):
+    Capacity: 1900, Computed drain: 6,31, actual drain: 0,00000000
+    Screen: 3,81
+    Uid u0a103: 0,791
+    Uid 1000: 0,627
+    Cell standby: 0,370
+    Uid 0: 0,334
+    Uid 1013: 0,154
+    Uid u0a17: 0,114
+    Uid u0a70: 0,0491
+    Uid 1001: 0,0251
+    Uid u0a25: 0,0158
+    Uid u0a100: 0,0109
+    Uid u0a4: 0,00578
+    Uid u0a98: 0,00314
+    Uid u0a37: 0,000893
+    Uid u0a78: 0,000699
+    Uid u0a18: 0,000446
+    Uid 1027: 0,000390
+    Uid 1040: 0,000390
+    Uid u0a16: 0,000390
+    Idle: 0,0000488
+
+  Per-app mobile ms per packet:
+    Uid u0a4: 4698 (2 packets over 9s 397ms) 1x
+    Uid u0a103: 517 (174 packets over 1m 29s 983ms) 8x
+    Uid 0: 195 (31 packets over 6s 58ms) 1x
+    TOTAL TIME: 1m 45s 438ms (0,1%)
+
+  All kernel wake locks:
+  Kernel Wake lock qpnp_lbc_uevent: 32ms (0 times) realtime
+  Kernel Wake lock msm_otg     : 31ms (0 times) realtime
+  Kernel Wake lock radio-interface: 31ms (0 times) realtime
+  Kernel Wake lock bam_dmux_wakelock: 31ms (0 times) realtime
+
+  All partial wake locks:
+  Wake lock u0a4 Wakeful StateMachine: GeofencerStateMachine: 1ms (1 times) realtime
+
+  0:
+    Mobile network: 76B received, 1,53KB sent (packets 1 received, 30 sent)
+    Mobile radio active: 6s 58ms (5,0%) 1x @ 195 mspp
+    Proc mdss_fb0:
+      CPU: 0ms usr + 1s 560ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 300ms krn ; 0ms fg
+    Proc system:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 130ms usr + 50ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 90ms usr + 10ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p35:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p39:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc netd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rctd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc rild:
+      CPU: 150ms usr + 60ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc hwrng:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc perfd:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc qmuxd:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc irq/308-fifo_up:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 690ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 670ms krn ; 0ms fg
+    Proc kworker/1:0:
+      CPU: 0ms usr + 1s 80ms krn ; 0ms fg
+    Proc kworker/1:1:
+      CPU: 0ms usr + 250ms krn ; 0ms fg
+    Proc kworker/2:1:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/3:0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 320ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc ksoftirqd/1:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc ksoftirqd/2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u8:0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u8:1:
+      CPU: 0ms usr + 140ms krn ; 0ms fg
+    Proc kworker/u8:2:
+      CPU: 0ms usr + 280ms krn ; 0ms fg
+    Proc kworker/u8:3:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc kworker/u8:4:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/u8:5:
+      CPU: 0ms usr + 390ms krn ; 0ms fg
+    Proc kworker/u8:6:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc kworker/u8:7:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kworker/u8:8:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/u8:9:
+      CPU: 0ms usr + 300ms krn ; 0ms fg
+    Proc kworker/u9:0:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u8:10:
+      CPU: 0ms usr + 410ms krn ; 0ms fg
+    Proc kworker/u8:11:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc kworker/u8:12:
+      CPU: 0ms usr + 200ms krn ; 0ms fg
+  1000:
+    User activity: 13 other, 2 button, 105 touch
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *vibrator* realtime
+    Wake lock AudioMix realtime
+    Wake lock *alarm* realtime
+    Sensor 2: 2m 55s 503ms realtime (1 times)
+    Sensor 1598182229: 2m 57s 468ms realtime (1 times)
+    Foreground for: 2m 57s 522ms 
+    Proc system:
+      CPU: 4s 610ms usr + 3s 970ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 4s 600ms usr + 4s 920ms krn ; 0ms fg
+    Proc com.lge.systemserver:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+    Proc com.lge.mlt:
+      CPU: 140ms usr + 40ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 110ms usr + 210ms krn ; 0ms fg
+    Proc sensord:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1001:
+    Wake lock RILJ realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.android.phone:
+      CPU: 390ms usr + 370ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix realtime
+    Proc mediaserver:
+      CPU: 2s 860ms usr + 1s 860ms krn ; 0ms fg
+  1027:
+    Wake lock NfcService:mRoutingWakeLock realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.android.nfc:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  1040:
+    Foreground for: 2m 57s 522ms 
+    Proc org.simalliance.openmobileapi.service:remote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a3:
+    Foreground for: 2m 57s 522ms 
+  u0a4:
+    Mobile network: 52B received, 150B sent (packets 1 received, 1 sent)
+    Mobile radio active: 9s 397ms (7,8%) 1x @ 4698 mspp
+    Wake lock UlrDispSvcFastWL realtime
+    Wake lock fingerprint_scanner_local realtime
+    Wake lock wake:com.google.android.gms/com.google.android.libraries.social.autobackup.FingerprintScannerIntentService realtime
+    Wake lock Wakeful StateMachine: GeofencerStateMachine: 1ms partial (1 times) realtime
+    Wake lock ContextManagerWakeLock realtime
+    Wake lock GCoreFlp realtime
+    TOTAL wake: 1ms partial realtime
+    Foreground for: 2m 57s 522ms 
+    Proc com.google.android.gms.persistent:
+      CPU: 40ms usr + 110ms krn ; 0ms fg
+    Proc com.google.android.gms:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.google.android.gms:
+      Service com.google.android.gms.clearcut.service.ClearcutLoggerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.google.android.location.reporting.service.DispatchingService:
+        Created for: 101ms uptime
+        Starts: 1, launches: 1
+      Service com.google.android.gms.clearcut.service.ClearcutLoggerIntentService:
+        Created for: 602ms uptime
+        Starts: 1, launches: 1
+  u0a6:
+    Foreground for: 2m 57s 522ms 
+  u0a7:
+    Foreground for: 2m 57s 522ms 
+  u0a8:
+    Foreground for: 2m 56s 613ms 
+    Active for: 2m 56s 797ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.ia.task.incalagent:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a9:
+    Foreground for: 2m 57s 62ms 
+    Running for: 2m 57s 522ms 
+  u0a10:
+    Foreground for: 2m 57s 522ms 
+  u0a11:
+    Foreground for: 2m 57s 522ms 
+  u0a12:
+    Foreground for: 2m 57s 522ms 
+  u0a13:
+    Foreground for: 2m 57s 522ms 
+  u0a15:
+    Foreground for: 2m 57s 522ms 
+  u0a16:
+    Foreground for: 2m 57s 522ms 
+    Proc android.process.acore:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a17:
+    User activity: 3 other
+    Wake lock AudioMix realtime
+    Sensor 1: 3s 927ms realtime (1 times)
+    Sensor 2: 1s 963ms realtime (1 times)
+    Foreground for: 2m 57s 522ms 
+    Proc com.lge.smartcover:
+      CPU: 30ms usr + 0ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 2s 630ms usr + 810ms krn ; 0ms fg
+  u0a18:
+    Active for: 2m 57s 522ms 
+    Proc android.process.media:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a20:
+    Foreground for: 2m 57s 522ms 
+  u0a21:
+    Foreground for: 2m 57s 522ms 
+  u0a24:
+    Foreground for: 2m 57s 522ms 
+  u0a25:
+    Foreground activities: 17s 630ms realtime (2 times)
+    Foreground for: 22s 531ms 
+    Active for: 22s 634ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.launcher2:
+      CPU: 260ms usr + 120ms krn ; 90ms fg
+  u0a28:
+    Active for: 2m 57s 522ms 
+  u0a29:
+    Foreground for: 2m 57s 522ms 
+  u0a32:
+    Foreground for: 2m 57s 522ms 
+  u0a35:
+    Foreground for: 2m 57s 522ms 
+  u0a36:
+    Foreground for: 2m 57s 522ms 
+  u0a37:
+    Foreground for: 2m 10s 225ms 
+    Active for: 2m 10s 298ms 
+    Running for: 2m 57s 522ms 
+    Proc com.android.vending:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Apk com.android.vending:
+      Service com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService:
+        Created for: 8ms uptime
+        Starts: 1, launches: 1
+  u0a39:
+    Foreground for: 2m 57s 522ms 
+  u0a42:
+    Foreground for: 2m 57s 522ms 
+  u0a49:
+    Foreground for: 2m 54s 564ms 
+    Active for: 2m 54s 754ms 
+    Running for: 2m 57s 522ms 
+    Proc com.android.chrome:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a50:
+    Foreground for: 2m 57s 522ms 
+  u0a52:
+    Foreground for: 2m 57s 522ms 
+  u0a53:
+    Foreground for: 2m 57s 522ms 
+  u0a58:
+    Foreground for: 2m 57s 522ms 
+  u0a59:
+    Foreground for: 2m 57s 522ms 
+  u0a66:
+    Foreground for: 2m 57s 522ms 
+  u0a70:
+    Foreground for: 21s 795ms 
+    Active for: 2m 57s 522ms 
+    Proc com.lge.ime:
+      CPU: 980ms usr + 340ms krn ; 0ms fg
+  u0a74:
+    Foreground for: 2m 57s 522ms 
+  u0a76:
+    Foreground for: 2m 57s 522ms 
+  u0a78:
+    Foreground for: 744ms 
+    Active for: 1s 87ms 
+    Running for: 2m 57s 522ms 
+    Proc com.lge.sizechangable.weather.platform:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a80:
+    Foreground for: 2m 57s 522ms 
+  u0a81:
+    Foreground for: 2m 57s 522ms 
+  u0a82:
+    Foreground for: 2m 57s 522ms 
+  u0a83:
+    Foreground for: 2m 57s 522ms 
+  u0a87:
+    Wake lock wake:com.google.android.apps.plus/.service.PhotosAppTransitionService realtime
+    Foreground for: 2m 54s 855ms 
+    Active for: 2m 55s 271ms 
+    Running for: 2m 57s 522ms 
+    Proc com.google.android.apps.plus:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+    Apk com.google.android.apps.plus:
+      (nothing executed)
+  u0a88:
+    Foreground for: 2m 57s 522ms 
+  u0a89:
+    Foreground for: 2m 57s 522ms 
+  u0a92:
+    Foreground for: 2m 57s 522ms 
+  u0a98:
+    Active for: 2m 57s 522ms 
+    Proc com.lge.sizechangable.weather:
+      CPU: 30ms usr + 50ms krn ; 0ms fg
+  u0a100:
+    Running for: 2m 57s 522ms 
+    Proc pl.pracuj.android.jobsearcher:
+      CPU: 230ms usr + 100ms krn ; 0ms fg
+  u0a101:
+    Foreground for: 2m 57s 522ms 
+  u0a103:
+    Mobile network: 29,85KB received, 13,53KB sent (packets 95 received, 79 sent)
+    Mobile radio active: 1m 29s 983ms (74,6%) 8x @ 517 mspp
+    Wake lock WindowManager: 5s 13ms full (2 times) realtime
+    Foreground activities: 2m 35s 638ms realtime (5 times)
+    Foreground for: 2m 36s 80ms 
+    Running for: 2m 42s 357ms 
+    Proc pl.bkf.icarwash:
+      CPU: 19s 660ms usr + 4s 410ms krn ; 24s 750ms fg
+      1 proc starts

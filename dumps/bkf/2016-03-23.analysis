@@ -1,0 +1,17 @@
+Zalogowanie na tryb demo
+
+przejście większości ścieżek, odwiedzenie wszystkich widoków.
+Tu dane są w większości statyczne dla trybu demo.
+
+Główne widoki są buforowane, głębsza nawigacja po przejściu z listy myjni
+już nie. Każde kolejne otworzenie któregokolwiek widoku powoduje
+wysłanie żądania do serwera. Zrobione tak tylko z uwagi na presję czasu.
+Pierwsze trzy widoki powstawały dość długo. Był czas na dodanie buforowania.
+Pozostałe widoki na szybko → mechanizm buforowania nie był rozwijany,
+choć mógł w prosty sposób HashMap<ViewNameDisgest, Data>.
+
+[Wykres]
+
+tu jestem pozytywnie zaskoczony! wykresy są wręcz idealne!
+Sam pisałem tą aplikację i myślałem, że pod koniec na wykresach to
+zjawisko będzie widoczne. Nie jest. Tu nie ma jakiejkolwiek optymalizacji!!!!

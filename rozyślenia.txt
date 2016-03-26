@@ -1,0 +1,72 @@
+[IMPORTANT]
+Czy aby na pewno battery historian i jego wykresy są dokłądne?
+Czy nie ma jakiś opcji, które należy zmienić / ustawić?
+Czy system android nie podtrzymuje radia przez jakiś czas jeśli stwierdzi
+że może jest warto?
+
+
+[???]
+- jak długie są przerwy między sleep/wake cyklami? android tego nie zmienia optymalizuje?
+- co dostarczają już w android sdk od L ?
+
+
+[NOTICE]
+Patrząc po sobie i tym jak korzystam z telefonu (wiadomo nie jestem wyrocznią inie wszyscy myślą tak samo)
+wyznacznikiem jest stosunek ceny do efektu. Więc jeśli zaoszczędzenie
+czasu pracy baterri w wysokości 5min (gdzie bateria w smartfonie trzyma
+dajmy na to 1-2 dni, czyli jesteśmy na poziomie promili! jeśli chodzi o oszczędność)
+ma mnie kosztować sporo, to kicham na to.
+
+Jeśli mówimy o ofercie na kartę to aktualnie korzystam z Virgin Mobile (2016-03)
+gdzie pakiet 10GB (wg. informacji sieciowych 10240 MB, czyli nie do końca 10GB)
+kosztuje 25PLN. Czyli 1 grosz za 4MB.
+
+1kWh w Enei pomijając koszty przesyłowe kosztuje 25 groszy (2016-03)
+
+Na tej podstawie możemy w b.dużym przybliżeniu oszacować
+ile ładowań telefonu jesteśmy w stanie wykonać za cenę 1kWh.
+I określić jakie muszą być oszczędności żeby to się opłacało i po jakim czasie.
+
+Ale! Gołym okiem już widać, że kwestja finansowa jest na niekorzyść jakiejkolwiek
+optymalizacji. Z tej perspektywy nie ma ona racji bytu a jakikolwiek czas poświęcony tej kwestji jest zmarnowany.
+
+Za cenę 1kWh mamy 100MB czyli filmik na youtube o długości 10 min? i przeciętnej jakości.
+
+100MB jesteśmy w stanie zużyć w przeciągu kilku minut.
+Oszczędność 1kWh uda nam się osiągnąć w skończonym (z perspektywy życia człowieka)
+czasie?
+
+
+
+
+Czyli kwestja ekonomiczna odpada.
+Musimy jednak spojrzeć na sprawę z dwóch bardziej "szlachetnych" perspektyw:
+
+- dobro użytkownika dzięki temu, że przyłożyliśmy się do tego może korzystać
+  z telefonu dłużej; może mu to życie uratować...
+
+- optymalniejszy ruch sieciowy odbija się na poprawie całego ekosystemu:
+  chodzi o urządzenia telefonii komórkowej, infrastrukturę TCP / IP
+  
+W małym stopniu (ale jednak) odbija się to na zużyciu energii co odbija się na naszej planecie.
+Weźmy taką skrajność wszystkie urządzenia klienckie są nieoptymalne → są optymalne
+...
+ale fantazja...
+
+
+Celem jest w takim razie:
+
+- ile możemy zaoszczędzić w najoptymalniejszym przypadku,
+
+- ocena (racjonalna) opłacalności,
+
+- czy jest w ogóle możliwe napisanie biblioteki?
+  już widzę że jest b. wiele czynników i przypadków użycia,
+  czy można to na tyle uogólnić, żeby stworzyć bibliotekę?
+  Szczerze wątpię!
+  
+- zauważyłem też, że zamiast samego optymalizowania krótkich "pików"
+  w pobieraniu danych można zastanowić się nad samym omijaniem
+  konieczności ponownego pobierania → cache to może być lepsze
+  z punktu widzenia i baterii i kosztów przesyłu,
+  ale cache jest zagadnieniem trudnym

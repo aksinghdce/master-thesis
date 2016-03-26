@@ -1,0 +1,14 @@
+adb kill-server
+
+adb devices
+
+adb shell dumpsys batterystats --reset | 
+adb shell dumpsys batteryinfo --reset [for older devices]
+
+<disconnect and play with app>...<reconnect>
+
+adb devices
+
+adb shell dumpsys batterystats > batterystats.txt
+
+bh [alias to start battery-historian server]

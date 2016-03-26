@@ -1,0 +1,28 @@
+1. Poszukiwanie pracy:
+
+- ogłoszenie z działu IT + e-commerce
+  z zachodniopomorskiego + zagranica
+  
+- przeglądanie listy w dół wchodzenie na podgląd wybranych ogłoszeń
+
+
+Jest przycisk odświeżenia ogłoszenia: wg. mnie zbędny ponieważ raczej
+nic się nie zmieni.
+Ogłoszenia to zwykły tekst. Prawdopodobnie można pobrać całą listę
+i wszystkie (albo najświeższe - np. ostatni tydzień) treści ogłoszeń
+
+
+[Wykres]
+
+jest pewnien wzorzec w sposobie pobierania danych:
+dłuższy cykl przerwa jeden lub więcej krótszych.
+Tu wykres już jest biliższy temu czego szukamy, nie jest
+to jednak dokładnie to. Z obserwacji aplikacji i wskaźnika użycia
+danych komórkowych myślałem, że zjawisko będzie bardziej ewidentne.
+Możnaby sprawdzić ile tak na prawdę danych (objętościowo w KB)
+jest pobieranych podczas takiej sessji i zastanowić się, czy nie lepiej
+pobrać wszystkie dane na raz. Trzeba jednak pamiętać, że urządzenie
+ma ograniczoną pamięć RAM (ew. cache plikowy?) a dane komórkowe
+podlegają przeważnie opłatą. Cena 1MB wg. taryfy jest pewnie znacznie
+wyższa niż 1kWh (a tego nie zużyjemy na różnicy...)
+
