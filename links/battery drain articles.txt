@@ -1,0 +1,30 @@
+https://www.androidpit.com/battery-draining-apps
+http://www.cnet.com/news/whats-killing-your-battery-androids-top-10-performance-sapping-apps/
+
+http://developer.android.com/tools/performance/batterystats-battery-historian/index.html
+
+[scheduler]
+https://developer.android.com/reference/android/app/job/JobScheduler.html
+
+[prefetch]
+http://developer.android.com/training/efficient-downloads/efficient-network-access.html#PrefetchData
+
+[connection types]
+http://developer.android.com/training/efficient-downloads/connectivity_patterns.html
+
+[at&t]
+http://www.research.att.com/articles/featured_stories/2011_03/201102_Energy_efficient?fbid=dzAbjhTX2CN
+https://www.youtube.com/watch?v=4baYdgBBgFs
+
+[android studio tool]
+http://developer.android.com/tools/debugging/ddms.html#network
+
+[youtube]
+topic: battery drain
+    - desc: Perfmatters, battery drain explained breiefly
+    - url:  https://www.youtube.com/watch?v=4D7_N2XEw20&feature=iv&src_vid=fEEulSk1kNY&annotation_id=annotation_3736387061
+    - url:  https://www.youtube.com/watch?v=reMau7d0yeg
+
+topic: transfer
+    - desc: Google Dev Bytes on battery drain issue. Very informing 
+    - url:  https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-VJS9WQlj9xM_ygPopZ-Qd&feature=iv&src_vid=fEEulSk1kNY&annotation_id=annotation_2220323337
