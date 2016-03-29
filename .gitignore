@@ -1,4 +1,6 @@
 *.zip
 *.tar.*
 
+.~lock.*
+
 dumps/**/*.html
