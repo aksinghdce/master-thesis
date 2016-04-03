@@ -1,0 +1,6 @@
+[submodule "submodules/tcpdump"]
+	path = submodules/tcpdump
+	url = https://github.com/the-tcpdump-group/tcpdump.git
+[submodule "submodules/libcap"]
+	path = submodules/libpcap
+	url = https://github.com/the-tcpdump-group/libpcap.git
