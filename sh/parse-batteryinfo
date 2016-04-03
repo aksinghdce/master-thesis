@@ -1,0 +1,33 @@
+#!/bin/bash
+# Parses a Android batteryinfo file and returns an array of unix timestamps.
+# batteryinfo is an equivalent of batterystats service on devices running pre Kit-Kat OS versions.
+#
+# Outputs a octave / matlab vector containing Unix timestamps.
+# These are grouped into pairs showing when the mobile radio was in active state.
+# Ex.:
+# a vector [0 100 500 1000]
+# means that the radio was active between 0-100 and 500-1000 seconds from beggining of Unix epoche.
+#
+
+# input file
+in_file=$1
+
+if [ ! -f $in_file ]; then
+    echo 'You need to supply a valid file name'
+    exit 1
+fi
+
+# ts_start → start timestamp; hi, low radio state transitions are given relative to this value
+parts=($(head -n1 $in_file))    # select first line from file and turn into array
+last=${parts[@]:(-1)}           # grab last value
+hts_start=`echo $last | tr -d [:space:]` # trim spaces
+ts_start=$((hts_start / 1000))  # convert from hi-res ts into unix ts
+
+echo $ts_start
+# radio state transition list
+# batteryinfo keeps the list in descending order (opposite of batterystats)
+transitions=`tac $in_file | grep 'mobile_radio'`    # reverese + filter lines containing mobile_radio
+
+# convert 0h00m00s999ms notation to a offset in seconds
+# and add the ts_start to it
+echo [$(echo "${transitions[@]}" | awk -f as_ts.awk)]
