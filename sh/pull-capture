@@ -1,0 +1,15 @@
+#!/bin/bash
+# pulls capture file + batteryinfo dump from cellphone
+#
+
+if [ $# -lt 1 ]; then
+    echo 'need file name'
+    exit 1
+fi
+
+cd ../dumps
+mkdir $1
+cd $1
+
+adb pull /data/local/capture/$1.capture ./
+adb shell dumpsys batteryinfo > ./$1.dump
