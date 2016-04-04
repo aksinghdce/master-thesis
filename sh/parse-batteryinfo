@@ -23,7 +23,7 @@ read -d '' awk_prog <<\EOF
 
     for (i = num; i > 0; i--) {
         mult *= 60
-        sec += arr[i] * mult;
+        sec  -= arr[i] * mult;
     }
 
     print sec
@@ -38,11 +38,10 @@ if [ ! -f $in_file ]; then
     exit 1
 fi
 
-# ts_start → start timestamp; hi, low radio state transitions are given relative to this value
+# ts_start → report print timestamp; hi, low radio state transitions are given relative to this value
 ts_start=$(head -n1 $in_file | awk '{print int($4 / 1000)}')
 # radio state transition list
-# batteryinfo keeps the list in descending order (opposite of batterystats)
-transitions=`tac $in_file | grep 'mobile_radio'`    # reverese + filter lines containing mobile_radio
+transitions=`grep 'mobile_radio' $in_file`    # filter lines containing mobile_radio
 
 # convert 0h00m00s999ms notation to a offset in seconds
 # and add the ts_start to it
