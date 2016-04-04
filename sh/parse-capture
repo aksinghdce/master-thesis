@@ -1,0 +1,10 @@
+#!/bin/bash
+# parse tcpdump capture and return a unix timestamp list
+
+if [ ! -f "$1" ]; then
+    echo 'need valid input file name'
+    exit 1
+fi
+
+time_offset=120
+echo [$(cat "$1" | awk -v time_offset="$time_offset" '/^[0-9]+/ { print int($1) + time_offset }')]
