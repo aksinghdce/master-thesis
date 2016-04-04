@@ -1,0 +1,16 @@
+#!/bin/sh
+# ment to run on android shell
+#   - resets batteryinfo stats
+#   - starts tcpdump capture
+#
+
+cd /data/local/
+
+if [ ! -d capture ]; then
+    mkdir capture
+fi
+
+file_name="capture/$(date '+%Y%m%d_%H%M%S').capture"
+touch "$file_name"
+dumpsys batteryinfo --reset
+nohup ./tcpdump > "$file_name"
