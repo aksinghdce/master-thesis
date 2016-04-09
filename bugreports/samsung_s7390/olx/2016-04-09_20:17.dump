@@ -1,0 +1,509 @@
+Battery History:
+          -3m40s794ms 095 40108042 status=discharging health=good plug=none temp=236 volt=4344 +screen +wake_lock brightness=medium signal_strength=great data_conn=hsdpa
+          -3m32s984ms 095 40108032 signal_strength=good
+          -3m23s549ms 095 40108022 signal_strength=moderate
+          -3m17s331ms 095 40108032 signal_strength=good
+          -2m10s558ms 095 40108032 volt=4318
+          -1m10s397ms 095 40108032 temp=248
+            -40s318ms 095 40108032 volt=4288
+            -36s876ms 094 40108032
+            -10s209ms 094 40188032 status=charging plug=usb temp=256 volt=4278 +plugged
+             -1s309ms 094 40188042 temp=266 signal_strength=great
+
+Per-PID Stats:
+  PID 1408 wake time: +10s891ms
+  PID 1779 wake time: +23s97ms
+  PID 1779 wake time: +9ms
+  PID 1984 wake time: +1s261ms
+  PID 1408 wake time: +47s167ms
+  PID 1408 wake time: +532ms
+  PID 1779 wake time: +28ms
+  PID 1957 wake time: +358ms
+  PID 2378 wake time: +22ms
+  PID 1779 wake time: +392ms
+  PID 4532 wake time: +60s17ms
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 3m 30s 585ms (0.3%) realtime, 3m 30s 585ms (0.3%) uptime
+  Total run time: 20h 35m 21s 454ms realtime, 53m 51s 404ms uptime, 
+  Screen on: 3m 30s 508ms (100.0%), Input events: 0, Active phone call: 0ms (0.0%)
+  Screen brightnesses: medium 3m 30s 508ms (100.0%)
+  Kernel Wake lock spa_charge: 11m 37s 221ms (1 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 3m 30s 508ms (1 times) realtime
+  Kernel Wake lock main: 3m 30s 505ms (1 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 1m 52s 380ms (33 times) realtime
+  Kernel Wake lock radio-interface: 13s 229ms (13 times) realtime
+  Kernel Wake lock ipc_wake_lock: 1s 318ms (12131 times) realtime
+  Kernel Wake lock vib_wl: 615ms (11 times) realtime
+  Kernel Wake lock bcmpmu_i2c: 267ms (1704 times) realtime
+  Kernel Wake lock PowerManagerService.Broadcasts: 237ms (1 times) realtime
+  Kernel Wake lock KeyEvents: 202ms (920 times) realtime
+  Kernel Wake lock RpcWakeLock: 181ms (285 times) realtime
+  Kernel Wake lock event2-1779: 60ms (911 times) realtime
+  Kernel Wake lock BRIL-notify: 34ms (159 times) realtime
+  Kernel Wake lock BRIL-rsp: 31ms (121 times) realtime
+  Kernel Wake lock alarm: 25ms (8 times) realtime
+  Kernel Wake lock muic_wakelock: 4ms (0 times) realtime
+  Mobile total received: 1002.64KB, Total sent: 151.31KB
+  Wi-Fi total received: 0B, Total sent: 0B
+  Total full wakelock time: 0ms , Total partial wakelock time: 1m 52s 375ms 
+  Signal levels: moderate 6s 217ms (3.0%) 1x, good 3m 16s 557ms (93.3%) 2x, great 7s 810ms (3.7%) 1x
+  Signal scanning time: 0ms 
+  Radio types: hsdpa 3m 30s 585ms (100.0%) 0x
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 0ms (0.0%), Wifi running: 0ms (0.0%), Bluetooth on: 0ms (0.0%)
+ 
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 1
+    Amount discharged while screen on: 1
+    Amount discharged while screen off: 0
+
+  All partial wake locks:
+  Wake lock u0a68 wake:pl.tablica/com.urbanairship.push.UAInstanceIDListenerService: 1m 1s 129ms (1 times) realtime
+  Wake lock 1013 AudioMix: 25s 611ms (40 times) realtime
+  Wake lock 1000 ActivityManager-Launch: 17s 721ms (11 times) realtime
+  Wake lock 1000 AudioMix: 5s 509ms (26 times) realtime
+  Wake lock 1001 RILJ: 1s 159ms (25 times) realtime
+  Wake lock u0a9 AudioMix: 532ms (1 times) realtime
+  Wake lock u0a68 LocationManagerService: 392ms (1 times) realtime
+  Wake lock 1000 AlarmManager: 111ms (4 times) realtime
+  Wake lock u0a62 UlrDispSvcFastWL: 105ms (2 times) realtime
+  Wake lock u0a62 GCoreFlp: 58ms (6 times) realtime
+  Wake lock u0a62 Wakeful StateMachine: GeofencerStateMachine: 26ms (2 times) realtime
+  Wake lock u0a31 AlarmManager: 14ms (1 times) realtime
+  Wake lock 1001 AlarmManager: 8ms (3 times) realtime
+
+  0:
+    Mobile network: 11.25KB received, 3.61KB sent
+    Proc zygote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Proc flush-179:0:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc /init:
+      CPU: 600ms usr + 1s 600ms krn ; 0ms fg
+    Proc vold:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc irq/373-ist30xx:
+      CPU: 0ms usr + 340ms krn ; 0ms fg
+    Proc Dsi0T:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc mmcqd/2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p19:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc netd:
+      CPU: 30ms usr + 80ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 330ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 5s 170ms krn ; 0ms fg
+    Proc RpcKThread:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 2s 90ms krn ; 0ms fg
+    Proc kworker/u:1:
+      CPU: 0ms usr + 210ms krn ; 0ms fg
+  1000:
+    User activity: 4 other, 3 button, 87 touch
+    Wake lock AlarmManager: 111ms partial (4 times) realtime
+    Wake lock ActivityManager-Launch: 17s 721ms partial (11 times) realtime
+    Wake lock AudioMix: 5s 509ms partial (26 times) realtime
+    TOTAL wake: 23s 341ms partial realtime
+    Sensor 0: 3m 30s 502ms realtime (1 times)
+    Proc surfaceflinger:
+      CPU: 8s 770ms usr + 7s 540ms krn ; 0ms fg
+    Proc system_server:
+      CPU: 3s 660ms usr + 2s 790ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1001:
+    Wake lock AlarmManager: 8ms partial (3 times) realtime
+    Wake lock RILJ: 1s 159ms partial (25 times) realtime
+    TOTAL wake: 1s 167ms partial realtime
+    Proc rild:
+      CPU: 100ms usr + 80ms krn ; 0ms fg
+    Proc com.android.phone:
+      CPU: 250ms usr + 140ms krn ; 0ms fg
+    Apk com.android.phone:
+      3 wakeup alarms
+  1013:
+    Wake lock AudioMix: 25s 611ms partial (40 times) realtime
+    Proc mediaserver:
+      CPU: 3s 330ms usr + 50ms krn ; 0ms fg
+  1023:
+    Proc sdcard:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a7:
+    Proc android.process.media:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a9:
+    User activity: 1 other
+    Wake lock AudioMix: 532ms partial (1 times) realtime
+    Proc com.android.systemui:
+      CPU: 4s 340ms usr + 940ms krn ; 0ms fg
+  u0a15:
+    Foreground activities: 19s 526ms realtime (2 times)
+    Proc com.cyanogenmod.trebuchet:
+      CPU: 410ms usr + 140ms krn ; 320ms fg
+  u0a31:
+    Wake lock AlarmManager: 14ms partial (1 times) realtime
+    Proc com.android.deskclock:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a39:
+    Vibrator: 330ms realtime (11 times)
+    Proc com.android.inputmethod.latin:
+      CPU: 970ms usr + 370ms krn ; 0ms fg
+    Apk com.android.inputmethod.latin:
+      Service com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 2
+  u0a62:
+    Mobile network: 13.13KB received, 8.48KB sent
+    Wake lock Wakeful StateMachine: GeofencerStateMachine: 26ms partial (2 times) realtime
+    Wake lock GCoreFlp: 58ms partial (6 times) realtime
+    Wake lock UlrDispSvcFastWL: 105ms partial (2 times) realtime
+    TOTAL wake: 189ms partial realtime
+    Proc com.google.android.gms:
+      CPU: 450ms usr + 160ms krn ; 0ms fg
+    Proc com.google.process.gapps:
+      CPU: 230ms usr + 90ms krn ; 0ms fg
+    Proc com.google.android.gms.persistent:
+      CPU: 80ms usr + 40ms krn ; 0ms fg
+    Apk com.google.android.gms:
+      Service com.google.android.gms.gcm.http.GoogleHttpService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 3
+      Service com.google.android.gms.gcm.PushMessagingRegistrarProxy:
+        Created for: 85ms uptime
+        Starts: 3, launches: 3
+      Service com.google.android.gms.ads.identifier.service.AdvertisingIdService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 14
+      Service com.google.android.location.reporting.service.DispatchingService:
+        Created for: 262ms uptime
+        Starts: 1, launches: 1
+      Service com.google.android.gms.analytics.service.AnalyticsService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 5
+      Service com.google.android.gms.icing.service.LightweightIndexService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a65:
+    Proc com.android.vending:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Apk com.android.vending:
+      Service com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService:
+        Created for: 325ms uptime
+        Starts: 1, launches: 1
+  u0a68:
+    Mobile network: 978.26KB received, 139.22KB sent
+    Wake lock LocationManagerService: 392ms partial (1 times) realtime
+    Wake lock wake:pl.tablica/com.urbanairship.push.UAInstanceIDListenerService: 1m 1s 129ms partial (1 times) realtime
+    TOTAL wake: 1m 1s 521ms partial realtime
+    Foreground activities: 3m 8s 378ms realtime (10 times)
+    Proc pl.tablica:
+      CPU: 50s 440ms usr + 5s 270ms krn ; 57s 780ms fg
+      1 proc starts
+    Apk pl.tablica:
+      Service pl.tablica2.services.ParametersService:
+        Created for: 8s 98ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.services.StartupService:
+        Created for: 3s 247ms uptime
+        Starts: 1, launches: 1
+      Service com.urbanairship.push.UAInstanceIDListenerService:
+        Created for: 100ms uptime
+        Starts: 4, launches: 4
+      Service com.urbanairship.push.PushService:
+        Created for: 36s 397ms uptime
+        Starts: 1, launches: 1
+      Service com.urbanairship.richpush.RichPushUpdateService:
+        Created for: 5s 373ms uptime
+        Starts: 4, launches: 4
+      Service com.urbanairship.location.LocationService:
+        Created for: 5s 363ms uptime
+        Starts: 2, launches: 2
+      Service com.urbanairship.analytics.EventService:
+        Created for: 96ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.services.LocationFindService:
+        Created for: 10s 145ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.gcm.GcmRegisterIntentService:
+        Created for: 5s 60ms uptime
+        Starts: 1, launches: 1
+
+Statistics since last unplugged:
+  Time on battery: 3m 30s 585ms (95.4%) realtime, 3m 30s 585ms (95.4%) uptime
+  Total run time: 3m 40s 851ms realtime, 3m 40s 851ms uptime, 
+  Screen on: 3m 30s 508ms (100.0%), Input events: 0, Active phone call: 0ms (0.0%)
+  Screen brightnesses: medium 3m 30s 508ms (100.0%)
+  Kernel Wake lock spa_charge: 11m 37s 221ms (1 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 3m 30s 508ms (1 times) realtime
+  Kernel Wake lock main: 3m 30s 505ms (1 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 1m 52s 380ms (33 times) realtime
+  Kernel Wake lock radio-interface: 13s 229ms (13 times) realtime
+  Kernel Wake lock ipc_wake_lock: 1s 318ms (12131 times) realtime
+  Kernel Wake lock vib_wl: 615ms (11 times) realtime
+  Kernel Wake lock bcmpmu_i2c: 267ms (1704 times) realtime
+  Kernel Wake lock PowerManagerService.Broadcasts: 237ms (1 times) realtime
+  Kernel Wake lock KeyEvents: 202ms (920 times) realtime
+  Kernel Wake lock RpcWakeLock: 181ms (285 times) realtime
+  Kernel Wake lock event2-1779: 60ms (911 times) realtime
+  Kernel Wake lock BRIL-notify: 34ms (159 times) realtime
+  Kernel Wake lock BRIL-rsp: 31ms (121 times) realtime
+  Kernel Wake lock alarm: 25ms (8 times) realtime
+  Kernel Wake lock muic_wakelock: 4ms (0 times) realtime
+  Mobile total received: 1002.64KB, Total sent: 151.31KB
+  Wi-Fi total received: 0B, Total sent: 0B
+  Total full wakelock time: 0ms , Total partial wakelock time: 1m 52s 375ms 
+  Signal levels: moderate 6s 217ms (3.0%) 1x, good 3m 16s 557ms (93.3%) 2x, great 7s 810ms (3.7%) 1x
+  Signal scanning time: 0ms 
+  Radio types: hsdpa 3m 30s 585ms (100.0%) 0x
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 0ms (0.0%), Wifi running: 0ms (0.0%), Bluetooth on: 0ms (0.0%)
+ 
+  Device is currently plugged into power
+    Last discharge cycle start level: 95
+    Last discharge cycle end level: 94
+    Amount discharged while screen on: 1
+    Amount discharged while screen off: 0
+ 
+  All partial wake locks:
+  Wake lock u0a68 wake:pl.tablica/com.urbanairship.push.UAInstanceIDListenerService: 1m 1s 129ms (1 times) realtime
+  Wake lock 1013 AudioMix: 25s 611ms (40 times) realtime
+  Wake lock 1000 ActivityManager-Launch: 17s 721ms (11 times) realtime
+  Wake lock 1000 AudioMix: 5s 509ms (26 times) realtime
+  Wake lock 1001 RILJ: 1s 159ms (25 times) realtime
+  Wake lock u0a9 AudioMix: 532ms (1 times) realtime
+  Wake lock u0a68 LocationManagerService: 392ms (1 times) realtime
+  Wake lock 1000 AlarmManager: 111ms (4 times) realtime
+  Wake lock u0a62 UlrDispSvcFastWL: 105ms (2 times) realtime
+  Wake lock u0a62 GCoreFlp: 58ms (6 times) realtime
+  Wake lock u0a62 Wakeful StateMachine: GeofencerStateMachine: 26ms (2 times) realtime
+  Wake lock u0a31 AlarmManager: 14ms (1 times) realtime
+  Wake lock 1001 AlarmManager: 8ms (3 times) realtime
+
+  0:
+    Mobile network: 11.25KB received, 3.61KB sent
+    Proc zygote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Proc flush-179:0:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc /init:
+      CPU: 600ms usr + 1s 600ms krn ; 0ms fg
+    Proc vold:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc irq/373-ist30xx:
+      CPU: 0ms usr + 340ms krn ; 0ms fg
+    Proc Dsi0T:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc mmcqd/2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p19:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc netd:
+      CPU: 30ms usr + 80ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 330ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 270ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 5s 170ms krn ; 0ms fg
+    Proc RpcKThread:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 2s 90ms krn ; 0ms fg
+    Proc kworker/u:1:
+      CPU: 0ms usr + 210ms krn ; 0ms fg
+  1000:
+    User activity: 4 other, 3 button, 87 touch
+    Wake lock AlarmManager: 111ms partial (4 times) realtime
+    Wake lock ActivityManager-Launch: 17s 721ms partial (11 times) realtime
+    Wake lock AudioMix: 5s 509ms partial (26 times) realtime
+    TOTAL wake: 23s 341ms partial realtime
+    Sensor 0: 3m 30s 502ms realtime (1 times)
+    Proc surfaceflinger:
+      CPU: 8s 770ms usr + 7s 540ms krn ; 0ms fg
+    Proc system_server:
+      CPU: 3s 660ms usr + 2s 790ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1001:
+    Wake lock AlarmManager: 8ms partial (3 times) realtime
+    Wake lock RILJ: 1s 159ms partial (25 times) realtime
+    TOTAL wake: 1s 167ms partial realtime
+    Proc rild:
+      CPU: 100ms usr + 80ms krn ; 0ms fg
+    Proc com.android.phone:
+      CPU: 250ms usr + 140ms krn ; 0ms fg
+    Apk com.android.phone:
+      3 wakeup alarms
+  1013:
+    Wake lock AudioMix: 25s 611ms partial (40 times) realtime
+    Proc mediaserver:
+      CPU: 3s 330ms usr + 50ms krn ; 0ms fg
+  1023:
+    Proc sdcard:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a7:
+    Proc android.process.media:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a9:
+    User activity: 1 other
+    Wake lock AudioMix: 532ms partial (1 times) realtime
+    Proc com.android.systemui:
+      CPU: 4s 340ms usr + 940ms krn ; 0ms fg
+  u0a15:
+    Foreground activities: 19s 526ms realtime (2 times)
+    Proc com.cyanogenmod.trebuchet:
+      CPU: 410ms usr + 140ms krn ; 320ms fg
+  u0a31:
+    Wake lock AlarmManager: 14ms partial (1 times) realtime
+    Proc com.android.deskclock:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a39:
+    Vibrator: 330ms realtime (11 times)
+    Proc com.android.inputmethod.latin:
+      CPU: 970ms usr + 370ms krn ; 0ms fg
+    Apk com.android.inputmethod.latin:
+      Service com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 2
+  u0a62:
+    Mobile network: 13.13KB received, 8.48KB sent
+    Wake lock Wakeful StateMachine: GeofencerStateMachine: 26ms partial (2 times) realtime
+    Wake lock GCoreFlp: 58ms partial (6 times) realtime
+    Wake lock UlrDispSvcFastWL: 105ms partial (2 times) realtime
+    TOTAL wake: 189ms partial realtime
+    Proc com.google.android.gms:
+      CPU: 450ms usr + 160ms krn ; 0ms fg
+    Proc com.google.process.gapps:
+      CPU: 230ms usr + 90ms krn ; 0ms fg
+    Proc com.google.android.gms.persistent:
+      CPU: 80ms usr + 40ms krn ; 0ms fg
+    Apk com.google.android.gms:
+      Service com.google.android.gms.gcm.http.GoogleHttpService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 3
+      Service com.google.android.gms.gcm.PushMessagingRegistrarProxy:
+        Created for: 85ms uptime
+        Starts: 3, launches: 3
+      Service com.google.android.gms.ads.identifier.service.AdvertisingIdService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 14
+      Service com.google.android.location.reporting.service.DispatchingService:
+        Created for: 262ms uptime
+        Starts: 1, launches: 1
+      Service com.google.android.gms.analytics.service.AnalyticsService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 5
+      Service com.google.android.gms.icing.service.LightweightIndexService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a65:
+    Proc com.android.vending:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Apk com.android.vending:
+      Service com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService:
+        Created for: 325ms uptime
+        Starts: 1, launches: 1
+  u0a68:
+    Mobile network: 978.26KB received, 139.22KB sent
+    Wake lock LocationManagerService: 392ms partial (1 times) realtime
+    Wake lock wake:pl.tablica/com.urbanairship.push.UAInstanceIDListenerService: 1m 1s 129ms partial (1 times) realtime
+    TOTAL wake: 1m 1s 521ms partial realtime
+    Foreground activities: 3m 8s 378ms realtime (10 times)
+    Proc pl.tablica:
+      CPU: 50s 440ms usr + 5s 270ms krn ; 57s 780ms fg
+      1 proc starts
+    Apk pl.tablica:
+      Service pl.tablica2.services.ParametersService:
+        Created for: 8s 98ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.services.StartupService:
+        Created for: 3s 247ms uptime
+        Starts: 1, launches: 1
+      Service com.urbanairship.push.UAInstanceIDListenerService:
+        Created for: 100ms uptime
+        Starts: 4, launches: 4
+      Service com.urbanairship.push.PushService:
+        Created for: 36s 397ms uptime
+        Starts: 1, launches: 1
+      Service com.urbanairship.richpush.RichPushUpdateService:
+        Created for: 5s 373ms uptime
+        Starts: 4, launches: 4
+      Service com.urbanairship.location.LocationService:
+        Created for: 5s 363ms uptime
+        Starts: 2, launches: 2
+      Service com.urbanairship.analytics.EventService:
+        Created for: 96ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.services.LocationFindService:
+        Created for: 10s 145ms uptime
+        Starts: 1, launches: 1
+      Service pl.tablica2.gcm.GcmRegisterIntentService:
+        Created for: 5s 60ms uptime
+        Starts: 1, launches: 1
+Statistics since last charge:
+  System starts: 1, currently on battery: false
+  Time on battery: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 16m 45s 45ms realtime, 16m 45s 45ms uptime, 
+  Screen on: 0ms (---%), Input events: 0, Active phone call: 0ms (---%)
+  Screen brightnesses: No activity
+  Mobile total received: 0B, Total sent: 0B
+  Wi-Fi total received: 0B, Total sent: 0B
+  Total full wakelock time: 0ms , Total partial wakelock time: 0ms 
+  Signal levels: No activity
+  Signal scanning time: 0ms 
+  Radio types: No activity
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 0ms (---%), Wifi running: 0ms (---%), Bluetooth on: 0ms (---%)
+ 
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+
+Statistics since last unplugged:
+  Time on battery: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 16m 45s 47ms realtime, 16m 45s 47ms uptime, 
+  Screen on: 0ms (---%), Input events: 0, Active phone call: 0ms (---%)
+  Screen brightnesses: No activity
+  Mobile total received: 0B, Total sent: 0B
+  Wi-Fi total received: 0B, Total sent: 0B
+  Total full wakelock time: 0ms , Total partial wakelock time: 0ms 
+  Signal levels: No activity
+  Signal scanning time: 0ms 
+  Radio types: No activity
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 0ms (---%), Wifi running: 0ms (---%), Bluetooth on: 0ms (---%)
+ 
+  Device is currently plugged into power
+    Last discharge cycle start level: 0
+    Last discharge cycle end level: 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+ 
