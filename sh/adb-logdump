@@ -1,0 +1,51 @@
+#!/bin/bash
+# cleans or fetches logcat logs
+# log buffers list
+
+read -d '' usage <<EOF
+adb-logdump cleans or fetches logcat logs
+
+usage:
+    adb-logdump [option]
+options:
+    -c  clean logs for all buffers; is also the default option
+    -d  copy logs for all buffers
+EOF
+
+function clear {
+    adb logcat -cd $1
+}
+
+function dump {
+    adb logcat -v time -db $1 > "$1.log"
+}
+
+
+buffers=('main' 'radio')
+action='clear'
+
+while getopts 'cd' opt
+do
+    case "$opt" in
+        'c')
+            action='clear'
+            ;;
+        'd')
+            action='dump'
+            ;;
+        'h')
+            echo "$usage"
+            exit 0
+            ;;
+        *)
+            echo "$usage"
+            exit 1
+            ;;
+    esac
+done
+
+for buffer in ${buffers[@]}
+do
+    echo "${action} for ${buffer}"
+    ${action} ${buffer}
+done
