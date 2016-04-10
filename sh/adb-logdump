@@ -10,6 +10,7 @@ usage:
 options:
     -c  clean logs for all buffers; is also the default option
     -d  copy logs for all buffers
+    -h  displays this message
 EOF
 
 function clear {
@@ -24,7 +25,7 @@ function dump {
 buffers=('main' 'radio')
 action='clear'
 
-while getopts 'cd' opt
+while getopts 'cdh' opt
 do
     case "$opt" in
         'c')
