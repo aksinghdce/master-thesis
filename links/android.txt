@@ -1,0 +1,7 @@
+entries:
+    - date: 2016-04-10
+    - desc: log system
+    - url:
+        http://elinux.org/Android_Logging_System
+        http://developer.android.com/tools/help/logcat.html
+        http://developer.android.com/tools/debugging/debugging-log.html
