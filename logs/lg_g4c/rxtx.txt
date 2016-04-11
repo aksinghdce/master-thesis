@@ -1,0 +1,13 @@
+#dumpsys netstats
+
+rmnet0    Link encap:UNSPEC
+
+UP RUNNING  MTU:2000  Metric:1
+RX packets:11466 errors:0 dropped:0 overruns:0 frame:0
+TX packets:9717 errors:0 dropped:0 overruns:0 carrier:0
+collisions:0 txqueuelen:1000
+RX bytes:11246600 TX bytes:950752
+
+
+11246600 / 11466
+950752 / 9717
