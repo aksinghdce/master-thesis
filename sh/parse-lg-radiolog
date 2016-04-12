@@ -2,10 +2,9 @@
 # -*- coding: UTF-8 -*-
 import time
 import re
+import sys
+import os.path
 
-# TODO change to argv
-# path to radio log file
-file_name = 'logs/lg_g4c/2016-04-11_20:50/radio.log'
 
 # an important line to us, can contain radio state transition
 # or down- / upload packets information
@@ -18,17 +17,23 @@ def print_state(state):
         print('\t' + str(state['radio']) + ', ' + str(state['tx']) + ', ' + str(state['rx']) + ';')
         state['output'] = False
 
+if len(sys.argv) < 2 or not os.path.isfile(sys.argv[1]):
+    print('please supply a valid file path')
+    exit(0)
+else:
+    file_name = sys.argv[1]
+
 state = {'time': None, 'radio': 0, 'tx': 0, 'rx': 0, 'output': False}
 
-print('%% Cell radio state history (step is one second)')
-print('%% column meaning:')
-print('%%   1:\t is radio active,')
-print('%%   2:\t tx packet count,')
-print('%%   1:\t rx packet count')
-print('%%')
-print('RADIO_STATE = [')
 
 with open(file_name) as f:
+    print('%% Cell radio state history (step is one second)')
+    print('%% column meaning:')
+    print('%%   1:\t is radio active,')
+    print('%%   2:\t tx packet count,')
+    print('%%   1:\t rx packet count')
+    print('%%')
+    print('RADIO_STATE = [')
 
     for l in f:
         line_matches = re.match(re_line, l)
@@ -58,6 +63,6 @@ with open(file_name) as f:
             state['time'] = t
             print_state(state)
 
-# if state is left for output after loop
-print_state(state)
-print('];')
+    # if state is left for output after loop
+    print_state(state)
+    print('];')
