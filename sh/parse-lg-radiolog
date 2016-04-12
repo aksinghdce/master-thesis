@@ -6,63 +6,68 @@ import sys
 import os.path
 
 
-# an important line to us, can contain radio state transition
-# or down- / upload packets information
-re_line = re.compile(r'^.*(\d{2}:\d{2}:\d{2}\.\d{3}) V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
-# grabs current packets from rest group
-re_rest = re.compile(r'^.*curr: TxPkts\((\d+)\), RxPkts\((\d+)\)$')
-
-def print_state(state):
-    if state['output']:
-        print('\t' + str(state['radio']) + ', ' + str(state['tx']) + ', ' + str(state['rx']) + ';')
-        state['output'] = False
-
 if len(sys.argv) < 2 or not os.path.isfile(sys.argv[1]):
     print('please supply a valid file path')
     exit(0)
 else:
     file_name = sys.argv[1]
 
-state = {'time': None, 'radio': 0, 'tx': 0, 'rx': 0, 'output': False}
+# an important line to us, can contain radio state transition
+# or down- / upload packets information
+re_line = re.compile(r'^.*(\d{2}:\d{2}:\d{2}\.\d{3}) V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
+# grabs current packets from rest group
+re_rest = re.compile(r'^.*curr: TxPkts\((\d+)\), RxPkts\((\d+)\)$')
+
+first_entry = True
+# state history dictionary; key is timestamp string
+state_hist  = {}
 
 
 with open(file_name) as f:
-    print('%% Cell radio state history (step is one second)')
-    print('%% column meaning:')
-    print('%%   1:\t is radio active,')
-    print('%%   2:\t tx packet count,')
-    print('%%   1:\t rx packet count')
-    print('%%')
-    print('RADIO_STATE = [')
+    tx_delta = rx_delta = tx_total = rx_total = 0;
 
     for l in f:
         line_matches = re.match(re_line, l)
 
         if line_matches is None:
+            # line does not match
             continue
 
-        # mark for output
-        state['output'] = True
+        # time token
+        t, ignore = line_matches.group(1).split('.')
 
         # state (IDLE 0, DCH/FACH 1)
-        state['radio'] = int(line_matches.group(2) != 'IDLE')
+        s = int(line_matches.group(2) != 'IDLE')
         # rest
         rest_matches = re.match(re_rest, line_matches.group(3))
 
         if rest_matches is not None:
             # tx, rx packet count
-            state['tx'] = rest_matches.group(1)
-            state['rx'] = rest_matches.group(2)
+            tx_tmp   = int(rest_matches.group(1))
+            rx_tmp   = int(rest_matches.group(2))
 
-        # time
-        t, ignore = line_matches.group(1).split('.')
+            if first_entry:
+                first_entry = False
+            else:
+                tx_delta = tx_tmp - tx_total
+                rx_delta = rx_tmp - rx_total
+            tx_total = tx_tmp
+            rx_total = rx_tmp
+        else:
+            tx_delta = rx_delta = 0;
 
-        if state['time'] is None:
-            state['time'] = t
-        elif state['time'] != t:
-            state['time'] = t
-            print_state(state)
+        state_hist[t] = (s, tx_delta, rx_delta, tx_total, rx_total)
 
-    # if state is left for output after loop
-    print_state(state)
-    print('];')
+# print in octave save matrix format
+# header
+print('# Created by parse-lg-radiolog by parsing file: ' + file_name)
+print('# name: RADIO_STATE')
+print('# type: matrix')
+print('# rows: ' + str(len(state_hist)))
+print('# columns: 3')
+
+# values
+for key in sorted(state_hist.keys()):
+    print(' ' + str(state_hist[key][0]) + ' ' \
+            + str(state_hist[key][1]) + ' ' \
+            + str(state_hist[key][2]))
