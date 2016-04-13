@@ -14,7 +14,7 @@ else:
 
 # an important line to us, can contain radio state transition
 # or down- / upload packets information
-re_line = re.compile(r'^(\d{2}-\d{2} \d{2}:\d{2}:\d{2}).+V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
+re_line = re.compile(r'^(\d{2}-\d{2} \d{2}:\d{2}:\d{2}).+V[/ ]{1}LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
 # grabs current packets from rest group
 re_rest = re.compile(r'^.*curr: TxPkts\((\d+)\), RxPkts\((\d+)\)$')
 
