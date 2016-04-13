@@ -5,7 +5,7 @@ import re
 import sys
 import os.path
 
-
+#file_name = '../logs/lg_g4c/2016-04-12/olx.praca.log'
 if len(sys.argv) < 2 or not os.path.isfile(sys.argv[1]):
     print('please supply a valid file path')
     exit(0)
@@ -14,17 +14,19 @@ else:
 
 # an important line to us, can contain radio state transition
 # or down- / upload packets information
-re_line = re.compile(r'^(\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}) V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
+re_line = re.compile(r'^(\d{2}-\d{2} \d{2}:\d{2}:\d{2}).+V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
 # grabs current packets from rest group
 re_rest = re.compile(r'^.*curr: TxPkts\((\d+)\), RxPkts\((\d+)\)$')
 
-first_entry = True
+
 # state history dictionary; key is timestamp string
-state_hist  = {}
+state_hist = []
 
 
 with open(file_name) as f:
     tx_delta = rx_delta = tx_total = rx_total = 0;
+    first_entry = True
+    year = str(time.localtime().tm_year)
 
     for l in f:
         line_matches = re.match(re_line, l)
@@ -33,8 +35,8 @@ with open(file_name) as f:
             # line does not match
             continue
 
-        # time token
-        t, ignore = line_matches.group(1).split('.')
+        # unix timestamp
+        t = int(time.mktime(time.strptime(year + '-' + line_matches.group(1), '%Y-%m-%d %H:%M:%S')))
 
         # state (IDLE 0, DCH/FACH 1)
         s = int(line_matches.group(2) != 'IDLE')
@@ -56,19 +58,27 @@ with open(file_name) as f:
         else:
             tx_delta = rx_delta = 0;
 
-        state_hist[t] = (s, tx_delta, rx_delta, tx_total, rx_total)
+        if len(state_hist) > 0 and state_hist[-1][0] == t:
+            state_hist[-1] = (t, s, tx_delta, rx_delta)
+        else:
+            state_hist.append((t, s, tx_delta, rx_delta))
 
-# print in octave save matrix format
+
+ts_start = state_hist[0][0]
+ts_end   = state_hist[-1][0]
+i = -1
+
 # header
 print('# Created by parse-lg-radiolog by parsing file: ' + file_name)
 print('# name: RADIO_STATE')
 print('# type: matrix')
-print('# rows: ' + str(len(state_hist)))
+print('# rows: ' + str((ts_end - ts_start) + 1))
 print('# columns: 4')
 
 # values
-for key in sorted(state_hist.keys()):
-    print(' ' + str(int(time.mktime(time.strptime('2016-' + key, '%Y-%m-%d %H:%M:%S')))) + ' ' \
-            + str(state_hist[key][0]) + ' ' \
-            + str(state_hist[key][1]) + ' ' \
-            + str(state_hist[key][2]))
+for ts_expected in range(ts_start, ts_end + 1):
+    # if next state is the one expected move to it
+    if state_hist[i + 1][0] == ts_expected:
+        i += 1
+    # else stick with this one
+    print(ts_expected, state_hist[i][1], state_hist[i][2], state_hist[i][3])
