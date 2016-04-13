@@ -14,7 +14,7 @@ else:
 
 # an important line to us, can contain radio state transition
 # or down- / upload packets information
-re_line = re.compile(r'^.*(\d{2}:\d{2}:\d{2}\.\d{3}) V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
+re_line = re.compile(r'^(\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}) V/LG-FASTDORMANCY.*\[([\w/]+)\] (.+)$')
 # grabs current packets from rest group
 re_rest = re.compile(r'^.*curr: TxPkts\((\d+)\), RxPkts\((\d+)\)$')
 
@@ -64,10 +64,11 @@ print('# Created by parse-lg-radiolog by parsing file: ' + file_name)
 print('# name: RADIO_STATE')
 print('# type: matrix')
 print('# rows: ' + str(len(state_hist)))
-print('# columns: 3')
+print('# columns: 4')
 
 # values
 for key in sorted(state_hist.keys()):
-    print(' ' + str(state_hist[key][0]) + ' ' \
+    print(' ' + str(int(time.mktime(time.strptime('2016-' + key, '%Y-%m-%d %H:%M:%S')))) + ' ' \
+            + str(state_hist[key][0]) + ' ' \
             + str(state_hist[key][1]) + ' ' \
             + str(state_hist[key][2]))

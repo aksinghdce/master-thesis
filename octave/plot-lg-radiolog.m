@@ -1,4 +1,8 @@
-%% RADIO_STATE matrix must be defined and be of size(n, 3)
+%% RADIO_STATE matrix must be defined and be of size(n, 4)
+% first column contains Unix timestamp
+% second radio state
+% third TX packets count
+% fourth RX packets count
 
 close all;
 hold on;
@@ -12,13 +16,14 @@ RATE_KB_PER_TX = 98
 % number of rows / probes
 n  = length(RADIO_STATE);
 %
-X  = 1:n;
+X  = RADIO_STATE(:, 1);
+X  = X - min(X);
 % radio state vector
-S  = RADIO_STATE(:, 1);
+S  = RADIO_STATE(:, 2);
 % sent packets count
-TX = RADIO_STATE(:, 2);
+TX = RADIO_STATE(:, 3);
 % received packets count
-RX = RADIO_STATE(:, 3);
+RX = RADIO_STATE(:, 4);
 
 if (FLAG_CONVERT_KB ~= 0)
     TX = TX * RATE_KB_PER_TX / 1024;
