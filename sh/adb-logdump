@@ -14,7 +14,7 @@ options:
 EOF
 
 function clear {
-    adb logcat -cd $1
+    adb logcat -cb $1
 }
 
 function dump {
