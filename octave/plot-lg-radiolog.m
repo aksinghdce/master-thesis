@@ -32,10 +32,12 @@ endif
 
 % hax(1) is left axis, hax(2) right
 [hax, h1, h2] = plotyy(X, S, X, RX);
-%~ legend('Stan radia', 'RX')
 
 if (FLAG_PLOT_TX ~= 0)
-    line(X, TX, 'parent', hax(2));
+    h3 = line(X, TX, 'parent', hax(2));
+    legend([h1 h2 h3], 'Stan radia', 'Pobrane dane', 'Wyslane dane')
+else
+    legend([h1 h2], 'Stan radia', 'Pobrane dane')
 endif
 
 % add 20% spcing to left yaxis top value
@@ -44,6 +46,7 @@ axis(hax(1), [0 (n+1) 0 1.2]);
 axis(hax(2), [0 (n+1) 0 (max(RX) + max(RX) * 0.1)]);
 xlabel('t[s]');
 ylabel(hax(1), 'Stan radia');
+
 
 if (FLAG_CONVERT_KB ~= 0)
     ylabel(hax(2), 'Transfer w KB');
