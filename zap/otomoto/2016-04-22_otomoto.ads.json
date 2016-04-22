@@ -1,0 +1,1643 @@
+{
+    "category_id": "29",
+    "params": {
+        "region": 11,
+        "subregion": 0,
+        "category": 29,
+        "shopId": 0,
+        "city": 0,
+        "params": {
+            "search": {
+                "filter_enum_fuel_type": ["petrol", "petrol-lpg"],
+                "filter_float_price:to": 20000
+            }
+        }
+    },
+    "total_ads": 2342,
+    "top_header_labels": {
+        "category_icon": "https:\/\/ssl.otomoto.pl\/naspersclassifieds-regional\/verticals-cars-atlas-web-otomotopl\/static\/img\/i2\/categories\/29_small_2.png?v=16",
+        "location_label": "Zachodniopomorskie",
+        "parameters_count": 3
+    },
+    "page": 1,
+    "total_pages": 235,
+    "ads_on_page": 10,
+    "view": "gallery",
+    "next_page_url": "https:\/\/ssl.otomoto.pl\/i2\/osobowe\/zachodniopomorskie\/?json=1&search%5Bview%5D=list&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_fuel_type%5D%5B1%5D=petrol-lpg&search%5Bfilter_float_price%3Ato%5D=20000&currency=PLN&version=1.8&token=1alkqH6m3c3XnSZhsZO8B5Py1o2ba5ukPWi7BfV4DnH8QQqdda&app_android=1&page=2",
+    "ads": [{
+        "id": "6004345323",
+        "url": "http:\/\/otomoto.pl\/oferta\/seat-leon-fabrcznie-240-koni-mechanicznch-maly-przebieg-ID6ylCwp.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/seat-leon-fabrcznie-240-koni-mechanicznch-maly-przebieg-ID6ylCwp.html?json=1",
+        "title": "Seat Leon",
+        "created": "dzisiaj 15:15",
+        "age": 1,
+        "description": "autko w super stanie technicznym i wizualnym , nie porsowane nie pordzewiałe , nowy na rok przeglad i oc , tapicerka czysta i zadbana , fabrycznie 252koni mechanicznych \/niesamowite wrazenia z jazdy\/ silnik idealny z małm przebiegiem oryginalnie 148ts km , udokumentowane , posiada klimatronik strefowy abs kontrole trakcji 4el.szyby i el.lusterka , 8poduszek , centralny zamek na pilota z kluczyka immobilajzer oryginalne radio alufelgi 6biegów , podgrzewane fotele , ciemne szby , nowe opony ,nowy na gwarancji akumulator , wszstkie serwisy robione na czas polecam bo autko zadbane ale przede wszystkim ma unikalny silnik szczecin tel 536 200 674 nie odpowiadam na maile i sms",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 1,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Seat"],
+            ["Model", "Leon"],
+            ["Wersja", "II (2005-2012)"],
+            ["Rok produkcji", "2007 "],
+            ["Przebieg", "148 000 km"],
+            ["Pojemność skokowa", "2 000 cm3"],
+            ["Moc", "240 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Czarny"],
+            ["Metalik", "Tak"],
+            ["Zarejestrowany w Polsce", "Tak"],
+            ["ID ogłoszenia", "6004345323"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "header": "Wyróżnione ogłoszenia",
+        "header_type": "promoted",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2007 "],
+            ["Przebieg", "148 000 km"],
+            ["Pojemność skokowa", "2 000 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": 13,
+        "map_lat": "53.43104",
+        "map_lon": "14.55023",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Szczecin Śródmieście",
+        "person": "tomasz jankowski",
+        "user_label": "tomasz jankowski",
+        "user_ads_id": "cMPf",
+        "user_id": "cMPf",
+        "numeric_user_id": "3047625",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/cMPf\/?json=1&search%5Buser_id%5D=3047625",
+        "list_label": "19 900 PLN",
+        "list_label_ad": "19 900 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_1_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-szczecin.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_1_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-szczecin.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_1_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-szczecin.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_1_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-szczecin.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_2_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_2_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_2_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_2_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_3_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_3_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_3_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_3_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_4_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_4_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_4_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_4_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_5_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_5_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_5_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_5_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_6_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_6_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_6_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_6_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_7_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_7_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_7_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_7_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_8_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_8_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829905749_8_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_8_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_9_1080x720_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_9_732x488_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829905749_9_320x240_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829905749_9_148x110_fabrcznie-240-koni-mechanicznch-maly-przebieg-.jpg"
+        }],
+        "features": ["ABS", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Radio fabryczne", "Wspomaganie kierownicy", "Alarm", "Alufelgi", "ASR (kontrola trakcji)", "Czujnik deszczu", "Czujnik zmierzchu", "Klimatyzacja automatyczna", "Klimatyzacja dwustrefowa", "Poduszki boczne przednie", "Poduszki boczne tylne", "Przyciemniane szyby", "Radio niefabryczne", "Tempomat"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004344507",
+        "url": "http:\/\/otomoto.pl\/oferta\/honda-hr-v-zadbana-ID6ylCif.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/honda-hr-v-zadbana-ID6ylCif.html?json=1",
+        "title": "Honda HR-V",
+        "created": "wczoraj 23:25",
+        "age": 1,
+        "description": "autko w pełni sprawne bez plamki rdzy , silnik i zawieszenie idealne , posiada sprawna klmatyzacje abs el.szyby i lusterka wspomaganie kierownicy airbagi centralny zamek immobilajzer radio cd alufelgi , nowe na rok ubezpieczenie , przeglad do wrzesnia , polecam szczecin tel 536 200 674",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 1,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Honda"],
+            ["Model", "HR-V"],
+            ["Wersja", "I (1998-2006)"],
+            ["Rok produkcji", "2001 "],
+            ["Przebieg", "189 000 km"],
+            ["Pojemność skokowa", "1 600 cm3"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "4x4 (dołączany automatycznie)"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Niebieski"],
+            ["Metalik", "Tak"],
+            ["Zarejestrowany w Polsce", "Tak"],
+            ["ID ogłoszenia", "6004344507"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2001 "],
+            ["Przebieg", "189 000 km"],
+            ["Pojemność skokowa", "1 600 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": 13,
+        "map_lat": "53.43104",
+        "map_lon": "14.55023",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Szczecin Śródmieście",
+        "person": "tomasz jankowski",
+        "user_label": "tomasz jankowski",
+        "user_ads_id": "cMPf",
+        "user_id": "cMPf",
+        "numeric_user_id": "3047625",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/cMPf\/?json=1&search%5Buser_id%5D=3047625",
+        "list_label": "9 900 PLN",
+        "list_label_ad": "9 900 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_1_1080x720_zadbana-szczecin.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_1_732x488_zadbana-szczecin.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_1_320x240_zadbana-szczecin.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_1_148x110_zadbana-szczecin.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_2_1080x720_zadbana-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_2_732x488_zadbana-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_2_320x240_zadbana-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_2_148x110_zadbana-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_3_1080x720_zadbana-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_3_732x488_zadbana-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_3_320x240_zadbana-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_3_148x110_zadbana-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_4_1080x720_zadbana-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_4_732x488_zadbana-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_4_320x240_zadbana-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_4_148x110_zadbana-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_5_1080x720_zadbana-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_5_732x488_zadbana-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_5_320x240_zadbana-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_5_148x110_zadbana-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_6_1080x720_zadbana-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_6_732x488_zadbana-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_6_320x240_zadbana-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_6_148x110_zadbana-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_7_1080x720_zadbana-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_7_732x488_zadbana-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_7_320x240_zadbana-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_7_148x110_zadbana-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829904121_8_1080x720_zadbana-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829904121_8_732x488_zadbana-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_8_320x240_zadbana-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829904121_8_148x110_zadbana-.jpg"
+        }],
+        "features": ["ABS", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Radio fabryczne", "Wspomaganie kierownicy", "Alarm", "Alufelgi", "Klimatyzacja manualna", "Poduszki boczne przednie", "Światła przeciwmgielne"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004200029",
+        "url": "http:\/\/otomoto.pl\/oferta\/skoda-octavia-skoda-octavia-ii-pierwszy-wlasciciel-1-6-fsi-115-km-faktura-vat-ID6yl0HX.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/skoda-octavia-skoda-octavia-ii-pierwszy-wlasciciel-1-6-fsi-115-km-faktura-vat-ID6yl0HX.html?json=1",
+        "title": "Škoda Octavia",
+        "created": "11  kwi",
+        "age": 11,
+        "description": "Sprzedaję Skodę Octavię II pierwszy raz zarejestrowaną w lutym 2006 roku. Auto jest bezwypadkowe, garażowane od nowości i regularnie serwisowane. Utrzymane jest w bardzo dobrym stanie, a w ostatnich 2 latach przeszło gruntowny serwis oraz wymianę kluczowych podzespołów (m.in. nowe sprzęgło, chłodnica, przewody hamulcowe, łańcuch rozrządu, katalizator i układ wydechowy, zawieszenie).\r\n\r\nSamochód sprzedaję z kompletem opon zimowych kupionych w 2014 roku oraz oponami letnimi zakupionymi w 2015. Wnętrze auta jest bardzo dobrze utrzymane. Posiada pewne ślady zużycia, ale tapicerka nie jest nigdzie poprzecierana czy uszkodzona. Znaczny przebieg auta jest efektem częstych i dalekich podróży zagranicznych, oceniam, że około 70% kilometrów zostało przejechanych po autostradach. \r\n\r\nSprzedawana Skoda jest wersją liftback, która zapewnia doskonały komfort oraz dużą przestrzeń załadunkową. Auto ma aktualny przegląd techniczny ważny do lutego 2017. Posiadam też atest na przyciemnione tylne szyby. \r\n\r\nZa sprzedaż samochodu wystawiam fakturę VAT. \r\n\r\nOsoby zainteresowane zapraszam do kontaktu. Z chęcią odpowiem na wszelkie dodatkowe pytania.",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 1,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Škoda"],
+            ["Model", "Octavia"],
+            ["Wersja", "II (2004-2013)"],
+            ["Rok produkcji", "2005 "],
+            ["Przebieg", "383 001 km"],
+            ["VIN", "TMBCB21Z462198594 "],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Moc", "115 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Czarny"],
+            ["Metalik", "Tak"],
+            ["Kraj pochodzenia", "Polska"],
+            ["Zarejestrowany w Polsce", "Tak"],
+            ["Pierwszy właściciel", "Tak"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6004200029"]
+        ],
+        "subtitle": [],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2005 "],
+            ["Przebieg", "383 001 km"],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": 13,
+        "map_lat": "53.43804",
+        "map_lon": "14.50691",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Szczecin Zachód",
+        "person": "Artur",
+        "user_label": "Artur",
+        "user_ads_id": "dmhZ",
+        "user_id": "dmhZ",
+        "numeric_user_id": "3183947",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/dmhZ\/?json=1&search%5Buser_id%5D=3183947",
+        "list_label": "14 000 PLN",
+        "list_label_ad": "14 000 PLN",
+        "list_label_small": "Cena Netto\nFaktura VAT",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_1_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-szczecin.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_1_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-szczecin.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_1_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-szczecin.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_1_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-szczecin.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_2_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_2_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_2_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_2_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_3_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_3_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_3_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_3_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_4_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_4_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_4_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_4_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_5_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-zachodniopomorskie.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_5_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_5_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_5_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_6_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_6_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_6_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_6_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_7_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829619337_7_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_7_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_7_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_8_1080x720_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_8_732x488_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829619337_8_320x240_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829619337_8_148x110_skoda-octavia-ii-pierwszy-wlasciciel-16-fsi-115-km-faktura-vat-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Radio fabryczne", "Wspomaganie kierownicy", "Alarm", "ASR (kontrola trakcji)", "Czujniki parkowania tylne", "Elektryczne szyby tylne", "Isofix", "Klimatyzacja manualna", "Komputer pokładowy", "Podgrzewane lusterka boczne", "Przyciemniane szyby", "Światła przeciwmgielne", "Tapicerka welurowa"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004376119",
+        "url": "http:\/\/otomoto.pl\/oferta\/opel-calibra-16v-cliff-motorsport-edition-oplacona-klima-ID6ylKv7.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/opel-calibra-16v-cliff-motorsport-edition-oplacona-klima-ID6ylKv7.html?json=1",
+        "title": "Opel Calibra",
+        "created": "dzisiaj 21:28",
+        "age": 0,
+        "description": "Opel Calibra 16V, rok produkcji 1997, silnik benzynowy 2.0 16V 136KM, ręczna skrzynia biegów, przebieg 167 tys km, bezwypadkowa.\r\n\r\nAuto zostało sprowadzone z Niemiec, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł.\r\n\r\nDodatkowo posiadam:\r\n- dwa kluczyki,\r\n- kompletną dokumentację serwisową w oryginalnym etui.\r\n\r\nPrzebieg jest udokumentowany, książka serwisowa była prowadzona regularnie do 2007 roku przy 75tys km, dalej są rachunki z serwisowania oraz wydruki z niemieckich badań technicznych z lat 2010-2014.\r\nOstatni serwis z września 2014 przy 155tys km wykonano w ASO opel, wymieniono wtedy przednie hamulce oraz elementy zawieszenia, na potwierdzenie faktura na kwotę 1080eur !\r\n\r\nCalibra w limitowanej edycji Cliff Motorsport, numer 0305 !\r\n\r\nStan auta oceniam jako bardzo dobry, to zadbany egzemplarz:\r\n- silnik ładnie pracuje,\r\n- sprzęgło oraz skrzynia biegów ok,\r\n- zawieszenie i hamulce ok,\r\n- dobre opony letnie,\r\n- nadwozie dobrze zachowane, bez uszkodzeń, \r\n- wnętrze zadbane, tapicerki bez dziur czy przetarć,\r\n- zdrowa blacharka, progi, podłużnice, nadkola - zdrowe !\r\n- klimatyzacja do uruchomienia.\r\n\r\nWyposażenie:\r\n- 2x poduszka powietrzna\r\n- ABS\r\n- KLIMATYZACJA\r\n- el. szyby\r\n- el. lusterka\r\n- centralny zamek\r\n- radio\r\n- alufelgi 16\"\r\n- skórzana kierownica ze wspomaganiem\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 570 336 222 lub 609 957 682 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wykupienia ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Opel"],
+            ["Model", "Calibra"],
+            ["Rok produkcji", "1997 "],
+            ["Przebieg", "167 100 km"],
+            ["Pojemność skokowa", "1 998 cm3"],
+            ["Moc", "136 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Sportowy\/Coupe"],
+            ["Liczba miejsc", "4 "],
+            ["Liczba drzwi", "3 "],
+            ["Kolor", "Niebieski"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "sierpień 1997"],
+            ["Bezwypadkowy", "Tak"],
+            ["ID ogłoszenia", "6004376119"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "header": "Pozostałe ogłoszenia",
+        "header_type": "all",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "1997 "],
+            ["Przebieg", "167 100 km"],
+            ["Pojemność skokowa", "1 998 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "5 999 PLN",
+        "list_label_ad": "5 999 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_2_1080x720_16v-cliff-motorsport-edition-oplacona-klima-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_2_732x488_16v-cliff-motorsport-edition-oplacona-klima-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_2_320x240_16v-cliff-motorsport-edition-oplacona-klima-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_2_148x110_16v-cliff-motorsport-edition-oplacona-klima-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_9_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_9_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_9_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_9_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_8_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_8_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_8_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_8_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_4_1080x720_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_4_732x488_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_4_320x240_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_4_148x110_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_3_1080x720_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_3_732x488_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_3_320x240_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_3_148x110_16v-cliff-motorsport-edition-oplacona-klima-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_5_1080x720_16v-cliff-motorsport-edition-oplacona-klima-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_5_732x488_16v-cliff-motorsport-edition-oplacona-klima-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_5_320x240_16v-cliff-motorsport-edition-oplacona-klima-zachodniopomorskie.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_5_148x110_16v-cliff-motorsport-edition-oplacona-klima-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_11_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_11_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_11_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_11_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_10_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_10_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_10_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_10_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_1_1080x720_16v-cliff-motorsport-edition-oplacona-klima-gryfino.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_1_732x488_16v-cliff-motorsport-edition-oplacona-klima-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_1_320x240_16v-cliff-motorsport-edition-oplacona-klima-gryfino.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_1_148x110_16v-cliff-motorsport-edition-oplacona-klima-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_6_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_6_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_6_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829956127_6_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829956127_7_1080x720_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_7_732x488_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_7_320x240_16v-cliff-motorsport-edition-oplacona-klima-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829956127_7_148x110_16v-cliff-motorsport-edition-oplacona-klima-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Wspomaganie kierownicy", "Alufelgi", "Klimatyzacja manualna", "Radio niefabryczne"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004375919",
+        "url": "http:\/\/otomoto.pl\/oferta\/bmw-seria-7-po-lifcie-1reka-full-opcja-1rejstr-2000-stan-bdb-ID6ylKsT.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/bmw-seria-7-po-lifcie-1reka-full-opcja-1rejstr-2000-stan-bdb-ID6ylKsT.html?json=1",
+        "title": "BMW Seria 7",
+        "created": "dzisiaj 21:21",
+        "age": 0,
+        "description": "Witam mam na sprzedaż bardzo zadbaną i ładną od 1 właściciela BMW 740i 4,4benzyna 286koni po lifcie 1rejstracja 2000 stan techniczny oraz wizualny bdb wszystko sprawne pełne możliwe wyposażenie oprócz szyberdachu auto jest ubezpieczone po zakupie można wracać na kołach.-P-O-L-E-C-A-M-",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "BMW"],
+            ["Model", "Seria 7"],
+            ["Kod Silnika", "740"],
+            ["Wersja", "E38 (1994-2001)"],
+            ["Rok produkcji", "1998 "],
+            ["Przebieg", "230 000 km"],
+            ["Pojemność skokowa", "4 400 cm3"],
+            ["Moc", "286 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Półautomatyczna (ASG, Tiptronic)"],
+            ["Napęd", "Na tylne koła"],
+            ["Typ", "Sedan\/Limuzyna"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "4 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["Kraj pochodzenia", "Włochy"],
+            ["Pierwsza rejestracja", "czerwiec 2000"],
+            ["Pierwszy właściciel", "Tak"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6004375919"]
+        ],
+        "subtitle": [],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "1998 "],
+            ["Przebieg", "230 000 km"],
+            ["Pojemność skokowa", "4 400 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "52.92164",
+        "map_lon": "14.86529",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Myślibórz",
+        "person": "osoba prywatna",
+        "user_label": "osoba prywatna",
+        "user_ads_id": "BwI",
+        "user_id": "BwI",
+        "numeric_user_id": "144194",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/BwI\/?json=1&search%5Buser_id%5D=144194",
+        "list_label": "12 999 PLN",
+        "list_label_ad": "12 999 PLN",
+        "list_label_small": "Cena Brutto, Do negocjacji\n",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_1_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-mysliborz.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_1_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-mysliborz.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_1_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-mysliborz.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_1_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-mysliborz.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_2_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_2_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_2_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_2_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_3_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_3_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_3_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_3_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_4_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_4_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_4_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_4_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_5_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_5_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_5_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_5_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_6_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_6_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_6_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_6_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_7_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_7_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_7_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_7_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_8_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_8_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_8_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_8_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_9_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_9_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_9_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_9_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955865_10_1080x720_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955865_10_732x488_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_10_320x240_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955865_10_148x110_po-lifcie-1reka-full-opcja-1rejstr2000-stan-bdb-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Radio fabryczne", "Wspomaganie kierownicy", "Alarm", "Alufelgi", "ASR (kontrola trakcji)", "Czujniki parkowania przednie", "Czujniki parkowania tylne", "Elektryczne szyby tylne", "Elektrycznie ustawiane fotele", "ESP (stabilizacja toru jazdy)", "Klimatyzacja dwustrefowa", "Komputer pokładowy", "Kurtyny powietrzne", "Nawigacja GPS", "Odtwarzacz DVD", "Podgrzewane lusterka boczne", "Podgrzewane przednie siedzenia", "Poduszki boczne przednie", "Światła przeciwmgielne", "Światła Xenonowe", "Tapicerka skórzana", "Tempomat", "Tuner TV", "Wielofunkcyjna kierownica", "Zmieniarka CD"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004375657",
+        "url": "http:\/\/otomoto.pl\/oferta\/volkswagen-polo-98-1-4-wspomaganie-oplacony-ID6ylKoF.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/volkswagen-polo-98-1-4-wspomaganie-oplacony-ID6ylKoF.html?json=1",
+        "title": "Volkswagen Polo",
+        "created": "dzisiaj 21:08",
+        "age": 0,
+        "description": "VW Polo, rok produkcji 1998, silnik benzynowy 1.4 60KM, ręczna skrzynia biegów, przebieg 115tys km, bezwypadkowy.\r\n\r\nAuto zostało sprowadzone z Niemiec od trzeciego właściciela, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł.\r\n\r\nDodatkowo posiadam:\r\n- trzy kluczyki,\r\n- kompletną dokumentację serwisową w oryginalnym etui.\r\n\r\nPrzebieg jest potwierdzony książką serwisową prowadzoną do 2009 roku przy 73 tys km, dalej jest wydruk z ostatniego, niemieckiego badania technicznego z 2014 roku przy 105 tys km.\r\n\r\nStan oceniam jako bardzo dobry:\r\n- silnik ładnie pracuje,\r\n- sprzęgło oraz skrzynia biegów bez zarzutów,\r\n- zawieszenie ciche i stabilne,\r\n- hamulce ok,\r\n- nadwozie dobrze utrzymane, \r\n- wnętrze zadbane.\r\n\r\nWyposażenie:\r\n- 2x poduszka powietrzna\r\n- ABS\r\n- wspomaganie kierownicy\r\n- szyberdach\r\n- alufelgi\r\n- radio\r\n- przyciemnione szyby\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 570 336 222 lub 609 957 682 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wykupienia ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Volkswagen"],
+            ["Model", "Polo"],
+            ["Wersja", "III (1994-2001)"],
+            ["Rok produkcji", "1998 "],
+            ["Przebieg", "115 900 km"],
+            ["Pojemność skokowa", "1 390 cm3"],
+            ["Moc", "60 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "3 "],
+            ["Kolor", "Czerwony"],
+            ["VAT marża", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "listopad 1998"],
+            ["Bezwypadkowy", "Tak"],
+            ["ID ogłoszenia", "6004375657"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "1998 "],
+            ["Przebieg", "115 900 km"],
+            ["Pojemność skokowa", "1 390 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "3 500 PLN",
+        "list_label_ad": "3 500 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_10_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_10_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_10_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_10_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_3_1080x720_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_3_732x488_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_3_320x240_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_3_148x110_98-14-wspomaganie-oplacony-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_2_1080x720_98-14-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_2_732x488_98-14-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_2_320x240_98-14-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_2_148x110_98-14-wspomaganie-oplacony-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_11_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_11_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_11_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_11_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_4_1080x720_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_4_732x488_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_4_320x240_98-14-wspomaganie-oplacony-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_4_148x110_98-14-wspomaganie-oplacony-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_5_1080x720_98-14-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_5_732x488_98-14-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_5_320x240_98-14-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_5_148x110_98-14-wspomaganie-oplacony-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_8_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_8_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_8_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_8_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_7_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_7_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_7_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_7_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_1_1080x720_98-14-wspomaganie-oplacony-gryfino.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_1_732x488_98-14-wspomaganie-oplacony-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_1_320x240_98-14-wspomaganie-oplacony-gryfino.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_1_148x110_98-14-wspomaganie-oplacony-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_6_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_6_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_6_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_6_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_9_1080x720_98-14-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955643_9_732x488_98-14-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955643_9_320x240_98-14-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955643_9_148x110_98-14-wspomaganie-oplacony-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Wspomaganie kierownicy", "Alufelgi", "Radio niefabryczne", "Szyberdach"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6003979133",
+        "url": "http:\/\/otomoto.pl\/oferta\/toyota-yaris-verso-02-1-5-oplacony-zadbany-ID6yk5f7.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/toyota-yaris-verso-02-1-5-oplacony-zadbany-ID6yk5f7.html?json=1",
+        "title": "Toyota Yaris Verso",
+        "created": "dzisiaj 21:00",
+        "age": 27,
+        "description": "Toyota Yaris Verso, rok produkcji 2002, silnik benzynowy 1,5 105KM, ręczna skrzynia biegów, przebieg 183tys km.\r\n\r\nAuto zostało sprowadzone z Niemiec, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę VAT 23% więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł !\r\n\r\nDodatkowo posiadam:\r\n- dwa kluczyki,\r\n-  dokumentację serwisową.\r\n\r\nPrzebieg jest udokumentowany poprzez rachunki z serwisowania oraz przebiegówki w komorze silnika.\r\n\r\nStan oceniam jako bardzo dobry:\r\n- silnik pracuje doskonale,\r\n- sprzęgło oraz skrzynia biegów bez zarzutów,\r\n- zawieszenie ciche i stabilne,\r\n- hamulce bez uwag,\r\n- dobre opony,\r\n- nadwozie dobrze utrzymane, drobne oznaki eksploatacji, zaklejony taśmą pierwszy szyberdach,\r\n- wnętrze bardzo zadbane, tapicerki bez żadnych dziur czy przetarć.\r\n\r\nWyposażenie:\r\n- poduszki powietrzne\r\n- ABS\r\n- el. szyby\r\n- el. lusterka\r\n- 2x szyberdach\r\n- centralny zamek\r\n- oryginalne radio\r\n- wspomaganie kierownicy\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 501 406 668 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wystawienia polisy ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów.",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Toyota"],
+            ["Model", "Yaris Verso"],
+            ["Rok produkcji", "2002 "],
+            ["Przebieg", "183 990 km"],
+            ["Pojemność skokowa", "1 500 cm3"],
+            ["Moc", "105 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["ID ogłoszenia", "6003979133"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2002 "],
+            ["Przebieg", "183 990 km"],
+            ["Pojemność skokowa", "1 500 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "8 200 PLN",
+        "list_label_ad": "8 200 PLN",
+        "list_label_small": "Cena Brutto\nFaktura VAT",
+        "photos": [{
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_1_1080x720_02-15-oplacony-zadbany-gryfino.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_1_732x488_02-15-oplacony-zadbany-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_1_320x240_02-15-oplacony-zadbany-gryfino.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_1_148x110_02-15-oplacony-zadbany-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_3_1080x720_02-15-oplacony-zadbany-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_3_732x488_02-15-oplacony-zadbany-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_3_320x240_02-15-oplacony-zadbany-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_3_148x110_02-15-oplacony-zadbany-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_4_1080x720_02-15-oplacony-zadbany-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_4_732x488_02-15-oplacony-zadbany-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_4_320x240_02-15-oplacony-zadbany-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_4_148x110_02-15-oplacony-zadbany-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_6_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_6_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_6_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_6_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_2_1080x720_02-15-oplacony-zadbany-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_2_732x488_02-15-oplacony-zadbany-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_2_320x240_02-15-oplacony-zadbany-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_2_148x110_02-15-oplacony-zadbany-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_5_1080x720_02-15-oplacony-zadbany-zachodniopomorskie.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_5_732x488_02-15-oplacony-zadbany-zachodniopomorskie.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_5_320x240_02-15-oplacony-zadbany-zachodniopomorskie.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_5_148x110_02-15-oplacony-zadbany-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_9_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_9_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_9_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_9_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_11_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_11_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_11_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_11_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_12_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_12_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_12_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_12_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_7_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_7_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_7_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_7_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_8_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_8_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_8_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_8_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_10_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_10_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_10_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_10_148x110_02-15-oplacony-zadbany-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_13_1080x720_02-15-oplacony-zadbany-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829206415_13_732x488_02-15-oplacony-zadbany-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829206415_13_320x240_02-15-oplacony-zadbany-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829206415_13_148x110_02-15-oplacony-zadbany-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Radio fabryczne", "Wspomaganie kierownicy", "Relingi dachowe", "Szyberdach"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004169779",
+        "url": "http:\/\/otomoto.pl\/oferta\/mazda-demio-99-1-3-klima-5-drzwi-wspomaganie-oplacona-ID6ykSQ3.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/mazda-demio-99-1-3-klima-5-drzwi-wspomaganie-oplacona-ID6ykSQ3.html?json=1",
+        "title": "Mazda Demio",
+        "created": "dzisiaj 21:00",
+        "age": 14,
+        "description": "Mazda Demio, rok produkcji 1999, silnik benzynowy 1.3 72KM, ręczna skrzynia biegów, przebieg 192 tys km.\r\n\r\nAuto zostało sprowadzone z Niemiec, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł.\r\n\r\nStan techniczny oceniam jako bardzo dobry:\r\n- silnik pracuje doskonale, wszystkie elementy układu wydechowego za katalizatorem są wymienione na nowe,\r\n- sprzęgło oraz skrzynia biegów bez zarzutów,\r\n- zawieszenie ciche i stabilne,\r\n- hamulce bez uwag,\r\n- wnętrze zadbane, tapicerki bez dziur czy przetarć,\r\n- nadwozie bez oznak korozji, progi i podłużnice zdrowe.\r\n\r\nWyposażenie:\r\n- 2x poduszka powietrzna\r\n- ABS\r\n- KLIMATYZACJA\r\n- 4x el. szyby\r\n- el. lusterka\r\n- centralny zamek\r\n- wspomaganie kierownicy\r\n- centralny zamek\r\n- halogeny\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 501 406 668 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wystawienia polisy ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów.",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Mazda"],
+            ["Model", "Demio"],
+            ["Rok produkcji", "1999 "],
+            ["Przebieg", "192 100 km"],
+            ["Pojemność skokowa", "1 300 cm3"],
+            ["Moc", "72 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["ID ogłoszenia", "6004169779"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "1999 "],
+            ["Przebieg", "192 100 km"],
+            ["Pojemność skokowa", "1 300 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "3 999 PLN",
+        "list_label_ad": "3 999 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_3_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_3_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_3_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_3_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_5_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-zachodniopomorskie.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_5_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_5_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_5_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_6_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_6_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_6_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_6_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_8_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_8_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_8_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_8_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_4_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_4_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_4_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_4_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_7_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_7_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_7_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_7_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_11_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_11_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_11_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_11_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_12_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_12_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_12_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_12_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_1_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-gryfino.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_1_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_1_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-gryfino.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_1_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_9_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_9_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_9_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_9_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_10_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829575225_10_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_10_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_10_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829575225_2_1080x720_99-13-klima-5-drzwi-wspomaganie-oplacona-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_2_732x488_99-13-klima-5-drzwi-wspomaganie-oplacona-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_2_320x240_99-13-klima-5-drzwi-wspomaganie-oplacona-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829575225_2_148x110_99-13-klima-5-drzwi-wspomaganie-oplacona-dodaj-zdjecia.jpg"
+        }],
+        "features": ["ABS", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Wspomaganie kierownicy", "Klimatyzacja manualna", "Światła przeciwmgielne"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6003578109",
+        "url": "http:\/\/otomoto.pl\/oferta\/fiat-seicento-rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-ID6yioUZ.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/fiat-seicento-rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-ID6yioUZ.html?json=1",
+        "title": "Fiat Seicento",
+        "created": "8  kwi",
+        "age": 56,
+        "description": "Fiat Seicento, rok produkcji 2005, silnik benzynowy 1.1 55KM, ręczna skrzynia biegów, przebieg 169tys km.\r\n\r\nAuto zostało sprowadzone z Niemiec od pierwszego właściciela, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł.\r\n\r\nDodatkowo posiadam:\r\n- dwa kluczyki,\r\n- kompletną dokumentację w oryginalnym etui.\r\n\r\nPrzebieg jest w całości udokumentowany rachunkami z serwisowania auta !\r\n\r\nStan oceniam jako bardzo dobry:\r\n- silnik pracuje doskonale,\r\n- sprzęgło oraz skrzynia biegów bez zarzutów,\r\n- zawieszenie i hamulce ok, nowe amortyzatory z tyłu,\r\n- nadwozie bez uszkodzeń, bez rdzy,\r\n- wnętrze bardzo zadbane, tapicerki bez żadnych dziur czy przetarć.\r\n\r\nWyposażenie jest bardzo bogate:\r\n- poduszka powietrzna\r\n- ABS\r\n- wspomaganie kierownicy\r\n- KLIMATYZACJA\r\n- el. szyby\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 570 336 222 lub 609 957 682 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wykupienia ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Fiat"],
+            ["Model", "Seicento"],
+            ["Rok produkcji", "2005 "],
+            ["Przebieg", "169 400 km"],
+            ["Pojemność skokowa", "1 108 cm3"],
+            ["Moc", "55 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "4 "],
+            ["Liczba drzwi", "3 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "kwiecień 2005"],
+            ["Pierwszy właściciel", "Tak"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6003578109"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2005 "],
+            ["Przebieg", "169 400 km"],
+            ["Pojemność skokowa", "1 108 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "4 900 PLN",
+        "list_label_ad": "4 900 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_5_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_5_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_5_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-zachodniopomorskie.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_5_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_7_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_7_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_7_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_7_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_8_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_8_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_8_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_8_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_10_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_10_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_10_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_10_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_6_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_6_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_6_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_6_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_9_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_9_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_9_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_9_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_12_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_12_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_12_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_12_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_11_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_11_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_11_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_11_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_1_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-gryfino.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_1_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_1_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-gryfino.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_1_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_2_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_2_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_2_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_2_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_3_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_3_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_3_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_3_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/828424011_4_1080x720_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/828424011_4_732x488_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_4_320x240_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/828424011_4_148x110_rok-2005-wspomaganie-klima-1-wlasciciel-pewny-przebieg-osobowe.jpg"
+        }],
+        "features": ["ABS", "Elektryczne szyby przednie", "Immobilizer", "Poduszka powietrzna kierowcy", "Wspomaganie kierownicy", "Klimatyzacja manualna", "Przyciemniane szyby"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6004375367",
+        "url": "http:\/\/otomoto.pl\/oferta\/nissan-micra-99-1-0-klima-wspomaganie-oplacony-ID6ylKjZ.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/nissan-micra-99-1-0-klima-wspomaganie-oplacony-ID6ylKjZ.html?json=1",
+        "title": "Nissan Micra",
+        "created": "dzisiaj 20:56",
+        "age": 0,
+        "description": "Nissan Micra Salsa, rok produkcji 1999, silnik benzynowy 1.0 55KM, ręczna skrzynia biegów, przebieg 175tys km, bezwypadkowy.\r\n\r\nAuto zostało sprowadzone z Niemiec od trzeciego właściciela, jest zapłacona akcyza i zrobione są tłumaczenia dokumentów, wystawiam fakturę więc kupujący udaje się od razu do wydziału komunikacji w celu rejestracji auta.\r\nCałkowity, pozostały koszt rejestracji w kraju to ok. 350zł.\r\n\r\nPrzebieg jest udokumentowany książką serwisową prowadzoną do 2011 roku przy 153tys km, jest kilka faktur z serwisowania auta z lat 2007-2011, oraz wydruk z ostatniego, niemieckiego badania technicznego z 2014 roku przy 169tys km.\r\n\r\nStan oceniam jako bardzo dobry:\r\n- silnik ładnie pracuje,\r\n- sprzęgło oraz skrzynia biegów bez zarzutów,\r\n- zawieszenie ciche i stabilne,\r\n- hamulce bez uwag,\r\n- nadwozie nosi drobne ślady używania, widoczne niewielkie zarysowania czy wgniotki,\r\n- wnętrze dobrze utrzymane,\r\n- klimatyzacja do uruchomienia.\r\n\r\nWyposażenie:\r\n- 4x poduszka powietrzna\r\n- ABS\r\n- KLIMATYZACJA\r\n- wspomaganie kierownicy\r\n- centralny zamek\r\n- radio\r\n\r\nZapraszam do oględzin i na jazdę próbną 7 dni w tygodniu - 570 336 222 lub 609 957 682 !\r\nDobrze oświetlona hala pozwoli na komfortowe oględziny nawet po zmroku lub w czasie złych warunków atmosferycznych.\r\nMożliwość wykupienia ubezpieczenia OC na miejscu !\r\n\r\nLokalizacja: 74-100 Gryfino, ul. Pomorska 83, zachodniopomorskie, ok. 25km od Szczecina, ok. 10km od trasy S3 Szczecin-Gorzów.",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Nissan"],
+            ["Model", "Micra"],
+            ["Wersja", "K11 (1992-2003)"],
+            ["Rok produkcji", "1999 "],
+            ["Przebieg", "175 600 km"],
+            ["Pojemność skokowa", "998 cm3"],
+            ["Moc", "55 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Hatchback"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "3 "],
+            ["Kolor", "Czerwony"],
+            ["VAT marża", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "lipiec 1999"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6004375367"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "1999 "],
+            ["Przebieg", "175 600 km"],
+            ["Pojemność skokowa", "998 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.25009",
+        "map_lon": "14.51084",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Gryfino",
+        "person": "samochody-używane",
+        "user_label": "samochody-używane",
+        "user_ads_id": "qac",
+        "user_id": "qac",
+        "numeric_user_id": "100576",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/qac\/?json=1&search%5Buser_id%5D=100576",
+        "list_label": "3 600 PLN",
+        "list_label_ad": "3 600 PLN",
+        "list_label_small": "Cena Brutto\n",
+        "photos": [{
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_2_1080x720_99-10-klima-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_2_732x488_99-10-klima-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_2_320x240_99-10-klima-wspomaganie-oplacony-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_2_148x110_99-10-klima-wspomaganie-oplacony-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_10_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_10_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_10_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_10_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_9_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_9_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_9_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_9_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_3_1080x720_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_3_732x488_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_3_320x240_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_3_148x110_99-10-klima-wspomaganie-oplacony-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_5_1080x720_99-10-klima-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_5_732x488_99-10-klima-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_5_320x240_99-10-klima-wspomaganie-oplacony-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_5_148x110_99-10-klima-wspomaganie-oplacony-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_4_1080x720_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_4_732x488_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_4_320x240_99-10-klima-wspomaganie-oplacony-osobowe.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_4_148x110_99-10-klima-wspomaganie-oplacony-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_7_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_7_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_7_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_7_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/829955319_6_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_6_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_6_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_6_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_1_1080x720_99-10-klima-wspomaganie-oplacony-gryfino.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_1_732x488_99-10-klima-wspomaganie-oplacony-gryfino.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_1_320x240_99-10-klima-wspomaganie-oplacony-gryfino.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_1_148x110_99-10-klima-wspomaganie-oplacony-gryfino.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_11_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_11_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_11_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_11_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_8_1080x720_99-10-klima-wspomaganie-oplacony-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/829955319_8_732x488_99-10-klima-wspomaganie-oplacony-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_8_320x240_99-10-klima-wspomaganie-oplacony-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/829955319_8_148x110_99-10-klima-wspomaganie-oplacony-.jpg"
+        }],
+        "features": ["ABS", "Centralny zamek", "Immobilizer", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Wspomaganie kierownicy", "Klimatyzacja manualna", "Poduszki boczne przednie"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6003215045",
+        "url": "http:\/\/otomoto.pl\/oferta\/renault-megane-1-6-16v-stan-idealny-po-oplatach-ID6ygSt7.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/renault-megane-1-6-16v-stan-idealny-po-oplatach-ID6ygSt7.html?json=1",
+        "title": "Renault Megane",
+        "created": "dzisiaj 20:43",
+        "age": 84,
+        "description": "RENAULT MEGANE 1.6 16V 107 KM\r\n\r\nROK PRODUKCJI: 2000\r\n\r\nPIERWSZA REJESTRACJA: 20.06.2000\r\n\r\nUDOKUMENTOWANY PRZEBIEG: 172382 km\r\n\r\nAuto posiada :\r\n\r\nKlimatyzację (SPRAWNĄ)\r\n4 poduszki powietrzne\r\nKomputer pokładowy\r\nABS\r\nWspomaganie kierownicy\r\n4 elektryczne szyby\r\nElektrycznie sterowane oraz podgrzewane lusterka\r\nImmobiliser\r\nCentralny zamek\r\n2 kluczyki z pilotem\r\nŚwiatła przeciwmgielne\r\nAlufelgi\r\n\r\nSamochód sprowadzony z Niemiec od drugiego właściciela. Stan auta oceniam na IDEALNY. Silnik i skrzynia biegów pracują bez zarzutu. Wnętrze czyste i zadbane, użytkowane przez osobę niepalącą. Oryginalny przebieg potwierdzony książką serwisową oraz licznymi rachunkami.\r\n\r\nAUTO PRZYGOTOWANE DO REJESTRACJI\r\n\r\nSPRZEDAWANE Z:\r\n\r\n• OPŁACONĄ AKCYZĄ\r\n• PRZETŁUMACZONYMI DOKUMENTAMI\r\n• WYKONANYM PIERWSZYM PRZEGLĄDEM\r\n• UBEZPIECZENIEM NA 30 DNI\r\n• POLSKĄ FAKTURĄ VAT-MARŻA, KTÓRA ZWALNIA NABYWCĘ Z OPŁATY SKARBOWEJ W WYSOKOŚCI 2% CENY RYNKOWEJ\r\n\r\nKUPUJĄCEMU POZOSTAJE TYLKO ZAREJESTROWAĆ SAMOCHÓD W SWOIM WYDZIALE KOMUNIKACJI. ( KOSZT 256zł )\r\n\r\nSamochód można obejrzeć w Gleźnie ( 4 km od Choszczna ) po wcześniejszym umówieniu.\r\n\r\nDla zainteresowanych istnieje możliwość przesłania większej ilości zdjęć na e-mail.\r\n\r\nCena: 5,699\r\n\r\nKontakt 500264100",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Renault"],
+            ["Model", "Megane"],
+            ["Wersja", "I (1996-2002)"],
+            ["Rok produkcji", "2000 "],
+            ["Przebieg", "172 382 km"],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Moc", "107 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Kombi"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Możliwość finansowania", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "czerwiec 2000"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6003215045"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2000 "],
+            ["Przebieg", "172 382 km"],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.16622",
+        "map_lon": "15.41687",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Choszczno",
+        "person": "PROCAR",
+        "user_label": "PROCAR",
+        "user_ads_id": "ivY",
+        "user_id": "ivY",
+        "numeric_user_id": "71236",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/ivY\/?json=1&search%5Buser_id%5D=71236",
+        "list_label": "5 699 PLN",
+        "list_label_ad": "5 699 PLN",
+        "list_label_small": "Cena Brutto, Do negocjacji\n",
+        "photos": [{
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_18_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_18_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_18_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_18_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_17_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_17_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_17_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_17_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_3_1080x720_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_3_732x488_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_3_320x240_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_3_148x110_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_12_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_12_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_12_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_12_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_11_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_11_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_11_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_11_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_16_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_16_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_16_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_16_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_5_1080x720_16-16v-stan-idealny-po-oplatach-zachodniopomorskie_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_5_732x488_16-16v-stan-idealny-po-oplatach-zachodniopomorskie_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_5_320x240_16-16v-stan-idealny-po-oplatach-zachodniopomorskie_rev001.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_5_148x110_16-16v-stan-idealny-po-oplatach-zachodniopomorskie_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_6_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_6_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_6_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_6_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_8_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_8_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_8_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_8_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_9_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_9_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_9_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_9_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_14_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_14_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_14_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_14_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_10_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_10_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_10_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_10_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_7_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_7_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_7_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_7_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_15_1080x720_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_15_732x488_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_15_320x240_16-16v-stan-idealny-po-oplatach-_rev001.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_15_148x110_16-16v-stan-idealny-po-oplatach-_rev001.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_4_1080x720_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_4_732x488_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_4_320x240_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_4_148x110_16-16v-stan-idealny-po-oplatach-osobowe_rev001.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_2_1080x720_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_2_732x488_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia_rev001.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_2_320x240_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia_rev001.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827678351_2_148x110_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia_rev001.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_1_1080x720_16-16v-stan-idealny-po-oplatach-choszczno_rev001.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_1_732x488_16-16v-stan-idealny-po-oplatach-choszczno_rev001.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827678351_1_320x240_16-16v-stan-idealny-po-oplatach-choszczno_rev001.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827678351_1_148x110_16-16v-stan-idealny-po-oplatach-choszczno_rev001.jpg"
+        }],
+        "features": ["ABS", "Alufelgi", "Centralny zamek", "Elektryczne szyby przednie", "Elektryczne szyby tylne", "Elektrycznie ustawiane lusterka", "Immobilizer", "Klimatyzacja manualna", "Komputer pokładowy", "Podgrzewane lusterka boczne", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Poduszki boczne przednie", "Radio fabryczne", "Światła przeciwmgielne", "Tapicerka welurowa", "Wielofunkcyjna kierownica", "Wspomaganie kierownicy"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6003065147",
+        "url": "http:\/\/otomoto.pl\/oferta\/renault-megane-1-6-16v-stan-idealny-po-oplatach-ID6ygftp.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/renault-megane-1-6-16v-stan-idealny-po-oplatach-ID6ygftp.html?json=1",
+        "title": "Renault Megane",
+        "created": "dzisiaj 20:42",
+        "age": 98,
+        "description": "RENAULT MEGANE 1.6 16V 107 KM\r\n\r\nROK PRODUKCJI: 2003\r\n\r\nPIERWSZA REJESTRACJA: 31. 07. 2003\r\n\r\nUDOKUMENTOWANY PRZEBIEG: 162200 km\r\n\r\nAuto posiada :\r\n\r\nKlimatyzację (SPRAWNĄ)\r\n4 poduszki powietrzne\r\nKomputer pokładowy\r\nABS\r\nWspomaganie kierownicy\r\n4 elektryczne szyby\r\nElektrycznie sterowane oraz podgrzewane lusterka\r\nImmobiliser\r\nCentralny zamek\r\n2 kluczyki z pilotem\r\nŚwiatła przeciwmgielne\r\nOryginalne radio CD\r\nSkórzną tapicerke w stanie idealnym\r\n\r\nSamochód sprowadzony z Niemiec od drugiego właściciela. Stan auta oceniam na IDEALNY. Silnik i skrzynia biegów pracują bez zarzutu. Wnętrze czyste i zadbane, użytkowane przez osobę niepalącą. Oryginalny przebieg potwierdzony książką serwisową oraz licznymi rachunkami.\r\n\r\nW AUCIE ZOSTAŁ WYMIENIONY KOMPLETNY ROZRZĄD.\r\n\r\nAUTO PRZYGOTOWANE DO REJESTRACJI\r\n\r\nSPRZEDAWANE Z:\r\n\r\n• OPŁACONĄ AKCYZĄ\r\n• PRZETŁUMACZONYMI DOKUMENTAMI\r\n• WYKONANYM PIERWSZYM PRZEGLĄDEM\r\n• UBEZPIECZENIEM NA 30 DNI\r\n• POLSKĄ FAKTURĄ VAT-MARŻA, KTÓRA ZWALNIA NABYWCĘ Z OPŁATY SKARBOWEJ W WYSOKOŚCI 2% CENY RYNKOWEJ\r\n\r\nKUPUJĄCEMU POZOSTAJE TYLKO ZAREJESTROWAĆ SAMOCHÓD W SWOIM WYDZIALE KOMUNIKACJI. ( KOSZT 256zł )\r\n\r\nSamochód można obejrzeć w Gleźnie ( 4 km od Choszczna ) po wcześniejszym umówieniu.\r\n\r\nDla zainteresowanych istnieje możliwość przesłania większej ilości zdjęć na e-mail.\r\n\r\nCena: 7,999\r\n\r\nKontakt 500 264 100",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Renault"],
+            ["Model", "Megane"],
+            ["Wersja", "I (1996-2002)"],
+            ["Rok produkcji", "2003 "],
+            ["Przebieg", "162 200 km"],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Moc", "107 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Kombi"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Możliwość finansowania", "Tak"],
+            ["Kraj pochodzenia", "Niemcy"],
+            ["Pierwsza rejestracja", "lipiec 2003"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6003065147"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2003 "],
+            ["Przebieg", "162 200 km"],
+            ["Pojemność skokowa", "1 598 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.16622",
+        "map_lon": "15.41687",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "city_label": "Choszczno",
+        "person": "PROCAR",
+        "user_label": "PROCAR",
+        "user_ads_id": "ivY",
+        "user_id": "ivY",
+        "numeric_user_id": "71236",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/ivY\/?json=1&search%5Buser_id%5D=71236",
+        "list_label": "7 999 PLN",
+        "list_label_ad": "7 999 PLN",
+        "list_label_small": "Cena Brutto, Do negocjacji\n",
+        "photos": [{
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_2_1080x720_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_2_732x488_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_2_320x240_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_2_148x110_16-16v-stan-idealny-po-oplatach-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_3_1080x720_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_3_732x488_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_3_320x240_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_3_148x110_16-16v-stan-idealny-po-oplatach-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_4_1080x720_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_4_732x488_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_4_320x240_16-16v-stan-idealny-po-oplatach-osobowe.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_4_148x110_16-16v-stan-idealny-po-oplatach-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_5_1080x720_16-16v-stan-idealny-po-oplatach-zachodniopomorskie.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_5_732x488_16-16v-stan-idealny-po-oplatach-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_5_320x240_16-16v-stan-idealny-po-oplatach-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_5_148x110_16-16v-stan-idealny-po-oplatach-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_7_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_7_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_7_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_7_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_8_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_8_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_8_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_8_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_15_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_15_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_15_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_15_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_16_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_16_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_16_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_16_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_10_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_10_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_10_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_10_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_9_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_9_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_9_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_9_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_12_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_12_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_12_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_12_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_11_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_11_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_11_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_11_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_13_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_13_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_13_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_13_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_14_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_14_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_14_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_14_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_6_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_6_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_6_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_6_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_1_1080x720_16-16v-stan-idealny-po-oplatach-choszczno.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_1_732x488_16-16v-stan-idealny-po-oplatach-choszczno.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/827362483_1_320x240_16-16v-stan-idealny-po-oplatach-choszczno.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_1_148x110_16-16v-stan-idealny-po-oplatach-choszczno.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/827362483_17_1080x720_16-16v-stan-idealny-po-oplatach-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_17_732x488_16-16v-stan-idealny-po-oplatach-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_17_320x240_16-16v-stan-idealny-po-oplatach-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/827362483_17_148x110_16-16v-stan-idealny-po-oplatach-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Immobilizer", "Klimatyzacja manualna", "Komputer pokładowy", "Podgrzewane lusterka boczne", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Poduszki boczne przednie", "Radio fabryczne", "Światła przeciwmgielne", "Tapicerka skórzana", "Wielofunkcyjna kierownica", "Wspomaganie kierownicy"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }, {
+        "id": "6001172965",
+        "url": "http:\/\/otomoto.pl\/oferta\/peugeot-407-super-stannowy-rozrzad-ID6y8jel.html",
+        "preview_url": "https:\/\/ssl.otomoto.pl\/i2\/oferta\/peugeot-407-super-stannowy-rozrzad-ID6y8jel.html?json=1",
+        "title": "Peugeot 407",
+        "created": "dzisiaj 20:42",
+        "age": 280,
+        "description": "SPRZEDAM\r\n\r\nPeugeot 407\r\n\r\n2.0 Benzyna\r\n\r\nIdealna jednostka silnikowa\r\n\r\nRok produkcji  2006\r\n\r\nPrzebieg 198 Tyś-serwis\r\n\r\nTempomat\r\n\r\nKlimatyzacja\r\n\r\nPodgrzewane siedzenia\r\n\r\nElektryczne szyby\r\n\r\nElektryczne lusterka\r\n\r\nABS\r\n\r\nCentralny Zamek \r\n\r\nKOMPLET KLUCZY\r\n\r\nBARDZO ŁADNIE UTRZYMANY,\r\n\r\nNIE PALONO W ŚRODKU\r\n\r\nTAPICERKA W IDEALNYM STANIE\r\n\r\nAUTO BEZWYPADKOWE\r\n\r\nJEDEN WŁAŚCICIEL \r\n\r\nMOŻLIWOSĆ POZOSTAWIENIA AUTA W ROZLICZENIU- DOBRZE CI JE POLICZYMY!\r\n\r\nAUTO ZNAJDUJE SIE W MORZYCZYNIE KOŁO STARGARDU SZCZECINSKIEGO\r\n20KM OD SZCZECINA\r\n\r\nCENA: 13900\r\n\r\nAUTO POSIADA ORYGINALNE TABLICE  I MOŻNA NIM WRACAC DO DOMU\r\n\r\nFAKTURA VAT MARŻA-KUPUJĄCY ZWOLNIONY Z OPŁATY SKARBOWEJ\r\n\r\nTELEFON:\r\n\r\n503-431-430\r\n\r\nNiniejsze ogłoszenie jest wyłącznie informacją handlową i nie stanowi oferty w myśl\r\nart. 66, § 1. Kodeksu Cywilnego. Sprzedający nie odpowiada za ewentualne błędy lub nieaktualność ogłoszenia.\r\n\r\nDOGODNE KREDYTOWANIE-ZAPRASZAMY--",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "category_id": 29,
+        "params": [
+            ["Kategoria", "Osobowe"],
+            ["Marka", "Peugeot"],
+            ["Model", "407"],
+            ["Rok produkcji", "2006 "],
+            ["Przebieg", "198 576 km"],
+            ["Pojemność skokowa", "1 997 cm3"],
+            ["Moc", "140 KM"],
+            ["Rodzaj paliwa", "Benzyna"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Napęd", "Na przednie koła"],
+            ["Typ", "Kombi"],
+            ["Liczba miejsc", "5 "],
+            ["Liczba drzwi", "5 "],
+            ["Kolor", "Srebrny"],
+            ["Metalik", "Tak"],
+            ["VAT marża", "Tak"],
+            ["Możliwość finansowania", "Tak"],
+            ["Pierwszy właściciel", "Tak"],
+            ["Bezwypadkowy", "Tak"],
+            ["Serwisowany w ASO", "Tak"],
+            ["ID ogłoszenia", "6001172965"]
+        ],
+        "subtitle": [],
+        "business": 1,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "listing_params": [
+            ["Rok produkcji", "2006 "],
+            ["Przebieg", "198 576 km"],
+            ["Pojemność skokowa", "1 997 cm3"],
+            ["Rodzaj paliwa", "Benzyna"]
+        ],
+        "map_zoom": "12",
+        "map_lat": "53.35706",
+        "map_lon": "14.87643",
+        "map_radius": 0,
+        "map_show_detailed": false,
+        "city_label": "Kobylanka",
+        "person": "AUTO HIT NAJLEPSZY DEALER AUT UŻYWANYCH",
+        "user_label": "AUTO HIT NAJLEPSZY DEALER AUT UŻYWANYCH",
+        "user_ads_id": "lqv",
+        "user_id": "lqv",
+        "numeric_user_id": "82368",
+        "user_ads_url": "https:\/\/ssl.otomoto.pl\/i2\/oferty\/user\/lqv\/?json=1&search%5Buser_id%5D=82368",
+        "list_label": "13 900 PLN",
+        "list_label_ad": "13 900 PLN",
+        "list_label_small": "Cena Brutto, Do negocjacji\n",
+        "photos": [{
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_1_1080x720_super-stannowy-rozrzad-stargard-szczecinski.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_1_732x488_super-stannowy-rozrzad-stargard-szczecinski.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_1_320x240_super-stannowy-rozrzad-stargard-szczecinski.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_1_148x110_super-stannowy-rozrzad-stargard-szczecinski.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_2_1080x720_super-stannowy-rozrzad-dodaj-zdjecia.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_2_732x488_super-stannowy-rozrzad-dodaj-zdjecia.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_2_320x240_super-stannowy-rozrzad-dodaj-zdjecia.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_2_148x110_super-stannowy-rozrzad-dodaj-zdjecia.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_3_1080x720_super-stannowy-rozrzad-osobowe.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_3_732x488_super-stannowy-rozrzad-osobowe.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_3_320x240_super-stannowy-rozrzad-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_3_148x110_super-stannowy-rozrzad-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_4_1080x720_super-stannowy-rozrzad-osobowe.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_4_732x488_super-stannowy-rozrzad-osobowe.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_4_320x240_super-stannowy-rozrzad-osobowe.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_4_148x110_super-stannowy-rozrzad-osobowe.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_5_1080x720_super-stannowy-rozrzad-zachodniopomorskie.jpg",
+            "0": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_5_732x488_super-stannowy-rozrzad-zachodniopomorskie.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_5_320x240_super-stannowy-rozrzad-zachodniopomorskie.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_5_148x110_super-stannowy-rozrzad-zachodniopomorskie.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_6_1080x720_super-stannowy-rozrzad-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_6_732x488_super-stannowy-rozrzad-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_6_320x240_super-stannowy-rozrzad-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_6_148x110_super-stannowy-rozrzad-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_7_1080x720_super-stannowy-rozrzad-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_7_732x488_super-stannowy-rozrzad-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_7_320x240_super-stannowy-rozrzad-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_7_148x110_super-stannowy-rozrzad-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_8_1080x720_super-stannowy-rozrzad-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_8_732x488_super-stannowy-rozrzad-.jpg",
+            "2": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_8_320x240_super-stannowy-rozrzad-.jpg",
+            "1": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_8_148x110_super-stannowy-rozrzad-.jpg"
+        }, {
+            "3": "http:\/\/img39.otomoto.pl\/images_otomotopl\/822603189_9_1080x720_super-stannowy-rozrzad-.jpg",
+            "0": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_9_732x488_super-stannowy-rozrzad-.jpg",
+            "2": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_9_320x240_super-stannowy-rozrzad-.jpg",
+            "1": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_9_148x110_super-stannowy-rozrzad-.jpg"
+        }, {
+            "3": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_10_1080x720_super-stannowy-rozrzad-.jpg",
+            "0": "http:\/\/img38.otomoto.pl\/images_otomotopl\/822603189_10_732x488_super-stannowy-rozrzad-.jpg",
+            "2": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_10_320x240_super-stannowy-rozrzad-.jpg",
+            "1": "http:\/\/img37.otomoto.pl\/images_otomotopl\/822603189_10_148x110_super-stannowy-rozrzad-.jpg"
+        }],
+        "features": ["ABS", "CD", "Centralny zamek", "Elektryczne szyby przednie", "Elektrycznie ustawiane lusterka", "Poduszka powietrzna kierowcy", "Poduszka powietrzna pasażera", "Wspomaganie kierownicy", "Czujnik deszczu", "Elektryczne szyby tylne", "Hak", "Klimatyzacja dwustrefowa", "Komputer pokładowy", "Podgrzewane przednie siedzenia", "Radio niefabryczne", "Relingi dachowe", "Światła przeciwmgielne", "Tempomat", "Klimatyzacja automatyczna"],
+        "ad_homepage": false,
+        "ads_bighomepage": false,
+        "ad_featured": 0
+    }],
+    "adverts": null,
+    "url_search": "http:\/\/otomoto.pl\/osobowe\/?search%5Bview%5D=list&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_fuel_type%5D%5B1%5D=petrol-lpg&search%5Bfilter_float_price%3Ato%5D=20000"
+}

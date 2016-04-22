@@ -1,0 +1,1372 @@
+{
+    "offers": [{
+        "commonOfferId": 21793978,
+        "jobTitle": ".NET Developer",
+        "superOption": 1,
+        "company": {
+            "id": 18803533,
+            "name": "GOYELLO Sp. z o. o. "
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.61+02:00",
+        "offerId": 4501404,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Koszalin",
+        "applicationLink": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg="
+    }, {
+        "commonOfferId": 21801776,
+        "jobTitle": "Embedded Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20057788,
+            "name": "G-Force Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.57+02:00",
+        "offerId": 4515971,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "it@g-force.com.pl"
+    }, {
+        "commonOfferId": 21788651,
+        "jobTitle": "Programista C#",
+        "superOption": 0,
+        "company": {
+            "id": 18800136,
+            "name": "Grupa Pracuj"
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.41+02:00",
+        "offerId": 4491287,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a2eb07cfc63e408a8f2b7cf16aeabfba"
+    }, {
+        "commonOfferId": 21806448,
+        "jobTitle": "Business/System Analyst ",
+        "superOption": 0,
+        "company": {
+            "id": 20071769,
+            "name": "Objectivity Bespoke Software Specialists Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.33+02:00",
+        "offerId": 4524596,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 69,
+            "name": "Wielka Brytania"
+        },
+        "city": "London or Newcastle upon Tyne, UK",
+        "applicationLink": "http://aplikuj.hrlink.pl/aplikacja/Business_System_Analyst/4928-2991-25-prc-1196.html"
+    }, {
+        "commonOfferId": 21801695,
+        "jobTitle": "Senior Java/Scala Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20143378,
+            "name": "brightONE Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.19+02:00",
+        "offerId": 4515815,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "rekrutacja@brightone.pl"
+    }, {
+        "commonOfferId": 21809849,
+        "jobTitle": "Programista AX",
+        "superOption": 0,
+        "company": {
+            "id": 15009972,
+            "name": "Bonair S.A."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.10+02:00",
+        "offerId": 4531194,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=19d821e2aa03466aab717640463fa565"
+    }, {
+        "commonOfferId": 21793588,
+        "jobTitle": "HMI/GUI Developer with C++",
+        "superOption": 1,
+        "company": {
+            "id": 20006637,
+            "name": "Research & Engineering Center (REC) Sp. z o.o. "
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.06+02:00",
+        "offerId": 4500754,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Koszalin, Szczecin",
+        "applicationLink": "careers-pl@globallogic.com"
+    }, {
+        "commonOfferId": 21810499,
+        "jobTitle": "Programista Java ",
+        "superOption": 0,
+        "company": {
+            "id": 20091498,
+            "name": "Nordic Consulting & Development Company sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:31.05+02:00",
+        "offerId": 4532541,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Koszalin, Szczecin",
+        "applicationLink": "praca@ncdc.pl"
+    }, {
+        "commonOfferId": 21795909,
+        "jobTitle": "Software Test Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20005655,
+            "name": "DGS Poland Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T17:01:30.75+02:00",
+        "offerId": 4504802,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://dgs.emply.net/recruitment/vacancyApply.aspx?vacancyId=2759&languageKey=en-GB"
+    }, {
+        "commonOfferId": 21816651,
+        "jobTitle": "Senior Software Entwickler (m/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T16:32:00.00+02:00",
+        "offerId": 4544330,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Berno",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21816570,
+        "jobTitle": "Leading Consultant/ Product Owner",
+        "superOption": 0,
+        "company": {
+            "id": 20056167,
+            "name": "PSI Polska Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T16:18:00.00+02:00",
+        "offerId": 4544199,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=71e0ca30ef82461cb3bcdbb35c27f3ab"
+    }, {
+        "commonOfferId": 21816540,
+        "jobTitle": " Professional/Senior Application Engineer (m/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T16:03:00.00+02:00",
+        "offerId": 4544134,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Berno",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21816313,
+        "jobTitle": "Professional Softwareengineer (m/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T15:05:00.00+02:00",
+        "offerId": 4543696,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Berno",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21815540,
+        "jobTitle": "Programista Java SQL ",
+        "superOption": 0,
+        "company": {
+            "id": 18797317,
+            "name": "Randstad Polska (Oddział Szczecin)"
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T14:15:00.00+02:00",
+        "offerId": 4542156,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://www.randstad.pl/kandydat/aplikuj?id=152627&source=prc"
+    }, {
+        "commonOfferId": 21804234,
+        "jobTitle": "NPI Project Manager",
+        "superOption": 0,
+        "company": {
+            "id": 20005655,
+            "name": "DGS Poland Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T13:58:44.50+02:00",
+        "offerId": 4520454,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://dgs.emply.net/recruitment/vacancyAd.aspx?vacancyId=2789"
+    }, {
+        "commonOfferId": 21814295,
+        "jobTitle": "SCCM/ SCOM Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T13:51:00.00+02:00",
+        "offerId": 4541883,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=cd232db6e6a74996b1204b276d6c6483"
+    }, {
+        "commonOfferId": 21815411,
+        "jobTitle": "Storage & Back Up Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T13:50:00.00+02:00",
+        "offerId": 4541739,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=da88d27a081a4ad585c9f98390bb0eae"
+    }, {
+        "commonOfferId": 21814303,
+        "jobTitle": "Applications Packaging Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T13:40:00.00+02:00",
+        "offerId": 4541819,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ecc54fabe73f4b2f9b1df3c2075faa30"
+    }, {
+        "commonOfferId": 21815880,
+        "jobTitle": "R&D Starszy QA Inżynier - architekt automatyzacji",
+        "superOption": 1,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T13:14:00.00+02:00",
+        "offerId": 4542855,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=d5930140409f4d3eadb71669b5490950"
+    }, {
+        "commonOfferId": 21815392,
+        "jobTitle": "R&D Programista Integrator - DevOPS",
+        "superOption": 1,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T11:56:00.00+02:00",
+        "offerId": 4541687,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=d5930140409f4d3eadb71669b5490950"
+    }, {
+        "commonOfferId": 21815576,
+        "jobTitle": " Specjalista ds. Rozwoju Produktu (Sklep Internetowy, Kreator WWW) ",
+        "superOption": 0,
+        "company": {
+            "id": 20003200,
+            "name": "home.pl S.A."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T11:34:00.00+02:00",
+        "offerId": 4542217,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=6cd6080c25b0454d959c3742083c2133"
+    }, {
+        "commonOfferId": 21815303,
+        "jobTitle": "Java Developer",
+        "superOption": 0,
+        "company": {
+            "id": 18797898,
+            "name": "BLStream Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T10:52:00.00+02:00",
+        "offerId": 4541487,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "jobs-it@blstream.com"
+    }, {
+        "commonOfferId": 21815425,
+        "jobTitle": "Storage Engineer (SAN)",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T10:39:00.00+02:00",
+        "offerId": 4541801,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=3565f387162c4abd9e7850ca3d50de64"
+    }, {
+        "commonOfferId": 21801647,
+        "jobTitle": " Programista .NET ",
+        "superOption": 0,
+        "company": {
+            "id": 20012570,
+            "name": "Nexio Management Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T09:22:24.56+02:00",
+        "offerId": 4515710,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=05646016a120447786e8763e7b832f26"
+    }, {
+        "commonOfferId": 21814256,
+        "jobTitle": "WIFI Network Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T09:09:00.00+02:00",
+        "offerId": 4541322,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5746b0f9001b4f2096b3f0a1bf204e70"
+    }, {
+        "commonOfferId": 21814269,
+        "jobTitle": "Citrix Engineer",
+        "superOption": 1,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-22T09:08:00.00+02:00",
+        "offerId": 4541305,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=92b1e269d5cb4a31ae78321e769b052b"
+    }, {
+        "commonOfferId": 21800380,
+        "jobTitle": "Head of Product Security",
+        "superOption": 1,
+        "company": {
+            "id": 20003177,
+            "name": "Opera Software International AS "
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T17:01:31.85+02:00",
+        "offerId": 4513386,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 47,
+            "name": "Norwegia"
+        },
+        "city": "Oslo",
+        "applicationLink": "http://www.operasoftware.com/company/jobs/list/123012"
+    }, {
+        "commonOfferId": 21799203,
+        "jobTitle": "Art Director Online - Mobile",
+        "superOption": 0,
+        "company": {
+            "id": 20208738,
+            "name": "Sportradar Polska Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T17:01:31.80+02:00",
+        "offerId": 4510984,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 46,
+            "name": "Niemcy"
+        },
+        "city": "Monachium",
+        "applicationLink": "jobs@sportradar.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517395,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517396,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 46,
+            "name": "Niemcy"
+        },
+        "city": "",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517397,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 28,
+            "name": "Holandia"
+        },
+        "city": "",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517398,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 47,
+            "name": "Norwegia"
+        },
+        "city": "",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517399,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21802560,
+        "jobTitle": "Software Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20018354,
+            "name": "Alpharec Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T16:18:24.16+02:00",
+        "offerId": 4517400,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 69,
+            "name": "Wielka Brytania"
+        },
+        "city": "",
+        "applicationLink": "cv@alpharec.com"
+    }, {
+        "commonOfferId": 21814442,
+        "jobTitle": "RIM Intern",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T14:13:00.00+02:00",
+        "offerId": 4541835,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5b124af51e904cf2aa073f17373e54c9"
+    }, {
+        "commonOfferId": 21810762,
+        "jobTitle": "Web Developer",
+        "superOption": 0,
+        "company": {
+            "id": 20214638,
+            "name": "Fonder Capital Pte Ltd"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T14:04:00.00+02:00",
+        "offerId": 4533313,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 56,
+            "name": "Singapur"
+        },
+        "city": "",
+        "applicationLink": "george@localstreets.com"
+    }, {
+        "commonOfferId": 21797853,
+        "jobTitle": "Senior Software Entwickler (NeTS) (m/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T13:47:00.00+02:00",
+        "offerId": 4508322,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Berno",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797881,
+        "jobTitle": "Senior Application Engineer (Android) (m/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T13:47:00.00+02:00",
+        "offerId": 4508387,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Berno",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21814285,
+        "jobTitle": "Windows Server Engineer",
+        "superOption": 0,
+        "company": {
+            "id": 20017895,
+            "name": "Fujitsu Technology Solutions Sp. z o.o."
+        },
+        "applicationTypeId": 2,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T12:47:00.00+02:00",
+        "offerId": 4541850,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=251e8f00dd894567a77ece36b4de9401"
+    }, {
+        "commonOfferId": 21797569,
+        "jobTitle": "Software Engineer C++",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:56:30.69+02:00",
+        "offerId": 4507849,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797550,
+        "jobTitle": "Software Engineer .NET/C# (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:51:30.77+02:00",
+        "offerId": 4507822,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797487,
+        "jobTitle": "Software Design Engineer (w/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:37:00.00+02:00",
+        "offerId": 4507720,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797467,
+        "jobTitle": "Software Architect (f/w)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:31:30.82+02:00",
+        "offerId": 4507691,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797442,
+        "jobTitle": " SAP Developer (w/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:27:00.00+02:00",
+        "offerId": 4507651,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797404,
+        "jobTitle": "Mobile Application Developer (Android, WEH) (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:16:30.76+02:00",
+        "offerId": 4507600,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21797385,
+        "jobTitle": "Embedded Software Engineers (w/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:02:00.00+02:00",
+        "offerId": 4507573,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21811283,
+        "jobTitle": "Business Consultant (m/f) for store merchandise business processes for the IT International area ",
+        "superOption": 0,
+        "company": {
+            "id": 745,
+            "name": "KAUFLAND"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [{
+            "regionId": 1,
+            "isForRellocation": true
+        }, {
+            "regionId": 2,
+            "isForRellocation": true
+        }, {
+            "regionId": 3,
+            "isForRellocation": true
+        }, {
+            "regionId": 4,
+            "isForRellocation": true
+        }, {
+            "regionId": 5,
+            "isForRellocation": true
+        }, {
+            "regionId": 6,
+            "isForRellocation": true
+        }, {
+            "regionId": 7,
+            "isForRellocation": true
+        }, {
+            "regionId": 8,
+            "isForRellocation": true
+        }, {
+            "regionId": 9,
+            "isForRellocation": true
+        }, {
+            "regionId": 10,
+            "isForRellocation": true
+        }, {
+            "regionId": 11,
+            "isForRellocation": true
+        }, {
+            "regionId": 12,
+            "isForRellocation": true
+        }, {
+            "regionId": 13,
+            "isForRellocation": true
+        }, {
+            "regionId": 14,
+            "isForRellocation": true
+        }, {
+            "regionId": 15,
+            "isForRellocation": true
+        }, {
+            "regionId": 16,
+            "isForRellocation": true
+        }],
+        "hidden": false,
+        "appearDate": "2016-04-21T11:00:00.00+02:00",
+        "offerId": 4534072,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 46,
+            "name": "Niemcy"
+        },
+        "city": "Weinsberg",
+        "applicationLink": "sven.schiffmann@kaufland.com"
+    }, {
+        "commonOfferId": 21798334,
+        "jobTitle": "Junior Project Manager",
+        "superOption": 0,
+        "company": {
+            "id": 18802701,
+            "name": "PwC Customer Technology"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T17:02:00.00+02:00",
+        "offerId": 4509259,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "recruitment@outbox.pl"
+    }, {
+        "commonOfferId": 21798351,
+        "jobTitle": "Project Manager",
+        "superOption": 0,
+        "company": {
+            "id": 18802701,
+            "name": "PwC Customer Technology"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T17:02:00.00+02:00",
+        "offerId": 4509308,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "recruitment@outbox.pl"
+    }, {
+        "commonOfferId": 21798002,
+        "jobTitle": "Program Manager",
+        "superOption": 0,
+        "company": {
+            "id": 18801225,
+            "name": "MOBICA Ltd. "
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T17:01:31.21+02:00",
+        "offerId": 4508664,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Szczecin",
+        "applicationLink": "jobs@mobica.com"
+    }, {
+        "commonOfferId": 21799520,
+        "jobTitle": "Managing Editor Chemistry",
+        "superOption": 1,
+        "company": {
+            "id": 766,
+            "name": "De Gruyter Open Sp. z o.o."
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T17:01:31.18+02:00",
+        "offerId": 4511761,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "",
+        "applicationLink": "hr4@degruyteropen.com"
+    }, {
+        "commonOfferId": 21797004,
+        "jobTitle": "Software Expert Computer Vision / 3D Reconstruction (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T17:01:30.88+02:00",
+        "offerId": 4506892,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21796987,
+        "jobTitle": "Software Expert Computer Vision / Navigation (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T16:51:30.73+02:00",
+        "offerId": 4506871,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21796976,
+        "jobTitle": "Software Engineer (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T16:46:30.73+02:00",
+        "offerId": 4506845,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }, {
+        "commonOfferId": 21796943,
+        "jobTitle": "Software Project Engineer (f/m)",
+        "superOption": 1,
+        "company": {
+            "id": 11817275,
+            "name": "IT KONTRAKT"
+        },
+        "applicationTypeId": 4,
+        "isActive": true,
+        "rellocationRegions": [],
+        "hidden": false,
+        "appearDate": "2016-04-20T16:36:30.76+02:00",
+        "offerId": 4506799,
+        "region": {
+            "id": 17,
+            "name": "zagranica"
+        },
+        "country": {
+            "id": 60,
+            "name": "Szwajcaria"
+        },
+        "city": "Sankt Gallen",
+        "applicationLink": "rekrutacja@itkontrakt.pl"
+    }],
+    "totalCount": 165
+}

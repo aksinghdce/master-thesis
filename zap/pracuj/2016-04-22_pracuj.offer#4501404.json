@@ -1,0 +1,152 @@
+{
+    "commonOfferId": 21793978,
+    "jobTitle": ".NET Developer",
+    "superOption": 1,
+    "company": {
+        "id": 18803533,
+        "name": "GOYELLO Sp. z o. o. "
+    },
+    "shortDescription": "Are you a developer .NET , willing to work with business building Web applications ? You want to work on the methodology Agile / Scrum ? Program your FUTURE With GOYELLO And Apply TO US ! .NET Developer GDAŃSK You will take part in building...",
+    "applicationTypeId": 2,
+    "salary": {
+        "id": 0,
+        "name": "dowolne"
+    },
+    "searchOfferLogoFile": "10005.png",
+    "arch": false,
+    "isActive": true,
+    "rellocationRegions": [],
+    "keywords": ".Net, programista, informatyka, informatyk, programowanie, .net, developer, SQL, C#, aplikacje web,",
+    "employmentTypes": [{
+        "id": 4,
+        "name": "Specjalista"
+    }],
+    "commonOfferData": {
+        "requirements": "Are you a developer .NET , willing to work with business building Web applications ?<br /><br />You want to work on the methodology Agile / Scrum ?<br />Program your FUTURE<br />With GOYELLO And Apply TO US !<br /> <br />.NET Developer<br />GDAŃSK<br />You will take part in building business web applications used by customers worldwide.<br />We work in international teams using such technologies and frameworks like ASP.NET MVC 5,<br />Entity Framework , WCF , jQuery , or Angular JS .<br />ROZWIJAJ PASJE<br /><br /> indywidualne ścieżki rozwoju<br /> międzynarodowe projekty<br /> nowoczesne narzędzia i technologie<br /> projekty wg Agile i Scrum<br /><br />KORZYSTAJ<br /><br /> prywatna opieka medyczna<br /> karta Multisport<br /> kursy języka angielskiego w biurze<br /> dogodna lokalizacja<br /><br />UCZ SIĘ I DZIEL WIEDZĄ<br /><br /> certyfikaty ISTQB, OCJP, Microsoft, PSM<br /> knowledge sharing, biblioteka firmowa<br /> szkolenia i konferencje<br /> partnerskie stosunki i otwarta komunikacja<br /><br />BAW SIĘ Z NAMI<br /><br /> League of Geeks, Goyello Power Club, BikeLike<br /> imprezy firmowe, Pizza Meetings, team hangouts, King&rsquo;s Day i inne atrakcje<br /> piłka nożna, siatk&oacute;wka, koszyk&oacute;wka, plansz&oacute;wki<br /><br /> <br />IF YOU HAVE THE FOLLOWING SKILLS :<br /><br /> good knowledge of C # and .NET<br /> experience in working with MS SQL databases<br /> experience in object-oriented programming<br /> at least one year of experience in a similar role<br /> You communicate well in English<br /><br />Please note:<br />Please include the following clause : \"I hereby consent to the storage and processing of my personal data included in my application Goyello by the company based in Gdansk for the needs of the recruitment process ( in accordance with the Act of 9/29/97 for the Protection of personal data , Journal of Laws No. 133, Item . 883 ) .\"",
+        "companyDescription": "",
+        "jobTitleDescription": "",
+        "jobTitleHtml": "",
+        "experience": "",
+        "opportunities": "",
+        "notes": "",
+        "clause": "Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie danych osobowych (tj. Dz. U. z 2014 r. poz. 1182, 1662)."
+    },
+    "hidden": false,
+    "employmentForms": [{
+        "id": 0,
+        "name": "Dowolne"
+    }],
+    "branches": [],
+    "categories": [{
+        "id": 3000015,
+        "name": "Informatyka/Programowanie"
+    }, {
+        "id": 3000018,
+        "name": "Internet/E-Commerce"
+    }],
+    "categories2": [{
+        "id": 5013003,
+        "name": "Projektowanie"
+    }, {
+        "id": 5016003,
+        "name": "Programowanie"
+    }],
+    "educations": [],
+    "experiences": [],
+    "languages": [{
+        "id": 1,
+        "name": "angielski"
+    }],
+    "regions": [{
+        "offerId": 4501403,
+        "region": {
+            "id": 9,
+            "name": "pomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Gdańsk",
+        "offersMapCoordinatesValue": "",
+        "offersMapCoordinatesAddress": "",
+        "offerURLName": "http://www.pracuj.pl/praca/net-developer-gdansk,oferta,4501403",
+        "applicationLink": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg=",
+        "localizations": [{
+            "address": "",
+            "latitude": 0.0,
+            "longitude": 0.0,
+            "isForMap": false,
+            "locationId": 143
+        }],
+        "offerData": {
+            "contact": "",
+            "mailAddress": "",
+            "mailSubject": "",
+            "referenceNumber": "",
+            "webAddres": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg="
+        }
+    }, {
+        "offerId": 4501404,
+        "region": {
+            "id": 16,
+            "name": "zachodniopomorskie"
+        },
+        "country": {
+            "id": 1,
+            "name": "Polska"
+        },
+        "city": "Koszalin",
+        "offersMapCoordinatesValue": "",
+        "offersMapCoordinatesAddress": "",
+        "offerURLName": "http://www.pracuj.pl/praca/net-developer-koszalin,oferta,4501404",
+        "applicationLink": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg=",
+        "localizations": [{
+            "address": "",
+            "latitude": 0.0,
+            "longitude": 0.0,
+            "isForMap": false,
+            "locationId": 272
+        }],
+        "offerData": {
+            "contact": "",
+            "mailAddress": "",
+            "mailSubject": "",
+            "referenceNumber": "",
+            "webAddres": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg="
+        }
+    }],
+    "lastPublicate": "2016-04-22T17:01:31.61+02:00",
+    "expirationDate": "2016-05-04T00:00:00.00+02:00",
+    "startDate": "2016-04-04T10:58:00.00+02:00",
+    "appearDate": "2016-04-22T17:01:31.61+02:00",
+    "lastPublishExecutionDate": "2016-04-04T10:58:21.31+02:00",
+    "offerId": 4501404,
+    "region": {
+        "id": 16,
+        "name": "zachodniopomorskie"
+    },
+    "country": {
+        "id": 1,
+        "name": "Polska"
+    },
+    "city": "Koszalin",
+    "offersMapCoordinatesValue": "",
+    "offersMapCoordinatesAddress": "",
+    "offerURLName": "http://www.pracuj.pl/praca/net-developer-koszalin,oferta,4501404",
+    "applicationLink": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg=",
+    "localizations": [{
+        "address": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "isForMap": false,
+        "locationId": 272
+    }],
+    "offerData": {
+        "contact": "",
+        "mailAddress": "",
+        "mailSubject": "",
+        "referenceNumber": "",
+        "webAddres": "https://aplikuj.goyello.com/?sv=4_x_x_x_x_x_x&page_typ=4&module=aplikacja&page=kandydat&typ=dodajnew&fix=1422&id_ogloszenie=4836&id_reg=2887&szata=25&relurl=prc&reg="
+    }
+}

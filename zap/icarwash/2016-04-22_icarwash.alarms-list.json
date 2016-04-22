@@ -1,0 +1,316 @@
+{
+    "status": "ok",
+    "content": [{
+        "serialNumber": 144,
+        "created": "2016-04-22 15:36:02",
+        "description": "Niskie ci\u015bnienie cyrkulacji",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 21
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:24",
+        "description": "Brak komunikacji ze stanowiskiem 5",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 174
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:24",
+        "description": "Brak komunikacji ze stanowiskiem 6",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 175
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:23",
+        "description": "Brak komunikacji ze stanowiskiem 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 171
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:23",
+        "description": "Brak komunikacji ze stanowiskiem 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 172
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:23",
+        "description": "Brak komunikacji ze stanowiskiem 4",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 173
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:18",
+        "description": "Aktywny tryb testowy",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 55
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:01",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 74
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:01",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 87
+    }, {
+        "serialNumber": 144,
+        "created": "2016-04-22 15:35:01",
+        "description": "Niska temperatura w kontenerze",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 22
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:11:15",
+        "description": "Aktywny tryb testowy",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 55
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 1",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 170
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 171
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 172
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 4",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 173
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 5",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 174
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 15:10:35",
+        "description": "Brak komunikacji ze stanowiskiem 6",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 175
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:59:40",
+        "description": "Przekroczony czas nape\u0142niania studni cyrkulacji.",
+        "accepted": 0,
+        "alarm": 1,
+        "group": 23,
+        "code": 23
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:30:41",
+        "description": "Niskie ci\u015bnienie cyrkulacji",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 21
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 1",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 61
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 74
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 87
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": "Niska temperatura w kontenerze",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 22
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": "Temperatura: Rezerwa",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 25
+    }, {
+        "serialNumber": 141,
+        "created": "2016-04-22 14:29:40",
+        "description": null,
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 49
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:49:36",
+        "description": "Przekroczony czas nape\u0142niania studni cyrkulacji.",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 23
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:20:38",
+        "description": "Niskie ci\u015bnienie cyrkulacji",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 21
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Aktywny tryb testowy",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 55
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 1",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 61
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 74
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Z\u0142a konfiguracja czujnika po\u0142o\u017cenie mieszacza - stacja 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 87
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Brak komunikacji ze stanowiskiem 2",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 171
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Brak komunikacji ze stanowiskiem 3",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 172
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Brak komunikacji ze stanowiskiem 4",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 173
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Brak komunikacji ze stanowiskiem 5",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 174
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Brak komunikacji ze stanowiskiem 6",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 22,
+        "code": 175
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Niska temperatura w kontenerze",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 22
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": "Temperatura: Rezerwa",
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 25
+    }, {
+        "serialNumber": 138,
+        "created": "2016-04-22 10:19:38",
+        "description": null,
+        "accepted": 1,
+        "alarm": 1,
+        "group": 23,
+        "code": 49
+    }]
+}

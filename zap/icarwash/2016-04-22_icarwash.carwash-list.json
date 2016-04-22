@@ -1,0 +1,40 @@
+{
+    "status": "ok",
+    "content": [{
+        "id": 576,
+        "serialNumber": 138,
+        "username": "urzadzenie testowe - m.lukasik",
+        "lastPing": "2016-04-22 15:59:48",
+        "firmware": "v2.4.0a9-4*"
+    }, {
+        "id": 673,
+        "serialNumber": 139,
+        "username": "   PC Win",
+        "lastPing": "2015-05-18 22:32:28",
+        "firmware": "v2.2.0a14-22*"
+    }, {
+        "id": 736,
+        "serialNumber": 140,
+        "username": "   ",
+        "lastPing": "2015-08-05 10:32:01",
+        "firmware": "v2.2.0a27-2*"
+    }, {
+        "id": 746,
+        "serialNumber": 141,
+        "username": "   ",
+        "lastPing": "2016-04-22 15:13:17",
+        "firmware": "v2.3.0a39-37*"
+    }, {
+        "id": 1183,
+        "serialNumber": 144,
+        "username": "   ",
+        "lastPing": "2016-04-22 16:00:30",
+        "firmware": "v2.3.0a39-37*"
+    }, {
+        "id": 1187,
+        "serialNumber": 145,
+        "username": "   ",
+        "lastPing": "2016-04-03 16:14:49",
+        "firmware": "v2.3.0a34-32*"
+    }]
+}

@@ -1,0 +1,1150 @@
+{
+    "category_id": "84",
+    "params": {
+        "region": 0,
+        "subregion": 0,
+        "category": 84,
+        "shopId": 0,
+        "city": 16705,
+        "params": {
+            "search": {
+                "dist": 0
+            }
+        }
+    },
+    "total_ads": 2447,
+    "top_header_labels": {
+        "category_icon": "https:\/\/ssl.olx.pl\/static\/olxpl\/naspersclassifieds-regional\/olxeu-atlas-web-olxpl\/static\/img\/i2\/categories\/5_small_2.png?v=64",
+        "location_label": "Szczecin"
+    },
+    "page": 1,
+    "total_pages": 245,
+    "ads_on_page": 10,
+    "view": "gallery",
+    "next_page_url": "https:\/\/ssl.olx.pl\/i2\/motoryzacja\/samochody\/szczecin\/?json=1&search%5Bdist%5D=0&version=2.2.8&token=cb276bf946824fb734ad656869b0f633htVCGpn7VGfY2stLf7&page=2",
+    "ads": [{
+        "id": "223647633",
+        "url": "http:\/\/olx.pl\/oferta\/toyota-aygo-sprowadzony-zarejestrowany-w-pl-pilnie-CID5-IDf8oXT.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/toyota-aygo-sprowadzony-zarejestrowany-w-pl-pilnie-CID5-IDf8oXT.html?json=1",
+        "title": "Toyota Aygo sprowadzony zarejestrowany w PL pilnie !!!",
+        "created": "17  kwi",
+        "age": 5,
+        "description": "Auto sprowadzone z Niemiec od pierwszego właściciela bardzo mały przebieg 59500 km, ,brak paska rozrządu ogranicza koszty eksploatacyjne (łańcuszek rozrządu) opłacone, zarejestrowane w Polsce więcej informacji pod nr tel",
+        "highlighted": 1,
+        "urgent": 0,
+        "topAd": 1,
+        "promotion_section": 1,
+        "category_id": 206,
+        "params": [
+            ["Marka", "Toyota"],
+            ["Model", "Aygo"],
+            ["Rok produkcji", "2008 "],
+            ["Poj. silnika", "998 cm³"],
+            ["Paliwo", "Benzyna"],
+            ["Moc silnika", "70 KM"],
+            ["Przebieg", "59 500 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Czerwony"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["59 500 km", "2008"],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "pricePrevious": "13 900 zł",
+        "header": "Wyróżnione ogłoszenia",
+        "header_type": "promoted",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 1,
+        "map_zoom": 13,
+        "map_lat": "53.39907",
+        "map_lon": "14.67556",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYgIqcNvvikotDyEYc1G7vx+qxMJ+Twr4Vp841hUI4K3l",
+        "city_label": "Szczecin Dąbie",
+        "person": "Jacek",
+        "user_label": "Jacek",
+        "user_ads_id": "GsjJ",
+        "user_id": "GsjJ",
+        "numeric_user_id": "10118631",
+        "user_ads_url": "https:\/\/ssl.olx.pl\/i2\/oferty\/user\/GsjJ\/?json=1&search%5Buser_id%5D=10118631",
+        "list_label": "12 900 zł",
+        "list_label_ad": "12 900 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 9,
+            "riak_key": 373653525,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 563
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "219624877",
+        "url": "http:\/\/olx.pl\/oferta\/opel-omega-2-2d-2002r-CID5-IDeRvsJ.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/opel-omega-2-2d-2002r-CID5-IDeRvsJ.html?json=1",
+        "title": "Opel omega 2.2D 2002r.",
+        "created": "17  kwi",
+        "age": 19,
+        "description": "Silnik w  super stanie technicznym. Zawieszenie nie puka. Nadwozie wymaga niewielkiego wkładu finansowego dlatego też niższa cena samochodu.\n\nOpel posiada: \n-skórzaną tapicerkę\n-kolorową nawigację\n-tempomat \n-xenonowe lampy\nABS ESP itp opcjonalnie \n\n Zapraszam do oglądnięcia i do negocjacji.\n\nW grę wchodzi również zamiana na motocykl 125cm",
+        "highlighted": 1,
+        "urgent": 0,
+        "topAd": 1,
+        "promotion_section": 1,
+        "category_id": 198,
+        "params": [
+            ["Marka", "Opel"],
+            ["Model", "Omega"],
+            ["Rok produkcji", "2002 "],
+            ["Paliwo", "Diesel"],
+            ["Przebieg", "258 km"],
+            ["Typ nadwozia", "Kombi"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Niemcy"]
+        ],
+        "subtitle": ["258 km", "2002"],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 1,
+        "map_zoom": 13,
+        "map_lat": "53.41507",
+        "map_lon": "14.49693",
+        "map_radius": 2,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIV2VFxsMGegsJXv0tfh7VtHlt2jeIgM0mbcAkTJBxtWgZls5ftjEgaXEir2jFm8LPA=",
+        "accurate_location": 1,
+        "city_label": "Szczecin Gumieńce",
+        "person": "Grzesiek",
+        "user_label": "Grzesiek",
+        "user_ads_id": "osoz",
+        "user_id": "osoz",
+        "numeric_user_id": "5829027",
+        "user_ads_url": "https:\/\/ssl.olx.pl\/i2\/oferty\/user\/osoz\/?json=1&search%5Buser_id%5D=5829027",
+        "list_label": "6 900 zł",
+        "list_label_ad": "6 900 zł",
+        "photos": {
+            "riak_ring": 2,
+            "riak_key": 367399041,
+            "riak_rev": 2,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 2,
+                "w": 394,
+                "h": 700
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 5,
+                "w": 394,
+                "h": 700
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "223608859",
+        "url": "http:\/\/olx.pl\/oferta\/ford-focus-nowe-turbo-i-przednia-zawieszenie-i-dwumasa-CID5-IDf8eSw.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/ford-focus-nowe-turbo-i-przednia-zawieszenie-i-dwumasa-CID5-IDf8eSw.html?json=1",
+        "title": "Ford focus nowe turbo i przednia zawieszenie i dwumasa",
+        "created": "17  kwi",
+        "age": 5,
+        "description": "Super autko malo pali okolo 6l\/100km Przy 115 km czyli przy jego masie jest bardzo żwawy. Okol 10000km wymieniłem turbo na nowe i dwumase na uzywana w bardzo dobrym stanie, okolo 1000km temu wymieniłem klocki hamulcowe i tarcze. Rok temu wymieniłem przednia zawieszenie, zostało wymienic olej okol 100zl. Sprzedaje bo mam trzy autka pod blokiem i jedno z niuch słuzbowe , zapraszam do obejżenia. 721371548",
+        "highlighted": 1,
+        "urgent": 0,
+        "topAd": 1,
+        "promotion_section": 1,
+        "category_id": 189,
+        "params": [
+            ["Marka", "Ford"],
+            ["Model", "Focus"],
+            ["Rok produkcji", "2002 "],
+            ["Poj. silnika", "1 800 cm³"],
+            ["Paliwo", "Diesel"],
+            ["Moc silnika", "115 KM"],
+            ["Przebieg", "212 000 km"],
+            ["Typ nadwozia", "Kombi"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Niemcy"]
+        ],
+        "subtitle": ["212 000 km", "2002"],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 1,
+        "map_zoom": 13,
+        "map_lat": "53.41507",
+        "map_lon": "14.49693",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIV2VFxsMGegsEOPMR\/AV6FUDyEYc1G7vx+AcBB1GMQtNeRz3aS4gxsD",
+        "city_label": "Szczecin Gumieńce",
+        "person": "Krzysztof",
+        "user_label": "Krzysztof",
+        "user_ads_id": "151n9",
+        "user_id": "151n9",
+        "numeric_user_id": "15973255",
+        "user_ads_url": "https:\/\/ssl.olx.pl\/i2\/oferty\/user\/151n9\/?json=1&search%5Buser_id%5D=15973255",
+        "list_label": "6 000 zł",
+        "list_label_ad": "6 000 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 9,
+            "riak_key": 373595263,
+            "riak_rev": 1,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 7,
+                "w": 1000,
+                "h": 667
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 667
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225129073",
+        "url": "http:\/\/olx.pl\/oferta\/chevrolet-aveo-1-2-benz-klima-tempomat-podgrz-fotele-funkcja-eco-29tys-km-zadbany-CID5-IDfeCm5.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/chevrolet-aveo-1-2-benz-klima-tempomat-podgrz-fotele-funkcja-eco-29tys-km-zadbany-CID5-IDfeCm5.html?json=1",
+        "title": "Chevrolet Aveo 1.2 Benz klima tempomat podgrz.fotele funkcja ECO 29tys.km!Zadbany!!",
+        "created": "dzisiaj 21:11",
+        "age": 0,
+        "description": "Bardzo dobry stan techniczny i wizualny,dynamiczny i ekonomiczny silnik benzynowy,bogata wersja wyposażenia,mały udokumentowany przebieg tylko 29tys.km,dwa klucze,jeden właściciel od nowości,cena po opłatach.całkowity koszt rejestracji to tylko 256zł!!Serdecznie zapraszamy",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 184,
+        "params": [
+            ["Marka", "Chevrolet"],
+            ["Model", "Aveo"],
+            ["Rok produkcji", "2013 "],
+            ["Poj. silnika", "1 189 cm³"],
+            ["Paliwo", "Benzyna"],
+            ["Moc silnika", "84 KM"],
+            ["Przebieg", "29 000 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["29 000 km", "2013"],
+        "business": 1,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "header": "Pozostałe ogłoszenia",
+        "header_type": "all",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/chevrolet-aveo-1-2-benz-klima-tempomat-podgrz-fotele-funkcja-eco-29tys-km-zadbany-ID6ylKq1.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/chevrolet-aveo-1-2-benz-klima-tempomat-podgrz-fotele-funkcja-eco-29tys-km-zadbany-ID6ylKq1.html",
+        "user_ads_url": "",
+        "list_label": "24 900 zł",
+        "list_label_ad": "24 900 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 5,
+            "riak_key": 375890701,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 7,
+                "w": 1000,
+                "h": 600
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 600
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225128617",
+        "url": "http:\/\/olx.pl\/oferta\/toyota-aygo-wersja-x-comfort-tylko-w-tym-tygodniu-super-cena-CID5-IDfeCeJ.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/toyota-aygo-wersja-x-comfort-tylko-w-tym-tygodniu-super-cena-CID5-IDfeCeJ.html?json=1",
+        "title": "Toyota Aygo wersja X+COMFORT ; Tylko w tym TYGODNIU super CENA :-)",
+        "created": "dzisiaj 21:09",
+        "age": 0,
+        "description": "Na wyposażeniu m.in.:\r\n6 poduszek powietrznych\r\nABS + EBD\r\nSystem stabilizacji toru jazdy VSC\r\nSystem wspomagający pokonywanie podjazdów HAC\r\nISOFIX\r\nSygnalizacja niezapiętych pasów bezpieczeństwa\r\nImmobilizer\r\nWyłącznik przedniej poduszki pasażera\r\nSystem monitorowania ciśnienia w oponach\r\nProjektorowe lampy główne\r\nŚwiatła do jazdy dziennej typu LED\r\nFelgi stalowe z kołpakami, opony 165\/65 R14\r\nTylny spojler ze światłem stop\r\nWspomaganie kierownicy\r\nGniazdo elektryczne 12 V\r\nZestaw naprawczy opony\r\nKomputer pokładowy\r\nX-grill \/ tylny dyfuzor w kolorze czarnym matowym\r\nSkładane w całości oparcie tylnej kanapy\r\nTapicerka materiałowa\r\n\r\nPAKIET COMFORT\r\nKlimatyzacja manualna, radio + MP3 + USB + Aux-In + 2 głośniki",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 206,
+        "params": [
+            ["Marka", "Toyota"],
+            ["Model", "Aygo"],
+            ["Rok produkcji", "2015 "],
+            ["Poj. silnika", "998 cm³"],
+            ["Paliwo", "Benzyna"],
+            ["Moc silnika", "69 KM"],
+            ["Przebieg", "580 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Czerwony"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["580 km", "2015"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/toyota-aygo-wersja-x-comfort-tylko-w-tym-tygodniu-super-cena-ID6ylKp9.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Andrzej",
+        "user_label": "Andrzej",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/toyota-aygo-wersja-x-comfort-tylko-w-tym-tygodniu-super-cena-ID6ylKp9.html",
+        "user_ads_url": "",
+        "list_label": "26 000 zł",
+        "list_label_ad": "26 000 zł",
+        "photos": {
+            "riak_ring": 2,
+            "riak_key": 375890103,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 2,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 3,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 4,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 5,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 6,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 7,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 8,
+                "w": 934,
+                "h": 700
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225126755",
+        "url": "http:\/\/olx.pl\/oferta\/volkswagen-golf-1-9tdi-105km-klima-kubelkowe-fotele-5-drzwi-zobacz-jaki-CID5-IDfeBKH.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/volkswagen-golf-1-9tdi-105km-klima-kubelkowe-fotele-5-drzwi-zobacz-jaki-CID5-IDfeBKH.html?json=1",
+        "title": "Volkswagen Golf 1.9TDi 105KM = Klima = Kubełkowe fotele = 5 drzwi = ZOBACZ JAKI !!!",
+        "created": "dzisiaj 21:02",
+        "age": 0,
+        "description": "SPRZEDAM\r\n\r\nSAMOCHÓD Z GWARANCJĄ TECHNICZNĄ i ORYGINALNYM PRZEBIEGIEM\r\n\r\nVW GOLF IV 1.9TDi\r\n\r\nBOGATE WYPOSAŻENIE\r\n\r\nRok produkcji 2003\r\n\r\nPRZEGLĄD TECHNICZNY i UBEZPIECZENIE OC  do 2017roku !!!\r\n\r\nOryginalny przebieg 259000km\r\n\r\nNiezawodny i bardzo oszczędny 1.9TDi o mocy 105KM\r\n\r\nSkrzynia biegów:  MANUALNA\r\n \r\nStan techniczny i wizualny oceniam na BARDZO DOBRY\r\n\r\nWnętrze jest czyste i bardzo zadbane\r\n\r\nZaznaczam jeszcze raz, że samochód ma ORYGINALNY PRZEBIEG\r\n\r\nZGADZAM SIĘ NA SPRAWDZENIE SAMOCHODU W SERWISIE, LUB NA STACJI DIAGNOSTYCZNEJ\r\n\r\n=== OPIS JEST ZGODNY ZE STANEM FAKTYCZNYM ===\r\n\r\n=== ZDJĘCIA PRZEDSTAWIAJĄ SPRZEDAWANY SAMOCHÓD ===\r\n\r\n===  ZAMIANA === LEASING  ===  RATY  ===  ATRAKCYJNY KREDYT ===\r\n\r\n===  Tel.   ===  Tel.   ===\r\n\r\nCHCESZ KUPIĆ PEWNY i SPRAWDZONY SAMOCHÓD...ZAPRASZAMY",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 207,
+        "params": [
+            ["Marka", "Volkswagen"],
+            ["Model", "Golf"],
+            ["Rok produkcji", "2003 "],
+            ["Poj. silnika", "1 900 cm³"],
+            ["Paliwo", "Diesel"],
+            ["Moc silnika", "105 KM"],
+            ["Przebieg", "259 000 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Niemcy"]
+        ],
+        "subtitle": ["259 000 km", "2003"],
+        "business": 1,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/volkswagen-golf-1-9tdi-105km-klima-kubelkowe-fotele-5-drzwi-zobacz-jaki-ID6ylCiw.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/volkswagen-golf-1-9tdi-105km-klima-kubelkowe-fotele-5-drzwi-zobacz-jaki-ID6ylCiw.html",
+        "user_ads_url": "",
+        "list_label": "12 900 zł",
+        "list_label_ad": "12 900 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 3,
+            "riak_key": 375887599,
+            "riak_rev": 32,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 691
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 7,
+                "w": 1000,
+                "h": 666
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 666
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225125991",
+        "url": "http:\/\/olx.pl\/oferta\/audi-a4-sprawna-zarejestrowana-CID5-IDfeByn.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/audi-a4-sprawna-zarejestrowana-CID5-IDfeByn.html?json=1",
+        "title": "Audi A4 Sprawna Zarejestrowana",
+        "created": "dzisiaj 20:59",
+        "age": 0,
+        "description": "Auto sprawne zarejestrowane w ciągłej eksploatacji spalanie rzędu 5 litrów w mieście tak że znikome.Wymienione amortyzatory tył,tarcze z klockami przód ,dwa przednie wahacze,pasek klinowy ,poduszki silnika,łożyska alternatora,olej z filtrem,.Co do minusów to szyby przednie otwierają się ale ciężko je zamknąć nosi normalne ślady użytkowania i to chyba na tyle ,auto od właściciela .Pozdrawiam",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 182,
+        "params": [
+            ["Marka", "Audi"],
+            ["Model", "A4"],
+            ["Rok produkcji", "1996 "],
+            ["Poj. silnika", "1 900 cm³"],
+            ["Paliwo", "Diesel"],
+            ["Moc silnika", "110 KM"],
+            ["Przebieg", "380 000 km"],
+            ["Typ nadwozia", "Sedan"],
+            ["Kolor", "Brązowy – Beżowy"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["380 000 km", "1996"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/audi-a4-sprawna-zarejestrowana-ID6ylKkx.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/audi-a4-sprawna-zarejestrowana-ID6ylKkx.html",
+        "user_ads_url": "",
+        "list_label": "4 200 zł",
+        "list_label_ad": "4 200 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 10,
+            "riak_key": 375886573,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 7,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 8,
+                "w": 934,
+                "h": 700
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "217346867",
+        "url": "http:\/\/olx.pl\/oferta\/ford-focus-1-6-182km-ecoboost-titanium-navi-serwisowany-superstan-jedyny-taki-CID5-IDeHXQD.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/ford-focus-1-6-182km-ecoboost-titanium-navi-serwisowany-superstan-jedyny-taki-CID5-IDeHXQD.html?json=1",
+        "title": "Ford Focus 1.6\/182KM\/Ecoboost\/TITANIUM\/Navi\/Serwisowany\/SuperStan!JEDYNY TAKI!",
+        "created": "dzisiaj 20:52",
+        "age": 28,
+        "description": "Przedmiotem ogłoszenia jest świeżo sprowadzony FORD FOCUS WERSJI TITANIUM X, NAJNOWSZA JEDNOSTKA NAPĘDOWA 1.6 BENZYNA ECOBOOST, MOC-182 KM!!!. Rejestracja wrzesień 2011, model 2012. KOLOR CIEMNY GRANAT METALIK.\r\n\r\n Auto wyposażone w:\r\n --10* AIR BAG\r\n --system start-stop - odpalanie i gaszenie na przycisk\r\n-- nawigacja z mapami całej Europy w języku Polskim\r\n-- rozbudowany wyświetlacz Ford\r\n--dwustrefowa klimatyzacja automatyczna-CLIMATRONIC z możliwością ustawienia różnych temperatur z przodu i z tyłu samochodu \r\n--PARKTRONIC – czujniki parkowania z tyłu i z przodu\r\n --4 elektryczne szyby\r\n--asystent parkowania - Focus sam parkuje równolegle\r\n --elektryczne oraz podgrzewane lusterka \r\n--podgrzewane fotele\r\n--rozbudowany KOMPUTER POKŁADOWY (pokazuje średnie spalanie, ilość paliwa w przeliczeniu na km, aktualny bieg, na którym jedzie auto itd. wszystko w języku polskim)\r\n --tempomat \r\n --ABS\r\n --ESP \r\n --centralny zamek sterowany z pilota w kluczyku\r\n --IMMOBILISER\r\n --Radio CD z wraz ze sterowaniem z pilota przy kierownicy \r\n--regulacja położenia kierownicy w 2 płaszczyznach\r\n--podłokietnik fotela kierowcy i pasażera\r\n--czujnik temperatury na zewnątrz wraz z wyświetlaczem\r\n--skórzana wielofunkcyjna kierownica z przyciskami\r\n --czujnik deszczu\r\n --czujnik zmierzchu\r\n --system ISOFIX\r\n--zestaw głośnomówiący do telefonu komórkowego\r\n --klimatyzowany schowek\r\n --otwieranie i domykanie szyb z pilota w kluczykach\r\n --oryginalne felgi aluminiowe\r\n --hak holowniczy\r\n--automatycznie składane lusterka boczne\r\n --fotochromatyczne lusterko wsteczne\r\n--komplet kluczyków + książka serwisowa + instrukcje obsługi\r\n --i wiele innych\r\n\r\n Przebieg auta to 153377 km - oryginalny, AUTOSTRADOWY, udokumentowany w 100%. Serwisowany w ASO.\r\n Wymiana rozrządu dopiero przy przebiegu 200 tyś. Nie musisz teraz ponosić żadnych kosztów.\r\n\r\n Samochód na 100 % bezwypadkowy. GWARANTUJE. Lakier na każdym elemencie jest oryginalny.\r\n Technicznie i wizualnie samochód w perfekcyjnym stanie, !!! Środek samochodu czysty i bardzo zadbany.\r\n AUTO NIE WYMAGA ABSOLUTNIE ŻADNEGO WKŁADU FINANSOWEGO! Sprawne wszystkie elementy i podzespoły.\r\n Najnowsza bardzo dynamiczna jednostka napędowa!!!\r\n\r\n Autem można wracać na kołach do domu.\r\n Zapraszam do oglądania oraz na jazdę próbną - \"na żywo\" samochód prezentuje się jeszcze lepiej niż na zdjęciach. \r\n Auto serwisowane w ASO - książka serwisowa w komplecie SAMOCHÓD POSIADA PEŁEN SERWIS !! JEST UTRZYMANY W WZOROWYM STANIE I ABSOLUTNIE BEZWYPADKOWY !! UWAGA !! SAMOCHÓD 100% ZGODNy Z OPISEM !! nie ma zadnych NIESPODZIANEK TYPU: coś nie działa, WAD UKRYTYCH czy innych podobnych !! !! SERDECZNIE POLECAM !! SAMOCHÓD NAPRAWDE WYJĄTKOWY !!\r\n\r\n Zapraszam wszystkich zmęczonych oglądaniem, również dość zmęczonych aut w okazyjnych cenach. \r\n O magicznie niskich przebiegach, podpadających na pierwszy rzut oka, gwarantuje wiarygodność mojej oferty. \r\n Jeżeli szukasz takiego modelu, to jest oferta, która spełni Twoje oczekiwania.\r\n\r\nCENA: 35700- do rozsądnej negocjacji.\r\nKupujący zwolniony z opłaty 2 %.\r\nWięcej informacji udzielę Państwu telefonicznie.\n\nTel:",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 189,
+        "params": [
+            ["Marka", "Ford"],
+            ["Model", "Focus"],
+            ["Rok produkcji", "2011 "],
+            ["Poj. silnika", "1 600 cm³"],
+            ["Paliwo", "Benzyna"],
+            ["Moc silnika", "182 KM"],
+            ["Przebieg", "153 377 km"],
+            ["Typ nadwozia", "Kombi"],
+            ["Kolor", "Inny kolor"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Niemcy"]
+        ],
+        "subtitle": ["153 377 km", "2011"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/ford-focus-1-6-182km-ecoboost-titanium-navi-serwisowany-superstan-jedyny-taki-ID6yk1iB.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/ford-focus-1-6-182km-ecoboost-titanium-navi-serwisowany-superstan-jedyny-taki-ID6yk1iB.html",
+        "user_ads_url": "",
+        "list_label": "35 700 zł",
+        "list_label_ad": "35 700 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 10,
+            "riak_key": 363572055,
+            "riak_rev": 60,
+            "data": [{
+                "slot_id": 1,
+                "w": 968,
+                "h": 700
+            }, {
+                "slot_id": 2,
+                "w": 975,
+                "h": 700
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 619
+            }, {
+                "slot_id": 4,
+                "w": 940,
+                "h": 700
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 680
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 680
+            }, {
+                "slot_id": 7,
+                "w": 900,
+                "h": 700
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 690
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225120769",
+        "url": "http:\/\/olx.pl\/oferta\/volkswagen-polo-polo-6n2-1-4-16v-zarejestrowany-w-pl-alu-15-CID5-IDfeAc9.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/volkswagen-polo-polo-6n2-1-4-16v-zarejestrowany-w-pl-alu-15-CID5-IDfeAc9.html?json=1",
+        "title": "Volkswagen Polo Polo 6N2 1.4 16V Zarejestrowany w PL Alu 15'",
+        "created": "dzisiaj 20:40",
+        "age": 0,
+        "description": "Witam , sprzedam vw polo 6n2 z silnikiem 1.4 16V \r\nAuto sprawne , ładne .\r\nW aucie zmieniono we wrześniu 2015 rozrząd , \r\nMarzec 2016 , kompletne zawieszenie przód+tył i geometria nowe sprężyny, filtr olej , czyszczenie odmy ,  lakierowane felgi \r\n, \r\nUbezpieczenie i przegląd ważne ,\r\nWiecej informacji pod podanym numerem !",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 207,
+        "params": [
+            ["Marka", "Volkswagen"],
+            ["Model", "Polo"],
+            ["Rok produkcji", "2000 "],
+            ["Paliwo", "Benzyna"],
+            ["Przebieg", "156 000 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["156 000 km", "2000"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/volkswagen-polo-polo-6n2-1-4-16v-zarejestrowany-w-pl-alu-15-ID6ylKdD.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/volkswagen-polo-polo-6n2-1-4-16v-zarejestrowany-w-pl-alu-15-ID6ylKdD.html",
+        "user_ads_url": "",
+        "list_label": "4 800 zł",
+        "list_label_ad": "4 800 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 2,
+            "riak_key": 375879499,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 7,
+                "w": 1000,
+                "h": 560
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 560
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225119257",
+        "url": "http:\/\/olx.pl\/oferta\/bmw-seria-7-nieodpala-CID5-IDfezNL.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/bmw-seria-7-nieodpala-CID5-IDfezNL.html?json=1",
+        "title": "BMW Seria 7 Nieodpala",
+        "created": "dzisiaj 20:34",
+        "age": 0,
+        "description": "Przedmiotem sprzedaży jest w\/w samochód doinwestowany w bardzo dobrym stanie wizualnym ,niestety silnik odmówił posłuszeństwa nie wiem co się stało auto zgasło mi w czasie jazdy i nie chce odpalić.Kupiłem nowy samochód i nie mam ani czasu ani pieniędzy żeby to naprawić .Do tej pory auto służyło mi bardzo dobrze .Czyste pachnące po naprawie na pewno jeszcze długo posłuży nowemu nabywcy.Pozdrawiam",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 183,
+        "params": [
+            ["Marka", "BMW"],
+            ["Model", "Seria 7"],
+            ["Rok produkcji", "2001 "],
+            ["Poj. silnika", "3 600 cm³"],
+            ["Paliwo", "Benzyna"],
+            ["Przebieg", "200 000 km"],
+            ["Typ nadwozia", "Sedan"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Uszkodzony"],
+            ["Skrzynia biegów", "Automatyczna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["200 000 km", "2001"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/bmw-seria-7-nieodpala-ID6ylKcL.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Otomoto",
+        "user_label": "Otomoto",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/bmw-seria-7-nieodpala-ID6ylKcL.html",
+        "user_ads_url": "",
+        "list_label": "17 000 zł",
+        "list_label_ad": "17 000 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 9,
+            "riak_key": 375877325,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 1,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 3,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 7,
+                "w": 1000,
+                "h": 562
+            }, {
+                "slot_id": 8,
+                "w": 1000,
+                "h": 562
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "186881909",
+        "url": "http:\/\/olx.pl\/oferta\/mercedes-benz-klasa-s-v8-bi-turbo-100-sprawny-11-2001-CID5-IDcE8vl.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/mercedes-benz-klasa-s-v8-bi-turbo-100-sprawny-11-2001-CID5-IDcE8vl.html?json=1",
+        "title": "Mercedes-Benz Klasa S V8 BI TURBO ,100% sprawny! 11.2001",
+        "created": "dzisiaj 20:32",
+        "age": 160,
+        "description": "Samochód jest w pełni sprawny ,wersja krótka  ,bardzo bogate wyposażenie dodatkowe ,auto charakteryzuje się bardzo dobrymi osiągami a spalanie przy normalnej jezdzie w cyklu mieszanym to 9.0-10.0l! a na trasie wynik 7.5l nie jest żadnym wyczynem , prędkość maksymalna ograniczona fabrycznie do 250 km\/h ,potężny moment obrotowy 560Nm powoduje to że auto niesamowicie przyspiesza ok 7,5s do 100km\/h.Sprzedaję z powodu wyjazdu jak nie sprzedam to zamknę w garażu i będzie na mnie czekał.Proszę nie składać śmiesznych ofert cenowych ,to nie jest auto zaniedbane!\r\nMiesiąc temu wymieniony olej (Mobile) ,przednie tarcze i klocki nowe (niemieckie) ,opony letnie Pirelli p6000 przednie po jednym sezonie bieżnik 6mm tylne nowe ,zimowe bieżnik 5mm.\r\nAuto przeszło niedawno przegląd techniczny bez najmniejszego problemu ,Silnik i skrzynia biegów działają wyśmielicie ,airmatic sprawny ,karoseria i wnętrze jak na 15lat w stanie bdb ,komputer pokładowy nie pokazuje żadnych niesprawności\r\n.",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 195,
+        "params": [
+            ["Marka", "Mercedes-Benz"],
+            ["Model", "S Klasa"],
+            ["Rok produkcji", "2001 "],
+            ["Poj. silnika", "3 996 cm³"],
+            ["Paliwo", "Diesel"],
+            ["Moc silnika", "250 KM"],
+            ["Przebieg", "279 000 km"],
+            ["Typ nadwozia", "Sedan"],
+            ["Kolor", "Srebrny"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Automatyczna"],
+            ["Kraj pochodzenia", "Niemcy"]
+        ],
+        "subtitle": ["279 000 km", "2001"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/mercedes-benz-klasa-s-v8-bi-turbo-100-sprawny-11-2001-ID6ydHYt.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Wojtek",
+        "user_label": "Wojtek",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/mercedes-benz-klasa-s-v8-bi-turbo-100-sprawny-11-2001-ID6ydHYt.html",
+        "user_ads_url": "",
+        "list_label": "20 000 zł",
+        "list_label_ad": "20 000 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 7,
+            "riak_key": 314721291,
+            "riak_rev": 205,
+            "data": [{
+                "slot_id": 1,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 2,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 3,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 4,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 5,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 6,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 7,
+                "w": 934,
+                "h": 700
+            }, {
+                "slot_id": 8,
+                "w": 934,
+                "h": 700
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "225118203",
+        "url": "http:\/\/olx.pl\/oferta\/peugeot-307-peugeot-307-1-6-benzyna-bogate-wyposazenie-CID5-IDfezvL.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/peugeot-307-peugeot-307-1-6-benzyna-bogate-wyposazenie-CID5-IDfezvL.html?json=1",
+        "title": "Peugeot 307 Peugeot 307 1,6 benzyna bogate wyposażenie",
+        "created": "dzisiaj 20:31",
+        "age": 0,
+        "description": "Peugeot 307 - 1,6 benzyna, 2001r. bogate wyposażenie. Polecam",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 199,
+        "params": [
+            ["Marka", "Peugeot"],
+            ["Model", "307"],
+            ["Rok produkcji", "2001 "],
+            ["Paliwo", "Benzyna"],
+            ["Przebieg", "190 000 km"],
+            ["Typ nadwozia", "Hatchback"],
+            ["Kolor", "Żółty – Złoty"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["190 000 km", "2001"],
+        "business": 0,
+        "hide_user_ads_button": 1,
+        "status": "active",
+        "apply_btn_label": "Kontakt przez Otomoto",
+        "apply_url": "http:\/\/otomoto.pl\/oferta\/peugeot-307-peugeot-307-1-6-benzyna-bogate-wyposazenie-ID6ylKbD.html#contact-form",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 0,
+        "map_zoom": "13",
+        "map_lat": "53.39368",
+        "map_lon": "14.51525",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIUBW\/A0YVpNYlf9nEW\/dnc3DyEYc1G7vx\/HKrO3+vvTNQZMjuimHrZa",
+        "city_label": "Szczecin ",
+        "person": "Iwona",
+        "user_label": "Iwona",
+        "external_partner_code": "otomoto_pl_form",
+        "external_contact_url": "http:\/\/otomoto.pl\/oferta\/peugeot-307-peugeot-307-1-6-benzyna-bogate-wyposazenie-ID6ylKbD.html",
+        "user_ads_url": "",
+        "list_label": "7 900 zł",
+        "list_label_ad": "7 900 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 2,
+            "riak_key": 375877125,
+            "riak_rev": 11,
+            "data": [{
+                "slot_id": 1,
+                "w": 644,
+                "h": 362
+            }, {
+                "slot_id": 2,
+                "w": 644,
+                "h": 361
+            }, {
+                "slot_id": 3,
+                "w": 644,
+                "h": 361
+            }, {
+                "slot_id": 4,
+                "w": 644,
+                "h": 361
+            }]
+        },
+        "chat_options": 1
+    }, {
+        "id": "221074933",
+        "url": "http:\/\/olx.pl\/oferta\/opel-vectra-b-1-6-16v-benzyna-lpg-CID5-IDeXBGJ.html",
+        "preview_url": "https:\/\/ssl.olx.pl\/i2\/szczecin\/oferta\/opel-vectra-b-1-6-16v-benzyna-lpg-CID5-IDeXBGJ.html?json=1",
+        "title": "Opel Vectra B 1.6 16V Benzyna+LPG",
+        "created": "dzisiaj 20:29",
+        "age": 13,
+        "description": "Witam\r\nSprzedam Opla Vectrę B 1.6 16V z sekwencyjną instalacją gazową STAG która ma 3 lata spalanie w granicach 8,5l\/100 km\r\n-alufelgi 16 cali\r\n- elektryczne szyby\r\n- Air Bag x4\r\n- wspomaganie kierownicy\r\n- ABS\r\n- centralny zamek\r\n- lakier metalik\r\n- reg świateł\r\n- reg foteli\r\n- regulowana wysokość kierownicy\r\n-domykanie szyb z kluczyka\r\n-hak\r\n-podgrzewane i elektryczne lusterka \r\n-podłokietnik przedni i tylny \r\n-immobiliser \r\nZarejestrowany i Opłacony.\r\n\r\nWszystkich zainteresowanych zapraszam do kontaktu",
+        "highlighted": 0,
+        "urgent": 0,
+        "topAd": 0,
+        "promotion_section": 0,
+        "category_id": 198,
+        "params": [
+            ["Marka", "Opel"],
+            ["Model", "Vectra"],
+            ["Rok produkcji", "1997 "],
+            ["Poj. silnika", "1 600 cm³"],
+            ["Paliwo", "LPG"],
+            ["Moc silnika", "101 KM"],
+            ["Przebieg", "253 000 km"],
+            ["Typ nadwozia", "Sedan"],
+            ["Kolor", "Inny kolor"],
+            ["Stan techniczny", "Nieuszkodzony"],
+            ["Skrzynia biegów", "Manualna"],
+            ["Kraj pochodzenia", "Polska"]
+        ],
+        "subtitle": ["253 000 km", "1997"],
+        "business": 0,
+        "hide_user_ads_button": 0,
+        "status": "active",
+        "has_phone": 1,
+        "has_email": 1,
+        "is_price_negotiable": 1,
+        "map_zoom": 13,
+        "map_lat": "53.43138",
+        "map_lon": "14.54948",
+        "map_radius": 1,
+        "map_show_detailed": false,
+        "map_location": "lJo9IfohWIV2VFxsMGegsGcJ\/Hs94FYNDyEYc1G7vx\/fKo94tzb+7UGArruXBNsK",
+        "city_label": "Szczecin Centrum",
+        "person": "Daniel",
+        "user_label": "Daniel",
+        "user_ads_id": "iQNn",
+        "user_id": "iQNn",
+        "numeric_user_id": "4492853",
+        "user_ads_url": "https:\/\/ssl.olx.pl\/i2\/oferty\/user\/iQNn\/?json=1&search%5Buser_id%5D=4492853",
+        "list_label": "4 000 zł",
+        "list_label_ad": "4 000 zł",
+        "list_label_small": "Do negocjacji",
+        "photos": {
+            "riak_ring": 12,
+            "riak_key": 369841475,
+            "riak_rev": 0,
+            "data": [{
+                "slot_id": 3,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 1,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 2,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 4,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 5,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 6,
+                "w": 1000,
+                "h": 563
+            }, {
+                "slot_id": 7,
+                "w": 395,
+                "h": 700
+            }]
+        },
+        "chat_options": 1
+    }],
+    "adverts": null
+}
