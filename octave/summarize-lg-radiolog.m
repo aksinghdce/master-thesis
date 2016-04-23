@@ -42,7 +42,9 @@ disp(cstrcat('czas sesji pomiarowej:        ', num2str(time_session), ' s'));
 disp(cstrcat('czas aktywności radia:        ', num2str(time_active), ' s  (', num2str(active_percent, '%d'), '%)'));
 disp('')
 disp(cstrcat('liczba pobranych danych:      ', num2str(total_kb_rx, '%d'), ' KB'));
+disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(RX), '%d'), ' KB/s'))
 disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_rx, '%d'), ' KB/s'))
 disp('')
 disp(cstrcat('liczba wysłanych danych:      ', num2str(total_kb_tx, '%d'), ' KB'));
+disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(TX), '%d'), ' KB/s'))
 disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_tx, '%d'), ' KB/s'))
