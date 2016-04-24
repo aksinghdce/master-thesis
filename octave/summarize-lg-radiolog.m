@@ -11,20 +11,9 @@ if ~exist('RATE_BYTE_PER_TX', 'var')
     RATE_BYTE_PER_TX = 98;
 end
 
-% radio state vector
-if ~exist('S', 'var')
-    S  = RADIO_STATE(:, 2);
-end
-
-% sent packets count
-if ~exist('TX', 'var')
-    TX = (RADIO_STATE(:, 3) * RATE_BYTE_PER_TX) / 1024;
-end
-
-% received packets count
-if ~exist('RX', 'var')
-    RX = (RADIO_STATE(:, 4) * RATE_BYTE_PER_RX) / 1024;
-end
+S  = RADIO_STATE(:, 2);
+TX = (RADIO_STATE(:, 3) * RATE_BYTE_PER_TX) / 1024;
+RX = (RADIO_STATE(:, 4) * RATE_BYTE_PER_RX) / 1024;
 
 % session time in seconds
 time_session    = n_rows;
