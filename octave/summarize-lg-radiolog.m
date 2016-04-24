@@ -2,13 +2,13 @@
 [n_rows, n_columns] = size(RADIO_STATE);
 
 % kb per recieved packet
-if ~exist('RATE_KB_PER_RX', 'var')
-    RATE_KB_PER_RX = 980;
+if ~exist('RATE_BYTE_PER_RX', 'var')
+    RATE_BYTE_PER_RX = 980;
 end
 
 % kb per sent packet
-if ~exist('RATE_KB_PER_TX', 'var')
-    RATE_KB_PER_TX = 98;
+if ~exist('RATE_BYTE_PER_TX', 'var')
+    RATE_BYTE_PER_TX = 98;
 end
 
 % radio state vector
@@ -18,12 +18,12 @@ end
 
 % sent packets count
 if ~exist('TX', 'var')
-    TX = RADIO_STATE(:, 3) * RATE_KB_PER_TX;
+    TX = (RADIO_STATE(:, 3) * RATE_BYTE_PER_TX) / 1024;
 end
 
 % received packets count
 if ~exist('RX', 'var')
-    RX = RADIO_STATE(:, 4) * RATE_KB_PER_RX;
+    RX = (RADIO_STATE(:, 4) * RATE_BYTE_PER_RX) / 1024;
 end
 
 % session time in seconds
@@ -38,13 +38,15 @@ total_kb_tx     = sum(TX);
 mean_kbs_rx     = total_kb_rx / time_active;
 mean_kbs_tx     = total_kb_tx / time_active;
 
+format = '%.2f';
+
 disp(cstrcat('czas sesji pomiarowej:        ', num2str(time_session), ' s'));
-disp(cstrcat('czas aktywności radia:        ', num2str(time_active), ' s  (', num2str(active_percent, '%d'), '%)'));
+disp(cstrcat('czas aktywności radia:        ', num2str(time_active), ' s  (', num2str(active_percent, format), '%)'));
 disp('')
-disp(cstrcat('liczba pobranych danych:      ', num2str(total_kb_rx, '%d'), ' KB'));
-disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(RX), '%d'), ' KB/s'))
-disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_rx, '%d'), ' KB/s'))
+disp(cstrcat('liczba pobranych danych:      ', num2str(total_kb_rx, format), ' KB'));
+disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(RX), format), ' KB/s'))
+disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_rx, format), ' KB/s'))
 disp('')
-disp(cstrcat('liczba wysłanych danych:      ', num2str(total_kb_tx, '%d'), ' KB'));
-disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(TX), '%d'), ' KB/s'))
-disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_tx, '%d'), ' KB/s'))
+disp(cstrcat('liczba wysłanych danych:      ', num2str(total_kb_tx, format), ' KB'));
+disp(cstrcat('średnia dla aplikacji:        ', num2str(mean(TX), format), ' KB/s'))
+disp(cstrcat('średnia dla aktywnego radia:  ', num2str(mean_kbs_tx, format), ' KB/s'))

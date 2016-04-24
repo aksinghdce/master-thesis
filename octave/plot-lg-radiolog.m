@@ -10,8 +10,8 @@ hold on;
 FLAG_CONVERT_KB = 1
 FLAG_PLOT_TX = 1
 
-RATE_KB_PER_RX = 980
-RATE_KB_PER_TX = 98
+RATE_BYTE_PER_RX = 980
+RATE_BYTE_PER_TX = 98
 
 % number of rows / probes
 n  = length(RADIO_STATE);
@@ -26,8 +26,8 @@ TX = RADIO_STATE(:, 3);
 RX = RADIO_STATE(:, 4);
 
 if (FLAG_CONVERT_KB ~= 0)
-    TX = TX * RATE_KB_PER_TX / 1024;
-    RX = RX * RATE_KB_PER_RX / 1024;
+    TX = TX * RATE_BYTE_PER_TX / 1024;
+    RX = RX * RATE_BYTE_PER_RX / 1024;
 endif
 
 % hax(1) is left axis, hax(2) right
