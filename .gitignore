@@ -4,3 +4,4 @@
 .~lock.*
 
 dumps/**/*.html
+/public_html/data/
