@@ -15,7 +15,19 @@
         <h1>Proto</h1>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script>
-        var URL_ROOT = 'http://localhost:8000/';
+        // so far i saw three data structures (each max 2 levels deep: 1. list itself, 2. details)
+        // - iCarWash: few list items, with up to 5 nodes containing car wash detials / data,
+        // - Pracuj.pl: moderate length list; ad details downloaded on demand
+        // - OLX: long lists, downloaded as pages of ca. 15 items. Item details downloaded with page.
+        // This alone shows that making a library can be (well is) difficult. Problem here
+        // is that the frontend client (the app) has to adapt do the server protocol (not vice versa).
+        // IMO there is no point of making a library → won't be any good
+        // But I'll try!
+        var URL_ROOT    = 'http://localhost:8000/data/',
+            I_CAR_WASH  = {'url_root': URL_ROOT + 'icarwash/'},
+            PARCUJ      = {'url_root': URL_ROOT + 'pracuj/'},
+            OLX         = {'url_root': URL_ROOT + 'olx/moto/'};
+
     </script>
     </body>
 </html>
