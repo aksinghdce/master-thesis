@@ -23,11 +23,37 @@
         // is that the frontend client (the app) has to adapt do the server protocol (not vice versa).
         // IMO there is no point of making a library → won't be any good
         // But I'll try!
+        'use strict';
         var URL_ROOT    = 'http://localhost:8000/data/',
             I_CAR_WASH  = {'url_root': URL_ROOT + 'icarwash/'},
             PARCUJ      = {'url_root': URL_ROOT + 'pracuj/'},
-            OLX         = {'url_root': URL_ROOT + 'olx/moto/'};
+            OLX         = {'url_root': URL_ROOT + 'olx/moto/'},
+            NET_CACHE   = null;
 
+// will download item list for iCarWash
+        function getItems() {
+            $.ajax({
+                dataType: 'json',
+                url: 'http://localhost:8000/data/icarwash/carwash-list',
+                success: function (data, textStatus, jqXhr) {
+                    NET_CACHE = data.content;
+
+                    NET_CACHE.forEach(getDetails);
+                }
+            });
+        }
+// will download details for an item [iCarWash]
+        function getDetails(item) {
+            $.ajax({
+                dataType: 'json',
+                url: 'http://localhost:8000/data/icarwash/alarms/' + item.id,
+                success: function (data, textStatus, jqXhr) {
+                    item.alarms = data.content;
+                }
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', getItems);
     </script>
     </body>
 </html>
