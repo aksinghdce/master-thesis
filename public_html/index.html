@@ -24,36 +24,53 @@
         // IMO there is no point of making a library → won't be any good
         // But I'll try!
         'use strict';
-        var URL_ROOT    = 'http://localhost:8000/data/',
-            I_CAR_WASH  = {'url_root': URL_ROOT + 'icarwash/'},
-            PARCUJ      = {'url_root': URL_ROOT + 'pracuj/'},
-            OLX         = {'url_root': URL_ROOT + 'olx/moto/'},
-            NET_CACHE   = null;
+        var iCarWash    = Object.create(null);
 
-// will download item list for iCarWash
-        function getItems() {
+        iCarWash.urlRoot    = 'http://localhost:8000/data/icarwash/';
+        iCarWash.urlList    = iCarWash.urlRoot + 'carwash-list';
+        iCarWash.urlAlarms  = iCarWash.urlRoot + 'alarms/';
+        iCarWash.urlAutodiagnostics = iCarWash.urlRoot + 'autodiagnostics/';
+        iCarWash.urlEvents  = iCarWash.urlRoot + 'events/';
+        iCarWash.urlFinance = iCarWash.urlRoot + 'finance/';
+        iCarWash.urlMonitor = iCarWash.urlRoot + 'monitor/';
+        iCarWash.cache      = null;
+
+        /**
+         * Retrives JSON from given URL and triggers the successCallback function on success.
+         *
+         * @param string url
+         * @param object dst
+         */
+        function get(url, successCallback) {
             $.ajax({
                 dataType: 'json',
-                url: 'http://localhost:8000/data/icarwash/carwash-list',
-                success: function (data, textStatus, jqXhr) {
-                    NET_CACHE = data.content;
-
-                    NET_CACHE.forEach(getDetails);
-                }
-            });
-        }
-// will download details for an item [iCarWash]
-        function getDetails(item) {
-            $.ajax({
-                dataType: 'json',
-                url: 'http://localhost:8000/data/icarwash/alarms/' + item.id,
-                success: function (data, textStatus, jqXhr) {
-                    item.alarms = data.content;
-                }
+                url: url,
+                success: successCallback
             });
         }
 
-        window.addEventListener('DOMContentLoaded', getItems);
+        /**
+         * A jQuery success handler (possible parameters data, statusText, jqXhr)
+         */
+        function downloadList(data) {
+            iCarWash.cache = data.content;
+            // download details for each list item
+            iCarWash.cache.forEach(function (item) {
+                // alarms
+                get((iCarWash.urlAlarms + item.id), function (data) { item.alarms = data.content; });
+                // autodiagnostics
+                get((iCarWash.urlAutodiagnostics + item.id), function (data) { item.autodiagnostics = data.content; });
+                // events
+                get((iCarWash.urlEvents + item.id), function (data) { item.events = data.content; });
+                // finance
+                get((iCarWash.urlFinance + item.id), function (data) { item.finance = data.content; });
+                // monitor
+                get((iCarWash.urlMonitor + item.id), function (data) { item.monitor = data.content; });
+            });
+        }
+
+        get(iCarWash.urlList, downloadList);
+
     </script>
     </body>
 </html>
