@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Proto</h1>
+        <div id="container"></div>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script>
         // so far i saw three data structures (each max 2 levels deep: 1. list itself, 2. details)
@@ -67,10 +68,62 @@
                 // monitor
                 get((iCarWash.urlMonitor + item.id), function (data) { item.monitor = data.content; });
             });
+            renderList(iCarWash.cache);
+        }
+
+        function renderList(list) {
+            var clone = null,
+                table = document.createElement('table'),
+                tr    = document.createElement('tr'),
+                td1   = document.createElement('td'),
+                td2   = document.createElement('td');
+
+            $('#container').html(null);
+            $(tr).append(td1, td2);
+            $(list).each(function (index, element) {
+                $(td1).text(element.serialNumber);
+                $(td2).text(element.username);
+                clone = $(tr).clone(true);
+                $(clone).click(function () { renderDetailsMenu(element.id); });
+                $(table).append(clone);
+            });
+
+            $('#container').append(table);
+        }
+
+        function renderDetailsMenu(itemId) {
+            var elmBack     = document.createElement('div'),
+                elmAlarm    = document.createElement('div'),
+                elmAuto     = document.createElement('div'),
+                elmEvent    = document.createElement('div'),
+                elmFinance  = document.createElement('div'),
+                elmMonitor  = document.createElement('div');
+
+            elmBack.onclick = function () { renderList(iCarWash.cache); };
+            elmBack.innerText = 'back';
+
+            elmAlarm.onclick = function () { console.log('alarms for ' + itemId); };
+            elmAlarm.innerText = 'Alarms';
+
+            elmAuto.onclick = function () { console.log('autodiagnostics for ' + itemId); };
+            elmAuto.innerText = 'Autodiagnostics';
+
+            elmEvent.onclick = function () { console.log('events for ' + itemId); };
+            elmEvent.innerText = 'Events';
+
+            elmFinance.onclick = function () { console.log('finance for ' + itemId); };
+            elmFinance.innerText = 'Finance';
+
+            elmMonitor.onclick = function () { console.log('monitor for ' + itemId); };
+            elmMonitor.innerText = 'Monitor';
+
+            $('#container').html(null);
+            $('#container').append(elmBack, elmAlarm, elmAuto, elmEvent, elmFinance, elmMonitor);
         }
 
         get(iCarWash.urlList, downloadList);
-
+// so... we've got our results cached. So how do we get a concrete item?
+// this needs addressing.
     </script>
     </body>
 </html>
