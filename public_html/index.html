@@ -30,21 +30,42 @@
         ///////////////////////////////////////////////////////////////////////////////////////////////
         //
         // TODO list:
-        //  #1 cache access,
+        //  #1 cache access,                        [NOT]
         //  #2 implement download for Pracuj.pl     [DONE]
         //  #3 implement download for OLX           [DONE]
         //  #4 find and encapsulate abstractions
         //      is making a lib possible?
         //      will it be developer friendly / useable?
+        //  #5 make Android UI stub? This could help to see how the lib will / could be used.
+        //      There is a pitfall here. We can do much work and miss the point.
         //
         ///////////////////////////////////////////////////////////////////////////////////////////////
         //
         // Some stats:
+        //
+        //  Taken from chrome developer tools. Keep in mind this is JavaScript land
+        //  and much of the data seems to be redundant (especially in Pracuj.pl case).
+        //  This can vary quite a bit when messured on Android.
+        //
         //  - Pracuj.pl cache object consumes approx. 800 KB (many fields are redundant though),
         //  - iCarWash  cache object consumes approx.  60 KB,
         //  - OLX       cache object consumes approx. 720 KB (this is only for 10 pages of ads giving about 150 ads).
         //              The data contains an info of a total page count of 1950. This is roughly 20 times more,
         //              giving about 14 MB for the list alone. No pictures included.
+        //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        //
+        // Cache access.
+        //  There could many cache access strategies. The one with storing the items in an array is fine
+        //  in my opition. Fits all three apps and is siuted to work with Androids list adapter.
+        //  The problem may be with using Androids LruCache. TODO check how it works exactly.
+        //  If a cached object can't be (or shouldn't) be modified (it's size shouldn't change,
+        //  Maybe use two separate lists / caches. One for the item list
+        //  and the second for the items themselves (and even one more for images).
+        //
+        //  As we can see the sizes (of RAM) used by the cache vary quite a lot.
+        //  A cache of 1MB in size should be enough to hold between 50-150 items including details.
+        //  If we split the cache 50-50, then: approx. 500 items and 50 detail entries.
         //
         ///////////////////////////////////////////////////////////////////////////////////////////////
         'use strict';
@@ -176,7 +197,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // OLX
 ///////////////////////////////////////////////////////////////////////////////////////////////
-        Olx.active       = true;
+        Olx.active       = false;
         Olx.cache        = null;
         Olx.urlRoot      = 'http://localhost:8000/data/olx/moto/';
 
