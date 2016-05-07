@@ -31,8 +31,8 @@
         //
         // TODO list:
         //  #1 cache access,
-        //  #2 implement download for Pracuj.pl [DONE]
-        //  #3 implement download for OLX
+        //  #2 implement download for Pracuj.pl     [DONE]
+        //  #3 implement download for OLX           [DONE]
         //  #4 find and encapsulate abstractions
         //      is making a lib possible?
         //      will it be developer friendly / useable?
@@ -42,6 +42,9 @@
         // Some stats:
         //  - Pracuj.pl cache object consumes approx. 800 KB (many fields are redundant though),
         //  - iCarWash  cache object consumes approx.  60 KB,
+        //  - OLX       cache object consumes approx. 720 KB (this is only for 10 pages of ads giving about 150 ads).
+        //              The data contains an info of a total page count of 1950. This is roughly 20 times more,
+        //              giving about 14 MB for the list alone. No pictures included.
         //
         ///////////////////////////////////////////////////////////////////////////////////////////////
         'use strict';
@@ -152,7 +155,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // Pracuj.pl
 ///////////////////////////////////////////////////////////////////////////////////////////////
-        Pracuj.active       = true;
+        Pracuj.active       = false;
         Pracuj.cache        = null;
         Pracuj.urlRoot      = 'http://localhost:8000/data/pracuj/';
         Pracuj.urlList      = Pracuj.urlRoot + 'offer-list';
@@ -168,6 +171,29 @@
 
         if (Pracuj.active) {
             get(Pracuj.urlList, Pracuj.getOffers);
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+// OLX
+///////////////////////////////////////////////////////////////////////////////////////////////
+        Olx.active       = true;
+        Olx.cache        = null;
+        Olx.urlRoot      = 'http://localhost:8000/data/olx/moto/';
+
+        Olx.getAds = function () {
+            var i;
+
+            for (i = 1; i < 11; i++) {
+                // a page payload contains the information how many pages there acually are,
+                // here the count is set to 10 because there is no more data in our stub.
+                get((Olx.urlRoot + 'pages/' + i), function (data) {
+                    Olx.cache = (Olx.cache || []).concat(data.ads);
+                });
+            }
+        };
+
+        if (Olx.active) {
+            Olx.getAds();
         }
 
     </script>
