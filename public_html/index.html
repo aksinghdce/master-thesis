@@ -35,6 +35,7 @@
         iCarWash.urlFinance = iCarWash.urlRoot + 'finance/';
         iCarWash.urlMonitor = iCarWash.urlRoot + 'monitor/';
         iCarWash.cache      = null;
+        iCarWash.active     = false;
 
         /**
          * Retrives JSON from given URL and triggers the successCallback function on success.
@@ -53,7 +54,7 @@
         /**
          * A jQuery success handler (possible parameters data, statusText, jqXhr)
          */
-        function downloadList(data) {
+        iCarWash.downloadList = function (data) {
             iCarWash.cache = data.content;
             // download details for each list item
             iCarWash.cache.forEach(function (item) {
@@ -68,10 +69,10 @@
                 // monitor
                 get((iCarWash.urlMonitor + item.id), function (data) { item.monitor = data.content; });
             });
-            renderList(iCarWash.cache);
-        }
+            iCarWash.renderList(iCarWash.cache);
+        };
 
-        function renderList(list) {
+        iCarWash.renderList = function (list) {
             var clone = null,
                 table = document.createElement('table'),
                 tr    = document.createElement('tr'),
@@ -84,14 +85,14 @@
                 $(td1).text(element.serialNumber);
                 $(td2).text(element.username);
                 clone = $(tr).clone(true);
-                $(clone).click(function () { renderDetailsMenu(element.id); });
+                $(clone).click(function () { iCarWash.renderDetailsMenu(element.id); });
                 $(table).append(clone);
             });
 
             $('#container').append(table);
-        }
+        };
 
-        function renderDetailsMenu(itemId) {
+        iCarWash.renderDetailsManu = function (itemId) {
             var elmBack     = document.createElement('div'),
                 elmAlarm    = document.createElement('div'),
                 elmAuto     = document.createElement('div'),
@@ -99,7 +100,7 @@
                 elmFinance  = document.createElement('div'),
                 elmMonitor  = document.createElement('div');
 
-            elmBack.onclick = function () { renderList(iCarWash.cache); };
+            elmBack.onclick = function () { iCarWash.renderList(iCarWash.cache); };
             elmBack.innerText = 'back';
 
             elmAlarm.onclick = function () { console.log('alarms for ' + itemId); };
@@ -121,7 +122,9 @@
             $('#container').append(elmBack, elmAlarm, elmAuto, elmEvent, elmFinance, elmMonitor);
         }
 
-        get(iCarWash.urlList, downloadList);
+        if (iCarWash.active) {
+            get(iCarWash.urlList, iCarWash.downloadList);
+        }
 // so... we've got our results cached. So how do we get a concrete item?
 // this needs addressing.
 
