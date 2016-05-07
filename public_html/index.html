@@ -16,6 +16,8 @@
         <div id="container"></div>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script>
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        //
         // so far i saw three data structures (each max 2 levels deep: 1. list itself, 2. details)
         // - iCarWash: few list items, with up to 5 nodes containing car wash detials / data,
         // - Pracuj.pl: moderate length list; ad details downloaded on demand
@@ -24,10 +26,46 @@
         // is that the frontend client (the app) has to adapt do the server protocol (not vice versa).
         // IMO there is no point of making a library → won't be any good
         // But I'll try!
+        //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        //
+        // TODO list:
+        //  #1 cache access,
+        //  #2 implement download for Pracuj.pl [DONE]
+        //  #3 implement download for OLX
+        //  #4 find and encapsulate abstractions
+        //      is making a lib possible?
+        //      will it be developer friendly / useable?
+        //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        //
+        // Some stats:
+        //  - Pracuj.pl cache object consumes approx. 800KB (many fields are redundant though),
+        //  -
+        //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
         'use strict';
         var iCarWash = Object.create(null),
             Pracuj   = Object.create(null),
             Olx      = Object.create(null);
+
+        /**
+         * Retrives JSON from given URL and triggers the successCallback function on success.
+         *
+         * @param string url
+         * @param function successCallback – A jQuery success handler (possible parameters data, statusText, jqXhr)
+         */
+        function get(url, successCallback) {
+            $.ajax({
+                dataType: 'json',
+                url: url,
+                success: successCallback
+            });
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+// iCarWash
+///////////////////////////////////////////////////////////////////////////////////////////////
 
         iCarWash.urlRoot    = 'http://localhost:8000/data/icarwash/';
         iCarWash.urlList    = iCarWash.urlRoot + 'carwash-list';
@@ -39,23 +77,6 @@
         iCarWash.cache      = null;
         iCarWash.active     = false;
 
-        /**
-         * Retrives JSON from given URL and triggers the successCallback function on success.
-         *
-         * @param string url
-         * @param object dst
-         */
-        function get(url, successCallback) {
-            $.ajax({
-                dataType: 'json',
-                url: url,
-                success: successCallback
-            });
-        }
-
-        /**
-         * A jQuery success handler (possible parameters data, statusText, jqXhr)
-         */
         iCarWash.downloadList = function (data) {
             iCarWash.cache = data.content;
             // download details for each list item
@@ -122,7 +143,7 @@
 
             $('#container').html(null);
             $('#container').append(elmBack, elmAlarm, elmAuto, elmEvent, elmFinance, elmMonitor);
-        }
+        };
 
         if (iCarWash.active) {
             get(iCarWash.urlList, iCarWash.downloadList);
@@ -149,16 +170,6 @@
             get(Pracuj.urlList, Pracuj.getOffers);
         }
 
-// so... we've got our results cached. So how do we get a concrete item?
-// this needs addressing.
-
-// TODO list:
-//  #1 cache retrival,
-//  #2 implement download for Pracuj.pl
-//  #3 implement download for OLX
-//  #4 find and encapsulate abstractions
-//      is making a lib possible?
-//      will it be developer friendly / useable?
     </script>
     </body>
 </html>
