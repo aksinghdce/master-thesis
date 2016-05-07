@@ -25,7 +25,9 @@
         // IMO there is no point of making a library → won't be any good
         // But I'll try!
         'use strict';
-        var iCarWash    = Object.create(null);
+        var iCarWash = Object.create(null),
+            Pracuj   = Object.create(null),
+            Olx      = Object.create(null);
 
         iCarWash.urlRoot    = 'http://localhost:8000/data/icarwash/';
         iCarWash.urlList    = iCarWash.urlRoot + 'carwash-list';
@@ -125,6 +127,28 @@
         if (iCarWash.active) {
             get(iCarWash.urlList, iCarWash.downloadList);
         }
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+// Pracuj.pl
+///////////////////////////////////////////////////////////////////////////////////////////////
+        Pracuj.active       = true;
+        Pracuj.cache        = null;
+        Pracuj.urlRoot      = 'http://localhost:8000/data/pracuj/';
+        Pracuj.urlList      = Pracuj.urlRoot + 'offer-list';
+        Pracuj.urlOffer     = Pracuj.urlRoot + 'offers/';
+
+        Pracuj.getOffers = function (data, statusText, jqXhr) {
+            Pracuj.cache = data.offers;
+            // download offer details for each offer on list
+            Pracuj.cache.forEach(function (offer) {
+                get((Pracuj.urlOffer + offer.offerId), function (data) { offer.offerDetails = data; });
+            });
+        };
+
+        if (Pracuj.active) {
+            get(Pracuj.urlList, Pracuj.getOffers);
+        }
+
 // so... we've got our results cached. So how do we get a concrete item?
 // this needs addressing.
 
