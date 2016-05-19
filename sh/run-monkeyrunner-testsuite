@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ "$1" != 'olx' ] && [ "$1" != 'icarwash' ]
+then
+    echo "Unknown test suite $1"
+    exit 1
+fi
+
+files=$(find "../test/$1" -iname mt*.txt | sort)
+package='pl.grzeniu.mt'
+activity='ItemListActivity'
+
+for file in ${files[@]}
+do
+    echo "beginning tests for $file"
+    echo "killing process for package $package"
+    adb shell am force-stop $package
+
+    if [ $? -ne 0 ]
+    then
+        echo "ActivityManager returned error code"
+        echo "Is any device connected?"
+        exit 2
+    fi
+
+    echo "running steps"
+    monkeyrunner run-monkeyrunner-test "$file"
+    echo ''
+done
