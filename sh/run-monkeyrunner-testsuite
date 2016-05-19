@@ -12,18 +12,7 @@ activity='ItemListActivity'
 
 for file in ${files[@]}
 do
-    echo "beginning tests for $file"
-    echo "killing process for package $package"
-    adb shell am force-stop $package
-
-    if [ $? -ne 0 ]
-    then
-        echo "ActivityManager returned error code"
-        echo "Is any device connected?"
-        exit 2
-    fi
-
-    echo "running steps"
+    echo "running steps for $file"
     monkeyrunner run-monkeyrunner-test "$file"
     echo ''
 done

@@ -33,6 +33,8 @@ spinner.state = 0
 print '[WAITING FOR CONNECTION]'
 device = MonkeyRunner.waitForConnection()
 print '[CONNECTED TO DEVICE]'
+device.shell('am force-stop pl.grzeniu.mt')
+print '[ACTIVITY STOPED]'
 device.startActivity(component = 'pl.grzeniu.mt/pl.grzeniu.mt.ItemListActivity')
 print '[ACTIVITY STARTED]\n[EXECUTING STEPS]'
 
