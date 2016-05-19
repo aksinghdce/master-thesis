@@ -39,7 +39,6 @@ for line in open(argv[1]):
     # no tokens
     if len(tokens) <= 0:
         continue
-
     # execute monkeyrunner methods with given params
     if tokens[0] == TOKEN_METHOD_BACK:
         device.press('KEYCODE_BACK', MonkeyDevice.DOWN_AND_UP)
@@ -52,10 +51,9 @@ for line in open(argv[1]):
     else:
         # unknown method
         continue
-    sleep(1)
     commands += 1
     spinner()
 
-
-print 'executed ', commands, ' commands'
-print 'test took ', int(time() - time_start), ' seconds'
+print '\n[done]'
+print '    executed\t', commands, ' commands'
+print '    test took\t', int(time() - time_start), ' seconds'
