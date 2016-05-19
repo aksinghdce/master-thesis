@@ -4,12 +4,12 @@ from random import random
 
 conf = {
     'steps':            100,
-    'prob_show':        0.50,
-    'prob_drag':        1,
-    'prob_sleep':       0.5,
+    'show':             (0.50, 2),   # probability of viewing item details, time spent on page
+    'drag':             (1, 0),      # probability of drag event, to witch item to scroll (0 – meens top / first item; 1 – second item)
+    'sleep':            (0.5, 2),    # probability of sleep event, time in seconds
     'margin_top':       170,
     'margin_left':      50,
-    'element_height':   100,
+    'element_height':   160,
 }
 
 # Pseudo random decision maker.
@@ -27,13 +27,20 @@ print 3, 1
 
 for step_no in range(conf['steps']):
 
-    if yesno(conf['prob_show']):
-        # take a look on items details
-        print 1, x, y
+    if yesno(conf['sleep'][0]):
+        print 3, conf['sleep'][1]    # timeout
 
+    if yesno(conf['show'][0]):
+        # take a look on items details
+        print 1, x, y               # touch event
+        print 3, conf['show'][1]    # timeout
+        print 4                     # back event
+
+    # move pointer to next item in view (not list; so after scroll gets reset)
     y += conf['element_height']
 
     # on every step move the list one element further
-    if yesno(conf['prob_drag']):
-        print 2, x, y, x, conf['margin_top']
-        y = conf['margin_top']
+    if yesno(conf['drag'][0]):
+        new_y = (conf['margin_top'] + conf['drag'][1] * conf['element_height'])
+        print 2, x, y, x, new_y
+        y = new_y
