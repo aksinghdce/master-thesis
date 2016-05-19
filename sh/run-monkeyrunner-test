@@ -25,13 +25,16 @@ def spinner():
         token = '\\'
 
     spinner.state = (spinner.state + 1) % 4
-    stdout.write('\r' + token)
+    stdout.write('\r[' + token + ']')
     stdout.flush()
 spinner.state = 0
 
 # setup environment
+print '[WAITING FOR CONNECTION]'
 device = MonkeyRunner.waitForConnection()
+print '[CONNECTED TO DEVICE]'
 device.startActivity(component = 'pl.grzeniu.mt/pl.grzeniu.mt.ItemListActivity')
+print '[ACTIVITY STARTED]\n[EXECUTING STEPS]'
 
 # run commands
 for line in open(argv[1]):
@@ -54,6 +57,6 @@ for line in open(argv[1]):
     commands += 1
     spinner()
 
-print '\n[done]'
-print '    executed\t', commands, ' commands'
-print '    test took\t', int(time() - time_start), ' seconds'
+print '\r[DONE]'
+print '    Executed\t', commands, ' commands'
+print '    Test took\t', int(time() - time_start), ' seconds'
