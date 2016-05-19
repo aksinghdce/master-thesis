@@ -4,10 +4,10 @@ from random import random
 
 conf = {
     'steps':            100,
-    'show':             (0.50, 2),   # probability of viewing item details, time spent on page
-    'drag':             (1, 0),      # probability of drag event, to witch item to scroll (0 – meens top / first item; 1 – second item)
-    'sleep':            (0.5, 2),    # probability of sleep event, time in seconds
-    'margin_top':       170,
+    'show':             (1, 2),     # probability of viewing item details, time spent on page
+    'drag':             (0.75, 2),  # probability of drag event, how many items to scroll (0 results in a touch equivalent)
+    'sleep':            (0.5, 2),   # probability of sleep event, time in seconds
+    'margin_top':       170,        # margin from screen top (starting point of items list)
     'margin_left':      50,
     'element_height':   160,
 }
