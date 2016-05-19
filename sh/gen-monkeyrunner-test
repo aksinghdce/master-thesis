@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+from random import random
+
+conf = {
+    'steps':            100,
+    'prob_show':        0.50,
+    'prob_drag':        1,
+    'prob_sleep':       0.5,
+    'margin_top':       170,
+    'margin_left':      50,
+    'element_height':   100,
+}
+
+# Pseudo random decision maker.
+# Returns True if randomly generated number is less than given threshold
+def yesno(threshold = 0.5):
+    if threshold < 0 or threshold > 1:
+        threshold = 0.5
+    return (random() <= threshold)
+
+x = conf['margin_left']
+y = conf['margin_top']
+
+# initial timeout
+print 3, 1
+
+for step_no in range(conf['steps']):
+
+    if yesno(conf['prob_show']):
+        # take a look on items details
+        print 1, x, y
+
+    y += conf['element_height']
+
+    # on every step move the list one element further
+    if yesno(conf['prob_drag']):
+        print 2, x, y, x, conf['margin_top']
+        y = conf['margin_top']
