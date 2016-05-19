@@ -41,5 +41,6 @@ for step_no in range(conf['steps']):
 
     # on every step move the list one element further
     if yesno(conf['drag'][0]):
-        print 2, x, (conf['margin_top'] + conf['drag'][1] * conf['element_height']), x, conf['margin_top']
-        y = conf['margin_top']
+        new_y = (conf['margin_top'] + conf['drag'][1] * conf['element_height'])
+        print 2, x, y, x, new_y
+        y = new_y
