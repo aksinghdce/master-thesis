@@ -7,12 +7,12 @@ then
 fi
 
 services=($(cat $1))
-echo
+printf '[RESTARTING SERVICE]'
 
 for service in ${services[@]}
 do
-    printf '%-80s\r' "resetting service: $service"
-    adb shell dumpsys $service --reset 1>/dev/null
+    printf '%80s\r' '' "$service"
+    adb shell dumpsys $service --reset &>/dev/null
 done
 
-echo
+printf '\n'
