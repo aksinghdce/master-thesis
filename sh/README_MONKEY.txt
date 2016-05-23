@@ -4,7 +4,7 @@ To run a test suite you must follow these steps:
     to a location on a device (SD card would be fine),
 
   - from the containing directory type run the following
-    nohup sh run-monkey-testsuite PATH_TO_TESTS,
+    nohup sh run-monkey-testsuite.sh PATH_TO_TESTS [TEST_REPEAT_COUNT],
 
   - after all tests finish the subdirectory bugreports should contained
     files with bugreports bound to run tests.
