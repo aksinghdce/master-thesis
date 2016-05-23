@@ -1,0 +1,86 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+#
+# gen-monkey-test
+# Creates a monkey script containing a sequnce of user input events.
+# Sequence is created based on some probalility and timeout settings.
+#
+from random import random
+
+conf = {
+    'steps':            100,
+    # probability of viewing item details, time spent on page
+    'show':             (1, 2),
+    # probability of drag event, how many items to scroll (0 results in a touch equivalent)
+    'drag':             (1, 1),
+    # probability of sleep event, time in seconds
+    'sleep':            (0.5, 2),
+    # margin from screen top (starting point of items list)
+    'margin_top':       170,
+    'margin_left':      50,
+    'element_height':   160,
+}
+
+# Pseudo random decision maker.
+# Returns True if randomly generated number is less than given threshold
+def yesno(threshold = 0.5):
+    if threshold < 0 or threshold > 1:
+        threshold = 0.5
+    return (random() <= threshold)
+
+
+def wait(seconds):
+    print('UserWait(' + str(int(seconds * 1000)) + ')')
+
+# prints a touch command sequnce
+def touch(x, y):
+    print('DispatchPointer(0, 0, 0, ' + str(x) + ', ' + str(y) + ', 1, 1, 0, 1, 1, 0, 0)')
+    wait(0.1)
+    print('DispatchPointer(0, 0, 1, ' + str(x) + ', ' + str(y) + ', 1, 1, 0, 1, 1, 0, 0)')
+
+
+# prints a back button pressed command
+def back():
+    print('DispatchPress(KEYCODE_BACK)')
+
+# prints a drag command sequnce
+def drag(x_from, y_from, x_to, y_to):
+    # press
+    print('DispatchPointer(0, 0, 0, ' + str(x_from) + ', ' + str(y_from) + ', 1, 1, 0, 1, 1, 0, 0)')
+    wait(0.1)
+    # move
+    print('DispatchPointer(0, 0, 2, ' + str(x_to) + ', ' + str(y_to) + ', 1, 1, 0, 1, 1, 0, 0)');
+    wait(0.1)
+    # release
+    print('DispatchPointer(0, 0, 1, ' + str(x_to) + ', ' + str(y_to) + ', 1, 1, 0, 1, 1, 0, 0)');
+
+# setup initial x, y values
+x = conf['margin_left']
+y = conf['margin_top']
+
+# prints required script header
+print('type=user\ncount=49\nspeed=1.0\nstart data >>')
+# TODO delegate activity stop + start to caller script
+print('LaunchActivity(pl.grzeniu.mt, pl.grzeniu.mt.ItemListActivity)')
+# initial timeout
+wait(2)
+
+for step_no in range(conf['steps']):
+    # wait
+    if yesno(conf['sleep'][0]):
+        wait(conf['sleep'][1])
+
+    # take a look on items details
+    if yesno(conf['show'][0]):
+        touch(x, y)
+        wait(conf['show'][1])
+        back()
+
+    # move pointer to next item in view (not list; so after scroll gets reset)
+    y += conf['element_height']
+
+    # on every step move the list one element further
+    if yesno(conf['drag'][0]):
+        wait(1)                  # timeout before scroll
+        drag(x, (conf['margin_top'] + conf['drag'][1] * conf['element_height']), x, conf['margin_top'])
+        y = conf['margin_top']
