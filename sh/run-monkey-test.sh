@@ -1,13 +1,16 @@
+# script for runnig a single monkey test
+# test steps are contained in a file pointed to by an input argument
+if [ ! -f "${test_script}" ]; then
+    echo 'Need monkey script file name passed as argument'
+    exit 1
+fi
+
 package='pl.grzeniu.mt'
 activity="${package}.ItemListActivity"
 
 test_script="${1}"
 test_start=$(date '+%s')
 
-if [ ! -f "${test_script}" ]; then
-    echo 'Need monkey script file name passed as argument'
-    exit 1
-fi
 
 function _runMonkey() {
     # reset activity under test
@@ -51,9 +54,8 @@ function _resetStats() {
 }
 
 function _dumpStats() {
-    file_name="${1}_${2}"
-    echo "${file_name}"
-    bugreport > "${file_name}"
+    echo "${1}"
+    bugreport > "${1}"
 
     return '0'
 }
@@ -61,5 +63,5 @@ function _dumpStats() {
 
 # reset system stats
 _resetStats
-#_runMonkey "${test_script}"
-_dumpStats "${test_script}" "${test_start}"
+_runMonkey "${test_script}"
+_dumpStats "bugreports/${test_script}_${test_start}"
