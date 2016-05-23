@@ -1,15 +1,15 @@
 # script for runnig a single monkey test
 # test steps are contained in a file pointed to by an input argument
-if [ ! -f "${test_script}" ]; then
-    echo 'Need monkey script file name passed as argument'
-    exit 1
-fi
-
 package='pl.grzeniu.mt'
 activity="${package}.ItemListActivity"
 
 test_script="${1}"
 test_start=$(date '+%s')
+
+if [ ! -f "${test_script}" ]; then
+    echo 'Need monkey script file name passed as argument'
+    exit 1
+fi
 
 
 function _runMonkey() {
