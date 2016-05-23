@@ -1,10 +1,25 @@
 # script for runnig a single monkey test
 # test steps are contained in a file pointed to by an input argument
+#
+# Usage:
+#   sh run-monkey-test.sh test_file [dump_dir]
+#
+# Arguments:
+#   test_file   – Required, A file containing all test steps.
+#
+#   dump_dir    – Optional destination directory where to save the bugreport.
+#               If left empty report will be saved in current directory.
+#
 package='pl.grzeniu.mt'
 activity="${package}.ItemListActivity"
 
+test_dst=$(basename "${2}")
 test_script="${1}"
 test_start=$(date '+%s')
+
+if [ "${test_dst}" != '' ]; then
+    test_dst="${test_dst}/"
+fi
 
 if [ ! -f "${test_script}" ]; then
     echo 'Need monkey script file name passed as argument'
@@ -64,4 +79,4 @@ function _dumpStats() {
 # reset system stats
 _resetStats
 _runMonkey "${test_script}"
-_dumpStats "bugreports/${test_script}_${test_start}"
+_dumpStats "${test_dst}${test_script}_${test_start}"
