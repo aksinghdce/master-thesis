@@ -44,14 +44,14 @@ for test_file in $(ls "${test_dir}"); do
     test_start=$(date '+%s')
     test_path=$(basename "${test_dir}")"/${test_file}"
 
-    echo 'Reseting stats'
+    echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Reseting stats'
     _resetStats
 
-    echo "Running tests from file ${test_path} ${repeat} time(s)"
+    echo '['$(date '+%Y-%m-%d %H:%M:%S')"] Running tests from file ${test_path}"
     for i in $(seq $repeat); do
         _runMonkey "${package}" "${activity}" "${test_path}"
     done
 
-    echo 'Dumping stats'
+    echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Dumping stats'
     _dumpStats "${out_dir}"$(basename "${test_file}")"_${test_start}"
 done
