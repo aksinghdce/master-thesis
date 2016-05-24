@@ -35,12 +35,21 @@ for item in range(6):
     wait(randint(1, 3))
     touch(x, y)
 
-    # visit subpages
-    see(alarms)
-    see(autodiagnostics)
-    see(events)
-    see(finance)
-    see(monitor)
+    # visit subpages 50% percent chance
+    if yesno(0.5):
+        see(alarms)
+
+    if yesno(0.5):
+        see(autodiagnostics)
+
+    if yesno(0.5):
+        see(events)
+
+    if yesno(0.5):
+        see(finance)
+
+    if yesno(0.5):
+        see(monitor)
 
     wait(1)
     back()
