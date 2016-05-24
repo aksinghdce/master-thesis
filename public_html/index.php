@@ -5,8 +5,10 @@
  * support to PHP built-in-server
  */
 
+define('USE_GZIP', true);
+
 try {
-    ob_start(extension_loaded('zlib') ? 'ob_gzhandler' : null);
+    ob_start((USE_GZIP && extension_loaded('zlib')) ? 'ob_gzhandler' : null);
     $file = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI'];
 
     if (!preg_match('/.+\.php$/i', $file)
