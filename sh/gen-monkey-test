@@ -10,7 +10,7 @@ from random import random
 conf = {
     'steps':            100,
     # probability of viewing item details, time spent on page
-    'show':             (1, 2),
+    'show':             (0.5, 2),
     # probability of drag event, how many items to scroll (0 results in a touch equivalent)
     'drag':             (1, 1),
     # probability of sleep event, time in seconds
