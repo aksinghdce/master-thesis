@@ -1,0 +1,11 @@
+type=user
+count=49
+speed=1.0
+start data >>
+UserWait(2000)
+UserWait(1000)
+UserWait(1000)
+UserWait(2000)
+UserWait(1000)
+UserWait(1000)
+UserWait(3000)
