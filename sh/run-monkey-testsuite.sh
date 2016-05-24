@@ -10,7 +10,9 @@
 #
 #   test_repeat – Optional, how many times to repeat a given test
 #
-if [ ! -d "${1}" ]; then
+test_dir="${1}"
+
+if [ ! -d "${test_dir}" ]; then
     echo 'Need path to directory containing tests to run'
     exit 1
 fi
@@ -22,17 +24,32 @@ else
     repeat=$2
 fi
 
-dst_dir='bugreports/'
+# import library script
+source 'run-monkey-lib.sh'
 
+# setup runtime options
+out_dir='bugreports/'
+package='pl.grzeniu.mt'
+activity="${package}.ItemListActivity"
 # create destination directory if not present
-mkdir -p "${dst_dir}"
+mkdir -p "${out_dir}"
+# remove old reports
+# rm bugreports/* didn't work on this environment
+find "${out_dir}" -type f -exec rm {} \;
 
 # run tests
-for test in $(ls "${1}"); do
-    test_path=$(basename "${1}")"/${test}"
-    echo "Running tests from file ${test_path}"
+for test_file in $(ls "${test_dir}"); do
+    test_start=$(date '+%s')
+    test_path=$(basename "${test_dir}")"/${test_file}"
 
+    echo 'Reseting stats'
+    _resetStats
+
+    echo "Running tests from file ${test_path} ${repeat} time(s)"
     for i in $(seq $repeat); do
-        sh run-monkey-test.sh "${test_path}" "${dst_dir}"
+        _runMonkey "${package}" "${activity}" "${test_path}"
     done
+
+    echo 'Dumping stats'
+    _dumpStats "${out_dir}"$(basename "${test_file}")"_${test_start}"
 done
