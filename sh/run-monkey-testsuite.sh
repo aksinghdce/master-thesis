@@ -43,9 +43,12 @@ find "${out_dir}" -type f -exec rm {} \;
 for test_file in $(ls "${test_dir}"); do
     test_start=$(date '+%s')
     test_path=$(basename "${test_dir}")"/${test_file}"
+    file_name="${out_dir}"$(basename "${test_file}")"_${test_start}"
 
     echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Reseting stats'
     _resetStats
+    #echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Redirecting logcat radio log to a file'
+    #logcat -v time -b 'radio' > "${file_name}.logcat" &
 
     echo '['$(date '+%Y-%m-%d %H:%M:%S')"] Running tests from file ${test_path}"
     for i in $(seq $repeat); do
@@ -53,5 +56,6 @@ for test_file in $(ls "${test_dir}"); do
     done
 
     echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Dumping stats'
-    _dumpStats "${out_dir}"$(basename "${test_file}")"_${test_start}"
+    _dumpStats "${file_name}.bugreport"
+    echo '['$(date '+%Y-%m-%d %H:%M:%S')'] Done'
 done
