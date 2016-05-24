@@ -27,6 +27,12 @@ olx_with_gzip = [
     7.5
 ];
 
+olx_joined_10_without_gzip = 331;
+olx_joined_10_with_gzip = 75.7;
+
+olx_joined_5_without_gzip = 177;
+olx_joined_5_with_gzip = 40.9;
+
 icw_without_gzip = [
     0.8
     2.1
@@ -93,3 +99,6 @@ icw_with_gzip = [
     0.2
     0.6
 ];
+
+icw_joined_without_gzip = 32.7;
+icw_joined_with_gzip = 4.0;

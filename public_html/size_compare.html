@@ -15,6 +15,7 @@
 
         table {
             width: 100%;
+            margin: 30px 10px;
             border: solid 1px #999;
         }
 
@@ -96,6 +97,49 @@
                     <td> 0.0 [%]</td>
                     <td>68.2 [%]</td>
                     <td>61.0 [%]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="1">
+            <caption>Combined page size</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="2">OLX</th>
+                    <th colspan="1">iCarWash</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>5 pages</th>
+                    <th>10 pages</th>
+                    <th>All pages</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>w / o GZIP</th>
+                    <td>177.0 [KB]</td>
+                    <td>331.0 [KB]</td>
+                    <td> 32.7 [KB]</td>
+                </tr>
+                <tr>
+                    <th>with GZIP</th>
+                    <td>40.9 [KB]</td>
+                    <td>75.7 [KB]</td>
+                    <td> 4.0 [KB]</td>
+                </tr>
+                <tr>
+                    <th>diff</th>
+                    <td>136.1 [KB]</td>
+                    <td>255.3 [KB]</td>
+                    <td> 28.7 [KB]</td>
+                </tr>
+                <tr>
+                    <th>relative</th>
+                    <td>76.9 [%]</td>
+                    <td>77.1 [%]</td>
+                    <td>87.8 [%]</td>
                 </tr>
             </tbody>
         </table>
