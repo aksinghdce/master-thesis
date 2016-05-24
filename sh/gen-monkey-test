@@ -5,14 +5,15 @@
 # Creates a monkey script containing a sequnce of user input events.
 # Sequence is created based on some probalility and timeout settings.
 #
-from random import random
+from random import random, randint
 
 conf = {
-    'steps':            100,
+    'steps':            50,
     # probability of viewing item details, time spent on page
     'show':             (0.5, 2),
-    # probability of drag event, how many items to scroll (0 results in a touch equivalent)
-    'drag':             (1, 1),
+    # probability of drag event, how many items to scroll; tuple 1: from, 2: to a number is picked from this range
+    #   from <= number <= to
+    'drag':             (1, (1, 3)),
     # probability of sleep event, time in seconds
     'sleep':            (0.5, 2),
     # margin from screen top (starting point of items list)
@@ -80,5 +81,12 @@ for step_no in range(conf['steps']):
     # on every step move the list one element further
     if yesno(conf['drag'][0]):
         wait(1)                  # timeout before scroll
-        drag(x, (conf['margin_top'] + conf['drag'][1] * conf['element_height']), x, conf['margin_top'])
+        scroll_items = 1
+        # how many items to scroll
+        if isinstance(conf['drag'][1], tuple):
+            scroll_items = randint(conf['drag'][1][0], conf['drag'][1][1])
+        elif isinstance(conf['drag'][1], int):
+            scroll_items = conf['drag'][1]
+
+        drag(x, (conf['margin_top'] + scroll_items * conf['element_height']), x, conf['margin_top'])
         y = conf['margin_top']
