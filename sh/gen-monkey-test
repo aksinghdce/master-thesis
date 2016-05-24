@@ -60,8 +60,6 @@ y = conf['margin_top']
 
 # prints required script header
 print('type=user\ncount=49\nspeed=1.0\nstart data >>')
-# TODO delegate activity stop + start to caller script
-print('LaunchActivity(pl.grzeniu.mt, pl.grzeniu.mt.ItemListActivity)')
 # initial timeout
 wait(2)
 
