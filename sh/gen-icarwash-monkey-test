@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+from gen_monkey_lib import header, yesno, wait, touch, back, drag
+from random import randint
+
+def see(y):
+    wait(1)
+    touch(x, y)
+    wait(randint(1, 3))
+    back()
+
+
+conf = {
+    'margin_top':       170,
+    'margin_left':      50,
+    'element_height':   105,
+}
+
+alarms  = 450
+autodiagnostics = 550
+events  = 650
+finance = 750
+monitor = 850
+
+# setup initial x, y values
+x = conf['margin_left']
+y = conf['margin_top']
+
+# manualy control the test sequence
+header()
+
+# visit every item
+for item in range(6):
+    wait(randint(1, 3))
+    touch(x, y)
+
+    # visit subpages
+    see(alarms)
+    see(autodiagnostics)
+    see(events)
+    see(finance)
+    see(monitor)
+
+    wait(1)
+    back()
+    y += conf['element_height']
