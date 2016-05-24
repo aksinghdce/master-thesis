@@ -33,24 +33,27 @@ header()
 # visit every item
 for item in range(6):
     wait(randint(1, 3))
-    touch(x, y)
-
-    # visit subpages 50% percent chance
-    if yesno(0.5):
-        see(alarms)
 
     if yesno(0.5):
-        see(autodiagnostics)
+        touch(x, y)
 
-    if yesno(0.5):
-        see(events)
+        # visit subpages 50% percent chance
+        if yesno(0.5):
+            see(alarms)
 
-    if yesno(0.5):
-        see(finance)
+        if yesno(0.5):
+            see(autodiagnostics)
 
-    if yesno(0.5):
-        see(monitor)
+        if yesno(0.5):
+            see(events)
 
-    wait(1)
-    back()
+        if yesno(0.5):
+            see(finance)
+
+        if yesno(0.5):
+            see(monitor)
+
+        wait(1)
+        back()
+
     y += conf['element_height']
