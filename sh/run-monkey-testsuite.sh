@@ -33,6 +33,8 @@ package='pl.grzeniu.mt'
 activity="${package}.ItemListActivity"
 # create destination directory if not present
 mkdir -p "${out_dir}"
+# remove old nohup.out file
+find ./ -iname nohup.out -exec rm {} \;
 # remove old reports
 # rm bugreports/* didn't work on this environment
 find "${out_dir}" -type f -exec rm {} \;
