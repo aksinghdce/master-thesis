@@ -32,7 +32,7 @@ function _runMonkey() {
     am force-stop "${package}"
     am start "${package}/${activity}"
     # run monkey script
-    monkey -p "${package}" -f "${1}" 1
+    monkey -p "${package}" -f "${test_script}" 1
 
     return "${?}"
 }
@@ -69,14 +69,12 @@ function _resetStats() {
 }
 
 function _dumpStats() {
-    echo "${1}"
-    bugreport > "${1}"
+    bugreport > "${test_dst}"$(basename "${test_script}")"_${test_start}"
 
     return '0'
 }
 
 
-# reset system stats
 _resetStats
-_runMonkey "${test_script}"
-_dumpStats "${test_dst}${test_script}_${test_start}"
+_runMonkey
+_dumpStats
