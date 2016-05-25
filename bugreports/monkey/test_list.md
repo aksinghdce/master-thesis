@@ -6,7 +6,7 @@
 * pobranie kompletu danych, bez gzip → brak
 * pobranie kompletu danych, z gzip  → icarwash/capture_4
 
-## OLX --- redo mt_1_1, mt_2_1 for first 3 captures
+## OLX --- redo mt_1_1, mt_2_1 for first 3 captures [with gzip]
 * bez optymalizacji, bez kompresji  → brak
 * bez optymalizacji, kompresja      → olx/capture_1
 * prefetch 5, potem 1, bez gzip     → brak
