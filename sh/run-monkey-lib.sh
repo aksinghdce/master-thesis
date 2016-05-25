@@ -52,6 +52,8 @@ function _runMonkey() {
     am start "${1}/${2}"
     # run monkey script
     monkey -p "${1}" -f "${3}" 1
+    # stop application after tests
+    am force-stop "${1}"
 
     return "${?}"
 }
