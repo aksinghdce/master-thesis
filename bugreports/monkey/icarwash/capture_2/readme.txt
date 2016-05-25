@@ -7,3 +7,4 @@ display 0%, screen locking disabled
 device not fully charged
 
 no prefetch
+with gzip

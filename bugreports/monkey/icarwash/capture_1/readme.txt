@@ -7,3 +7,4 @@ display ~50%, screen locking enabled
 device not fully charged
 
 no prefetch
+with gzip

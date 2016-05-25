@@ -8,3 +8,4 @@ device fully charged
 
 full prefetch
 no on disk cache
+with gzip
