@@ -2,7 +2,7 @@
 
 ## iCarWash
 * bez optymalizacji, bez gzip       → brak
-* bez optymalizacji, z gzip         → icarwash/capture_3
+* bez optymalizacji, z gzip         → icarwash/capture_3 – [doing summary]
 * pobranie kompletu danych, bez gzip → brak
 * pobranie kompletu danych, z gzip  → icarwash/capture_4
 
@@ -16,4 +16,4 @@
 * prefetch 10, potem 1, bez gzip    → brak
 * prefetch 10, potem 1, z gzip      → [now]
 * prefetch 10, potem 2, bez gzip    → brak
-* prefetch 10, potem 2, z gzip      → brak
+* prefetch 10, potem 2, z gzip      → [next]
