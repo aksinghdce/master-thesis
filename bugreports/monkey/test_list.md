@@ -1,0 +1,19 @@
+# Plik zawiera mapowanie scenariuszy testowych na katalog zawierający wyniki
+
+## iCarWash
+* bez optymalizacji, bez gzip       → brak
+* bez optymalizacji, z gzip         → icarwash/capture_3
+* pobranie kompletu danych, bez gzip → brak
+* pobranie kompletu danych, z gzip  → icarwash/capture_4
+
+## OLX
+* bez optymalizacji, bez kompresji  → brak
+* bez optymalizacji, kompresja      → olx/capture_1
+* prefetch 5, potem 1, bez gzip     → brak
+* prefetch 5, potem 1, z gzip       → olx/capture_2
+* prefetch 5, potem 2, bez gzip     → brak (robi się capture_3)
+* prefetch 5, potem 2, z gzip       → brak
+* prefetch 10, potem 1, bez gzip    → brak
+* prefetch 10, potem 1, z gzip      → brak
+* prefetch 10, potem 2, bez gzip    → brak
+* prefetch 10, potem 2, z gzip      → brak
