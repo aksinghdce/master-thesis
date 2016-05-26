@@ -18,6 +18,8 @@ class Converter
     const OUT_FILE = 'out.m';
     const TESTS_PER_SERIES = 3;
     const VALUES_PER_TEST  = 7;
+    const ADD_HEADER  = true;
+    const DATE_FORMAT = 'Y-m-d H:i:s';
 
     protected $_mapFile = null;
     protected $_outFile = null;
@@ -37,6 +39,35 @@ class Converter
         $this->_outFile = $outFile;
     }
 
+
+    public static function &createHeaderRow()
+    {
+        return [
+            'human readable description',
+            'path to capture directory',
+            '– series 1 – appStats.DevicePowerPrediction',
+            '– series 1 – appStats.RawStats.foreground.total_time_msec',
+            '– series 1 – appStats.RawStats.network.mobile_active_time_msec',
+            '– series 1 – appStats.RawStats.network.mobile_active_count',
+            '– series 1 – appStats.RawStats.network.mobile_bytes_rx',
+            '– series 1 – appStats.RawStats.network.mobile_bytes_tx',
+            '– series 1 – appStats.RawStats.power_use_item.computed_power_mah',
+            '– series 2 – appStats.DevicePowerPrediction',
+            '– series 2 – appStats.RawStats.foreground.total_time_msec',
+            '– series 2 – appStats.RawStats.network.mobile_active_time_msec',
+            '– series 2 – appStats.RawStats.network.mobile_active_count',
+            '– series 2 – appStats.RawStats.network.mobile_bytes_rx',
+            '– series 2 – appStats.RawStats.network.mobile_bytes_tx',
+            '– series 2 – appStats.RawStats.power_use_item.computed_power_mah',
+            '– series 3 – appStats.DevicePowerPrediction',
+            '– series 3 – appStats.RawStats.foreground.total_time_msec',
+            '– series 3 – appStats.RawStats.network.mobile_active_time_msec',
+            '– series 3 – appStats.RawStats.network.mobile_active_count',
+            '– series 3 – appStats.RawStats.network.mobile_bytes_rx',
+            '– series 3 – appStats.RawStats.network.mobile_bytes_tx',
+            '– series 3 – appStats.RawStats.power_use_item.computed_power_mah',
+        ];
+    }
 
     public static function &createEmptyRow($desc, $path)
     {
@@ -203,24 +234,26 @@ class Converter
 
     protected function _resetOutputFile()
     {
-        file_put_contents($this->_outFile, '');
+        file_put_contents($this->_outFile, '# Created by conv2m, ' . date(self::DATE_FORMAT) . LF);
     }
 
-    protected function _putHeader($scope)
+    protected function _putHeader(&$values, $name)
     {
-        $header = '# name: ' . $scope . LF . '# type: cell' . LF
-                . '# rows: ' . count($this->_rows[$scope]) . LF
-                . '# columns: ' . (2 + TESTS_PER_SERIES * VALUES_PER_TEST). LF . LF;
+        $rc = count($values);
+        $cc = $rc > 0 ? count($values[0]) : 0;
+
+        $header = '# name: ' . $name . LF . '# type: cell'. LF
+                . '# rows: ' . $rc . LF
+                . '# columns: ' . $cc. LF . LF;
 
         file_put_contents($this->_outFile, $header, FILE_APPEND);
     }
 
-    protected function _putValues($scope)
+    protected function _putValues(&$values)
     {
         // values are put in sinle index order
         // so it means putting them column by column
         $result = '';
-        $values = &$this->_rows[$scope];
         $columnCount = (2 + self::TESTS_PER_SERIES * self::VALUES_PER_TEST);
         $rowCount = count($values);
 
@@ -237,10 +270,15 @@ class Converter
     {
         $this->_resetOutputFile();
 
-        foreach (array_keys($this->_rows) as $scope) {
+        if (self::ADD_HEADER) {
+            $header = [ self::createHeaderRow() ];
+            $this->_putHeader($header, 'header');
+            $this->_putValues($header);
+        }
 
-            $this->_putHeader($scope);
-            $this->_putValues($scope);
+        foreach (array_keys($this->_rows) as $scope) {
+            $this->_putHeader($this->_rows[$scope], $scope);
+            $this->_putValues($this->_rows[$scope]);
         }
     }
 }
