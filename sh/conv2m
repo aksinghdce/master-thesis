@@ -1,0 +1,132 @@
+#!/usr/bin/env php
+<?php
+# conv2m
+#
+# read the test_map.md file,
+# walks the subdirs pointet by that file gathers information stored there
+# and outputs a single matlab / octave loadable file
+#
+
+define('MAP_FILE', 'test_map.md');
+define('OUT_FILE', 'out.m');
+define('LF', "\n");
+define('TESTS_PER_SERIES', 3);
+define('VALUES_PER_TEST', 7);
+
+
+function &createEmptyRow($desc, $path) {
+    return [
+        $desc,  # human readable description
+        $path,  # path to capture directory
+# – series 1 –
+        0,      # appStats.DevicePowerPrediction
+        0,      # appStats.RawStats.foreground.total_time_msec
+        0,      # appStats.RawStats.network.mobile_active_time_msec
+        0,      # appStats.RawStats.network.mobile_active_count
+        0,      # appStats.RawStats.network.mobile_bytes_rx
+        0,      # appStats.RawStats.network.mobile_bytes_tx
+        0,      # appStats.RawStats.power_use_item.computed_power_mah
+# – series 2 –
+        0,      # appStats.DevicePowerPrediction
+        0,      # appStats.RawStats.foreground.total_time_msec
+        0,      # appStats.RawStats.network.mobile_active_time_msec
+        0,      # appStats.RawStats.network.mobile_active_count
+        0,      # appStats.RawStats.network.mobile_bytes_rx
+        0,      # appStats.RawStats.network.mobile_bytes_tx
+        0,      # appStats.RawStats.power_use_item.computed_power_mah
+# – series 3 –
+        0,      # appStats.DevicePowerPrediction
+        0,      # appStats.RawStats.foreground.total_time_msec
+        0,      # appStats.RawStats.network.mobile_active_time_msec
+        0,      # appStats.RawStats.network.mobile_active_count
+        0,      # appStats.RawStats.network.mobile_bytes_rx
+        0,      # appStats.RawStats.network.mobile_bytes_tx
+        0,      # appStats.RawStats.power_use_item.computed_power_mah
+    ];
+}
+
+function extractValues(array &$from, array &$to, $series = 1) {
+    if (empty($from) || empty($to)) {
+        return;
+    }
+
+    $offset = 2 + ($series - 1) * VALUES_PER_TEST;
+    $to[$offset + 0] = $from['appStats']['DevicePowerPrediction'];
+    $to[$offset + 1] = $from['appStats']['RawStats']['foreground']['total_time_msec'];
+    $to[$offset + 2] = $from['appStats']['RawStats']['network']['mobile_active_time_msec'];
+    $to[$offset + 3] = $from['appStats']['RawStats']['network']['mobile_active_count'];
+    $to[$offset + 4] = $from['appStats']['RawStats']['network']['mobile_bytes_rx'];
+    $to[$offset + 5] = $from['appStats']['RawStats']['network']['mobile_bytes_tx'];
+    $to[$offset + 6] = $from['appStats']['RawStats']['power_use_item']['computed_power_mah'];
+}
+
+try {
+    $map     = [];
+    $mapScope= null;
+    $mapOpt  = (isset($argv[1]) && in_array($argv[1], ['all', 'icarwash', 'olx'])) ? $argv[1] : 'all';
+    $mapFile = new SplFileObject(MAP_FILE);
+
+    while (!$mapFile->eof()) {
+        $line = trim($mapFile->fgets());
+        $line = trim($line, LF);
+
+        if (strpos($line, '## ') === 0) {
+            // set scope
+            $scope = strtolower(trim(str_replace('#', '', $line)));
+
+            if ($mapOpt !== 'all' && $mapOpt !== $scope) {
+                $mapScope = null;
+                continue;
+            }
+
+            $mapScope = $scope;
+            $map[$scope] = isset($map[$scope]) ? $map[$scope] : [];
+        } elseif (strpos($line, '* ') === 0) {
+            // add path;
+            if (is_null($mapScope)) {
+                continue;
+            }
+            $parts = explode('→', str_replace('* ', '', $line));
+            $map[$mapScope][] = ['desc' => trim($parts[0]), 'path' => trim($parts[1])];
+        }
+    }
+
+    // write map to m file
+    file_put_contents(OUT_FILE, '');
+
+    foreach ($map as $name => $scope) {
+        $rows = [];
+
+        foreach ($scope as $path) {
+            $row = createEmptyRow($path['desc'], $path['path']);
+            $rows[] = &$row;
+            // read all files from given path and update them values
+            if (is_dir($path['path'])) {
+                for ($i = 1; $i <= TESTS_PER_SERIES; $i++) {
+                    foreach (new DirectoryIterator($path['path']) as $fileInfo) {
+                        if (preg_match('/mt_' . $i . '_\d{1}.*\.json/', $fileInfo->getBasename())) {
+                            // update values
+                            echo $fileInfo->getBasename() . LF;
+                            echo $fileInfo->getPathName() . LF . LF;
+
+                            $allValues = json_decode(file_get_contents($fileInfo->getPathName()), true);
+                            extractValues($allValues, $row, $i);
+                        }
+                    }
+                }
+            }
+        }
+
+        $header = '# name: ' . $name . LF . '# type: cell' . LF
+                . '# rows: ' . count($rows) . LF
+                . '# columns:' . (2 + TESTS_PER_SERIES * VALUES_PER_TEST). LF . LF;
+
+        file_put_contents(OUT_FILE, $header, FILE_APPEND);
+    }
+} catch (Exception $e) {
+    file_put_contents('php://stderr', 'ERROR: ' . $e->getMessage() . LF);
+    exit(1);
+} finally {
+    //~ print_r($map);
+    print_r($rows);
+}
