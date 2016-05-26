@@ -1,0 +1,2 @@
+# command to fetch stats for all bugreports in cwd | pwd
+for f in $(ls); do if [ $f != 'readme.txt' ]; then ../../../../sh/bh-pull $f > "$(basename ${f} .bugreport).json"; fi; done
