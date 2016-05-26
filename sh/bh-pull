@@ -1,0 +1,31 @@
+#!/usr/bin/env php
+<?php
+
+if ($argc < 2 || !is_file($argv[1])) {
+    exit(1);
+}
+
+# in contains unfiltered data
+# FYI somehow couldn't get curl to work via PHP's implementation,
+#   server kept responding that file is missing
+$in  = json_decode(shell_exec("curl 'http://localhost:9999/' -F 'bugreport=@{$argv[1]}'"), true);
+
+if (empty($in)) {
+    exit(2);
+}
+
+$in = $in['UploadResponse'][0];
+
+# out only relevant process
+$out = [];
+$out['deviceCapacity'] = $in['deviceCapacity'];
+$out['fileName'] = $in['fileName'];
+$out['appStats'] = [];
+
+foreach ($in['appStats'] as $appStats) {
+    if (strpos($appStats['RawStats']['name'], 'pl.grzeniu.mt') !== false) {
+        $out['appStats'] = $appStats;
+    }
+}
+
+echo json_encode($out);
