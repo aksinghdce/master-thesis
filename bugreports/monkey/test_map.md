@@ -15,5 +15,5 @@
 * prefetch 5, potem 2, z gzip       → olx/capture_3 [repeat]
 * prefetch 10, potem 1, bez gzip    → olx/capture_9
 * prefetch 10, potem 1, z gzip      → olx/capture_4
-* prefetch 10, potem 2, bez gzip    → [now]
+* prefetch 10, potem 2, bez gzip    → olx/capture_10
 * prefetch 10, potem 2, z gzip      → olx/capture_5
