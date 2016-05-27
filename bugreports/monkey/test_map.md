@@ -2,9 +2,9 @@
 
 ## iCarWash
 * bez optymalizacji, bez gzip       → icarwash/capture_5
-* bez optymalizacji, z gzip         → icarwash/capture_3 [redo] - missing kill after last app run, wrong run times!
+* bez optymalizacji, z gzip         → icarwash/capture_3
 * pobranie kompletu danych, bez gzip→ icarwash/capture_6
-* pobranie kompletu danych, z gzip  → icarwash/capture_4 [redo] - missing kill after last app run, wrong run times!
+* pobranie kompletu danych, z gzip  → icarwash/capture_4 [now]
 
 ## OLX
 * bez optymalizacji, bez kompresji  → olx/capture_6
