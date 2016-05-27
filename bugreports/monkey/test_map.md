@@ -8,9 +8,9 @@
 
 ## OLX
 * bez optymalizacji, bez kompresji  → olx/capture_6
-* bez optymalizacji, kompresja      → olx/capture_1 [now]
+* bez optymalizacji, kompresja      → olx/capture_1
 * prefetch 5, potem 1, bez gzip     → olx/capture_7
-* prefetch 5, potem 1, z gzip       → olx/capture_2 [repeat]
+* prefetch 5, potem 1, z gzip       → olx/capture_2 [now]
 * prefetch 5, potem 2, bez gzip     → olx/capture_8
 * prefetch 5, potem 2, z gzip       → olx/capture_3 [repeat]
 * prefetch 10, potem 1, bez gzip    → olx/capture_9
