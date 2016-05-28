@@ -286,7 +286,7 @@ class Converter
 // run this thing !!!
 ////////////////////////////////////////////////////////////////////////
 try {
-    $converter = new Converter(Converter::MAP_FILE, Converter::MAP_ICW);
+    $converter = new Converter(Converter::MAP_FILE, Converter::MAP_ALL);
     $converter->run();
 } catch (Exception $e) {
     file_put_contents('php://stderr', '#' . $e->getLine() . ': ' . $e->getMessage() . LF);
