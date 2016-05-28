@@ -16,4 +16,4 @@
 * prefetch 10, potem 1, bez gzip    → olx/capture_9
 * prefetch 10, potem 1, z gzip      → olx/capture_4
 * prefetch 10, potem 2, bez gzip    → olx/capture_10
-* prefetch 10, potem 2, z gzip      → olx/capture_5 [redo series 2]
+* prefetch 10, potem 2, z gzip      → olx/capture_5
