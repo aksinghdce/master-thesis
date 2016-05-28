@@ -32,7 +32,7 @@ mobile_bytes_tx = O(:, 6:7:end);
 computed_power_mah = O(:, 7:7:end);
 
 % rate of radio active time to whole application running [%]
-mobile_active_percent = round((mobile_active_time_msec ./ total_time_msec) * 100);
+mobile_active_percent = ((mobile_active_time_msec ./ total_time_msec) * 100);
 
 % calculate normalization rates
 norm_rates = total_time_msec / 3600000;
