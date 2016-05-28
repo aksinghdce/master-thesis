@@ -2,7 +2,7 @@
 clear all;
 close all;
 clc;
-format short;
+format short g;
 
 load 'olx.m'   % loads olx and header cell arrays
 
@@ -56,3 +56,9 @@ round(norm_mobile_bytes_rx / 1024)
 
 disp('Dane wysłane w ciągu godziny [KB]');
 round(norm_mobile_bytes_tx / 1024)
+
+% compare the power consumption gain loss
+% compare the first mesurement (no opt) to other methods
+base = norm_computed_power_mah(1, :);
+disp('Konsumpcja energii w porównaniu do pierwszej metody');
+((norm_computed_power_mah - base) ./ base) * 100
