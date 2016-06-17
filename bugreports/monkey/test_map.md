@@ -5,6 +5,8 @@
 * bez optymalizacji, z gzip         → icarwash/capture_3
 * pobranie kompletu danych, bez gzip→ icarwash/capture_6
 * pobranie kompletu danych, z gzip  → icarwash/capture_4
+* bez optymalizacji, bez gzip, jasność 100%      → icarwash/capture_7
+* pobranie kompletu danych, z gzip, jasność 100% → icarwash/capture_8
 
 ## OLX
 * bez optymalizacji, bez kompresji  → olx/capture_6
